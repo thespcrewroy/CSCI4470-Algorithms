@@ -5,10 +5,7 @@
 - No encoding is a **prefix of another encoding**
 - Ensures the code is **unambiguous (decodable)**
 
-Example (invalid):
-```text
-011 and 0110   ❌
-```
+Example (invalid): 011 and 0110 
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/prefixcoderep.png" alt="Prefix Code Representation" width="800" />
