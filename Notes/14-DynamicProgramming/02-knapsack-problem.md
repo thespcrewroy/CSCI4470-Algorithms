@@ -366,6 +366,7 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
 
 
 ### Final Recursion Tree
+```
 Knapsack(15,4)
 |-- Knapsack(6,3)
 |   |-- Knapsack(1,2)
@@ -381,3 +382,4 @@ Knapsack(15,4)
     `-- Knapsack(15,2)
         |-- Knapsack(11,1)
         `-- Knapsack(15,1)
+```
