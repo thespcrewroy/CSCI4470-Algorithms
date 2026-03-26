@@ -6,4 +6,4 @@
 </p>
 
 - Since items are splittable, the fractional knapsack satisfies the greedy choice property
-- The traditional knapsack cannot be satisfied by the greedy choice propert because the best current choice will not lead to optimal solution
+- Normal knapsack cannot be satisfied by the greedy choice propert because the best current choice will not lead to optimal solution
