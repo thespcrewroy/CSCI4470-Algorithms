@@ -105,7 +105,7 @@ Step 2: Multiply A1 × (A2A3)
 | p_{i-1} p_k p_j | Cost of multiplying the two resulting matrices |
 | min | Choose the split k that gives the smallest total cost |
 
-### Paranthesizing (splitting the term
+### Paranthesizing (splitting the term)
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/splitting.png" alt="Fractional Knapsack Problem Example" width="800" />
 </p>
@@ -128,3 +128,114 @@ List all possible parenthesizations and compute the cost for each:
 5. ((A1 (A2 A3)) A4) → m5  
 
 **Optimal cost = min(m1, m2, m3, m4, m5)**
+
+## Notes: Bottom Up Approach
+
+### Input
+
+p = {3, 9, 8, 2, 5}
+
+Matrices:
+- A1 = 3 × 9
+- A2 = 9 × 8
+- A3 = 8 × 2
+- A4 = 2 × 5
+
+Goal:
+→ Compute m[1,4]
+
+
+## Base Case A<sub>i</sub>
+
+- i = 1; k = 1; j = 1
+    - m[1,1] = 0  
+- i = 2; k = 2; j = 2
+    - m[2,2] = 0  
+- i = 3; k = 3; j = 3
+    - m[3,3] = 0  
+- i = 4; k = 4; j = 4
+    - m[4,4] = 0  
+
+
+## Compute A<sub>i</sub>A<sub>i+1</sub>
+
+- i = 1; k = 1; j = 2
+    - m[1,2] = (p<sub>0</sub>)(p<sub>1</sub>)(<sub>2</sub>) = (3)(9)(8) = 216
+    - s[1,2] = 1
+
+- i = 2; k = 2; j = 3
+    - m[2,3] = (p<sub>1</sub>)(p<sub>2</sub>)(p<sub>3</sub>)(9)(8)(2) = 144  
+    - s[2,3] = 2  
+
+- i = 3; k = 3; j = 4
+    - m[3,4] = (p<sub>2</sub>)(p<sub>3</sub>)(p<sub>4</sub>) = (8)(2)(5) = 80  
+    - s[3,4] = 3  
+
+---
+
+## Step 3: Chains of Length 3 (Ai Ai+2)
+
+### m[1,3]
+
+Try all k:
+
+- k = 1  
+  = m[1,1] + m[2,3] + (3)(9)(2)  
+  = 0 + 144 + 54 = 198  
+
+- k = 2  
+  = m[1,2] + m[3,3] + (3)(8)(2)  
+  = 216 + 0 + 48 = 264  
+
+→ m[1,3] = min(198, 264) = **198**  
+→ s[1,3] = 1  
+
+---
+
+### m[2,4]
+
+- k = 2  
+  = m[2,2] + m[3,4] + (9)(8)(5)  
+  = 0 + 80 + 360 = 440  
+
+- k = 3  
+  = m[2,3] + m[4,4] + (9)(2)(5)  
+  = 144 + 0 + 90 = 234  
+
+→ m[2,4] = min(440, 234) = **234**  
+→ s[2,4] = 3  
+
+---
+
+## Step 4: Chains of Length 4 (Full Chain)
+
+### m[1,4]
+
+Try all k:
+
+- k = 1  
+  = m[1,1] + m[2,4] + (3)(9)(5)  
+  = 0 + 234 + 135 = 369  
+
+- k = 2  
+  = m[1,2] + m[3,4] + (3)(8)(5)  
+  = 216 + 80 + 120 = 416  
+
+- k = 3  
+  = m[1,3] + m[4,4] + (3)(2)(5)  
+  = 198 + 0 + 30 = 228  
+
+→ m[1,4] = min(369, 416, 228) = **228**  
+→ s[1,4] = 3  
+
+---
+
+## Final Answer
+
+Optimal cost:
+→ **m[1,4] = 228**
+
+Optimal split:
+→ k = 3
+
+---
