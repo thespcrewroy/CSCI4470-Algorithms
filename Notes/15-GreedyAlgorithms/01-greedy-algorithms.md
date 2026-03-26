@@ -1,5 +1,11 @@
 # Greedy Algorithms
 
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/greedyapproach.png" alt="Fractional Knapsack Problem" width="800" />
+</p>
+
+
 ## Notes: Coin Change Example
 
 ### Goal
@@ -62,7 +68,3 @@ Output = {10, 1, 1, 1, 1, 1, 1}
 Sorting coins: O(n log n)
 Greedy selection: O(n)
 ```
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/greedyapproach.png" alt="Fractional Knapsack Problem" width="800" />
-</p>
