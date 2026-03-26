@@ -173,4 +173,28 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
 | v4=5, w4=4 (4)   | 0 | 2 | 2 | 4 | 6 | 7 | 7 | 9 |
 | v5=3, w5=2 (5)   | 0 | 2 | 3 | 5 | 6 | 7 | 9 | 10 |
 
-Best value of selecting a subset of 5 items can be found at the bottom-right corner.
+### Best Value
+
+**Best value of selecting a subset of 5 items can be found at the bottom-right corner (v_optimal = 10)**
+
+### Optimal Item Choices
+
+- Start in the right corner and work backwards.
+- We include an element if the current value and the value in the row above it differ.
+- Justification: if the two values differ, then the row we are on must have had its item included, else the value would not have changed.
+
+### Item Selection Process
+
+- 7 kg remain: 10 != 9 → Include Item 5 [v<sub>1</sub> = 3, w<sub>1</sub> = 2]
+- Subtract weight → 7 - 2 = 5 → Head to Column 5
+- 5 kg remain: 7 != 6 → Include Item 4 [v<sub>1</sub> = 5, w<sub>1</sub> = 4]
+- Subtract weight → 5 - 4 = 1 → Head to Column 1
+- 1 kg remain: 2 = 2 → Ignore Item 3
+- 1 kg remain: 2 != 0 → Include Item 2 [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
+- Subtract weight → 1 - 1 = 0 → Head to Column 0
+- 0 kg remain
+
+- We selected items: {x<sub>2</sub>, x<sub>4</sub>, x<sub>5</sub>}
+- Item values add up to: v = 2 + 5 + 3 = 10
+- Item weights add up to: w = 1 + 4 + 2 = 7
+
