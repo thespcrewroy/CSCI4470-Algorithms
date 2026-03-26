@@ -48,7 +48,6 @@ C[i, j] = Σ (A[i, k] × B[k, j]) for k = 1 to q
 | A2     | 100 × 5   |
 | A3     | 5 × 50    |
 
----
 
 ### Case 1: ((A1 A2) A3)
 
@@ -60,7 +59,6 @@ Step 2: Multiply (A1A2) × A3
 - Cost = 10 × 5 × 50 = 2,500  
 - Result computations = 5,000 + 2,500 = **7,500**
 
----
 
 ### Case 2: (A1 (A2 A3))
 
