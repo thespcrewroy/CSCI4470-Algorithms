@@ -12,7 +12,7 @@
 ## Slides: Matrix Chain Multiplication – Cost Calculation
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/costanalysis.png" alt="Fractional Knapsack Problem Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/costanalysis.png" alt="Cost Analysis Example" width="800" />
 </p>
 
 
@@ -89,11 +89,11 @@ Step 2: Multiply A1 × (A2A3)
 ## Notes: Dynamic Programming Recursive Solution
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/matrixchaintheory.png" alt="Fractional Knapsack Problem Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/matrixchaintheory.png" alt="Matrix Chain Theory" width="800" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursivematrixchain.png" alt="Fractional Knapsack Problem Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursivematrixchain.png" alt="Recursive Formula" width="800" />
 </p>
 
 | Term | Meaning |
@@ -147,92 +147,59 @@ Goal:
 
 ## Base Case A<sub>i</sub>
 
-- i = 1; k = 1; j = 1
-    - m[1,1] = 0  
-- i = 2; k = 2; j = 2
-    - m[2,2] = 0  
-- i = 3; k = 3; j = 3
-    - m[3,3] = 0  
-- i = 4; k = 4; j = 4
-    - m[4,4] = 0  
-
-
+- m[1,1] = **0**
+- m[2,2] = **0**  
+- m[3,3] = **0**  
+- m[4,4] = **0**  
+    
 ## Compute A<sub>i</sub>A<sub>i+1</sub>
 
-- m[1,2] = 216; s[1,2] = 1
-    - i = 1; k = 1; j = 2 => (p<sub>0</sub>)(p<sub>1</sub>)(<sub>2</sub>) = (3)(9)(8) = 216
+- m[1,2] = **216**; s[1,2] = **1**
+    - i = 1; k = 1; j = 2 => min[1,1] + min[2,2] + (p<sub>0</sub>)(p<sub>1</sub>)(<sub>2</sub>) = 0 + 0 + (3)(9)(8) = 216
         - s[1,2] = 1
 
-- m[2,3] = 144; s[2,3] = 2
-    -  i = 2; k = 2; j = 3 => (p<sub>1</sub>)(p<sub>2</sub>)(p<sub>3</sub>)(9)(8)(2) = 144  
+- m[2,3] = **144**; s[2,3] = **2**
+    -  i = 2; k = 2; j = 3 => min[2,2] + min[3,3] + (p<sub>1</sub>)(p<sub>2</sub>)(p<sub>3</sub>) = 0 + 0 + (9)(8)(2) = 144  
         - s[2,3] = 2  
 
-- m[2,4] = 80; s[3,4] = 3
-    - i = 3; k = 3; j = 4 => (p<sub>2</sub>)(p<sub>3</sub>)(p<sub>4</sub>) = (8)(2)(5) = 80  
+- m[3,4] = **80**; s[3,4] = **3**
+    - i = 3; k = 3; j = 4 => min[3,3] + m[4,4] + (p<sub>2</sub>)(p<sub>3</sub>)(p<sub>4</sub>) = 0 + 0 + (8)(2)(5) = 80  
         - s[3,4] = 3  
 
----
 
 ## Compute A<sub>i</sub>A<sub>i+1</sub>A<sub>i+2</sub>
 
+- m[1,3] = min(198, 264) = **198**; s[1,3] = **1**
+    - i = 1; k = 1; j = 3 => m[1,1] + m[2,3] + (p<sub>0</sub>)(p<sub>1</sub>)(p<sub>3</sub>) = 0 + 144 + (3)(9)(2) = 198
+        - s[1,3] = 1
+    - i = 1; k = 2; j = 3 => m[1,2] + m[3,3] + (p<sub>0</sub>)(p<sub>2</sub>)(p<sub>3</sub>) = 216 + 0 + (3)(8)(2) = 264
+        - s[2,3] = 2
+- m[2,4] = min(440, 234) = **234**; s[2,4] = **3**
+    - i = 2; k = 2; j = 4 => m[2,2] + m[3,4] + (p<sub>1</sub>)(p<sub>2</sub>)(p<sub>4</sub>) = 0 + 80 + (9)(8)(5) = 440
+        - s[2,4] = 2
+    - i = 2; k = 3; j = 4 => m[2,3] + m[4,4] + (p<sub>1</sub>)(p<sub>3</sub>)(p<sub>4</sub>) = 144 + 0 + (9)(2)(5) = 234
+        - s[3,4] = 3
 
-- i = 1; k = 1; j = 2
-  = m[1,1] + m[2,3] + (3)(9)(2)  
-  = 0 + 144 + 54 = 198  
+## A<sub>i</sub>A<sub>i+1</sub>A<sub>i+2</sub>A<sub>i+3</sub>
 
-- k = 2  
-  = m[1,2] + m[3,3] + (3)(8)(2)  
-  = 216 + 0 + 48 = 264  
-
-→ m[1,3] = min(198, 264) = **198**  
-→ s[1,3] = 1  
-
----
-
-### m[2,4]
-
-- k = 2  
-  = m[2,2] + m[3,4] + (9)(8)(5)  
-  = 0 + 80 + 360 = 440  
-
-- k = 3  
-  = m[2,3] + m[4,4] + (9)(2)(5)  
-  = 144 + 0 + 90 = 234  
-
-→ m[2,4] = min(440, 234) = **234**  
-→ s[2,4] = 3  
-
----
-
-## Step 4: Chains of Length 4 (Full Chain)
-
-### m[1,4]
-
-Try all k:
-
-- k = 1  
-  = m[1,1] + m[2,4] + (3)(9)(5)  
-  = 0 + 234 + 135 = 369  
-
-- k = 2  
-  = m[1,2] + m[3,4] + (3)(8)(5)  
-  = 216 + 80 + 120 = 416  
-
-- k = 3  
-  = m[1,3] + m[4,4] + (3)(2)(5)  
-  = 198 + 0 + 30 = 228  
-
-→ m[1,4] = min(369, 416, 228) = **228**  
-→ s[1,4] = 3  
-
----
+- m[1,4] = min(369, 416, 228) = **228**; s[1,4] = **3**
+    - i = 1; k = 1; j = 4 = m[1,1] + m[2,4] + (p<sub>0</sub>)(p<sub>1</sub>)(p<sub>4</sub>) = 0 + 234 + (3)(9)(5) = 369
+        - s[1, 4] = 1
+    - i = 1; k = 2; j = 4 = m[1,2] + m[3,4] + (p<sub>0</sub>)(p<sub>2</sub>)(p<sub>4</sub>) = 216 + 80 + (3)(8)(5) = 416
+        - s[2, 4] = 2
+    - i = 1; k = 3; j = 4 = m[1,3] + m[4,4] + (p<sub>0</sub>)(p<sub>3</sub>)(p<sub>4</sub>) = 198 + 0 + (3)(2)(5) = 228
+        - s[3,4] = 3
 
 ## Final Answer
 
-Optimal cost:
-→ **m[1,4] = 228**
+| i \ j | 1   | 2   | 3   | 4   |
+|------|-----|-----|-----|-----|
+| 1    | 0   | 216 | 198 | 228 |
+| 2    |     | 0   | 144 | 234 |
+| 3    |     |     | 0   | 80  |
+| 4    |     |     |     | 0   |
 
-Optimal split:
-→ k = 3
+**Optimal Cost: 228**
+
 
 ---
