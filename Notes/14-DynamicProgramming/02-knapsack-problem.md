@@ -247,6 +247,10 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bottomup.png" alt="Bottom Up Example" width="800" />
 </p>
 
+**Time Complexity: O(nW)**
+**Space Complexity: O(nW)*
+
+
 ### 1. Value Table
 
 **Val(W, i) = max value for Knapsack(W, {x1, ..., xi}).**
