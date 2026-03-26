@@ -49,3 +49,47 @@ Example (invalid):
 ```
 
 ## Slide: Huffman Encoding
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h11.png" alt="Huffman Encoding Example 1" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h12.png" alt="Huffman Encoding Example 1" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h13.png" alt="Huffman Encoding Example 1" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h14.png" alt="Huffman Encoding Example 1" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h15.png" alt="Huffman Encoding Example 1" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h16.png" alt="Huffman Encoding Example 1" width="800" />
+</p>
+
+**At each point we make a local optimal choice.** <br>
+**Once the algorithm is complete, it has found a global optimal solution.**
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h17.png" alt="Huffman Encoding Example 1" width="800" />
+</p>
+
+Q) Encode TEAR <br>
+Ans) **111011010**
+
+Q) Decode 101101110
+Ans) RATE
+
+
+## Slides: FHuffman Satisfies the Greedy Properties
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/huffmangreedyproperty.png" alt="Huffman Satisfies Greedy Property" width="800" />
+</p>
