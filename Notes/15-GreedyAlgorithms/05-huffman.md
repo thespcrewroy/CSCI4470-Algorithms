@@ -44,7 +44,7 @@
 = 38 bits
 ```
 
-## Slide: Huffman Encoding
+## Slide: Huffman Example 1
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h11.png" alt="Huffman Encoding Example 1" width="800" />
@@ -83,9 +83,27 @@ Ans) **111011010**
 Q) Decode 101101110 <br>
 Ans) **RATE**
 
+## Homework: Huffman Example 2
+
+Q) What is an optimal Huffman code for the following set of frequencies?
+
+| Char | e   | t  | a  | o  | i  | n  | s  | r  | h  | d  |
+|------|-----|----|----|----|----|----|----|----|----|----|
+| Freq | 120 | 91 | 81 | 76 | 73 | 69 | 63 | 60 | 59 | 43 |
+
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h21.png" alt="Huffman Encoding Example 2" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h22.png" alt="Huffman Encoding Example 2" width="800" />
+</p>
+
 
 ## Slides: Huffman Satisfies the Greedy Properties
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/huffmangreedyproperty.png" alt="Huffman Satisfies Greedy Property" width="800" />
 </p>
+
