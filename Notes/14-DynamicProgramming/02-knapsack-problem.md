@@ -186,12 +186,12 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
 ### Item Selection Process
 
 - 7 kg remain: 10 != 9 → Include Item 5 [v<sub>1</sub> = 3, w<sub>1</sub> = 2]
-- Subtract weight → 7 - 2 = 5 → Head to Column 5
+    - Subtract weight → 7 - 2 = 5 → Head to Column 5
 - 5 kg remain: 7 != 6 → Include Item 4 [v<sub>1</sub> = 5, w<sub>1</sub> = 4]
-- Subtract weight → 5 - 4 = 1 → Head to Column 1
+    - Subtract weight → 5 - 4 = 1 → Head to Column 1
 - 1 kg remain: 2 = 2 → Ignore Item 3
 - 1 kg remain: 2 != 0 → Include Item 2 [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
-- Subtract weight → 1 - 1 = 0 → Head to Column 0
+    - Subtract weight → 1 - 1 = 0 → Head to Column 0
 - 0 kg remain
 
 - We selected items: {x<sub>2</sub>, x<sub>4</sub>, x<sub>5</sub>}
