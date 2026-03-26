@@ -194,7 +194,7 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
     - Subtract weight → 1 - 1 = 0 → Head to Column 0
 - 0 kg remain
 
-**We selected items: {x<sub>2</sub>, x<sub>4</sub>, x<sub>5</sub>}**
+**We selected items: {x<sub>2</sub>, x<sub>4</sub>, x<sub>5</sub>}** <br>
     - Item values add up to: v = 2 + 5 + 3 = 10
     - Item weights add up to: w = 1 + 4 + 2 = 7
 
