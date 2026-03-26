@@ -60,5 +60,5 @@ Capacity: **W = 14**
 1. **Candidate Set:** The input of all possible items
 2. **Selection Function:** pick item with max (vᵢ / wᵢ) ratio
 3. **Feasibility Function:** Σ wᵢ xᵢ ≤ W
-4. **Objective Function:** maximize Σ vᵢ xᵢ
+4. **Objective Function:** maximize Σ vᵢ xᵢ (xᵢ is the fraction of item `i` that is added to the solution)
 5. **Solution Function:** all items have been entered in the sack OR capacity is reached
