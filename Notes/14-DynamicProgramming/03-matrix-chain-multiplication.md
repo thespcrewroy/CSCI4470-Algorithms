@@ -86,3 +86,22 @@ Step 2: Multiply A1 × (A2A3)
 - Case 1 is **10× faster**
 - Thus, the order of multiplication significantly affects performance.
 - Optimization goal: Choose the order that minimizes total scalar multiplications
+
+
+## Notes: Dynamic Programming Recursive Solution
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursivematrixchain.png" alt="Fractional Knapsack Problem Example" width="800" />
+</p>
+
+## Notes: Bruteforce Approach
+
+List all possible parenthesizations and compute the cost for each:
+
+1. (A1 (A2 (A3 A4))) → m1  
+2. (A1 ((A2 A3) A4)) → m2  
+3. ((A1 A2) A3) A4 → m3  
+4. (A1 A2)(A3 A4) → m4  
+5. ((A1 (A2 A3)) A4) → m5  
+
+**Optimal cost = min(m1, m2, m3, m4, m5)**
