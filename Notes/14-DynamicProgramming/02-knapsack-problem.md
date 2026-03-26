@@ -260,9 +260,9 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
 
 **Optimal value = 17.**
 
-**Sel(W, i) = 1 if x_i is put in the knapsack, and 0 otherwise**
-
 ### 2. Selection Table
+
+**Sel(W, i) = 1 if x_i is put in the knapsack, and 0 otherwise**
 
 | wt | val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
 |----|-----|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
