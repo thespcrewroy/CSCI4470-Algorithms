@@ -29,6 +29,9 @@ Output = {25, 25, 1, 1}
 ### Counter Example: 16 cents
 
 **Greedy works only if local optimal choices lead to global optimal solution.**
+- Greedy = pick best local choice
+- Works only when problem has greedy-choice property
+- Otherwise, need Dynamic Programming
 
 Coins: {10, 7, 1}
 Goal: 16 cents
@@ -48,4 +51,7 @@ Output = {10, 1, 1, 1, 1, 1, 1}
 
 **This is NOT the global optimal solution.**
 
-**The optimal solution is actually; {7, 7, 1, 1}**
+**The optimal solution is actually: {7, 7, 1, 1}**
+
+- Greedy is fast and simple, but not always correct
+- Always verify: oes greedy lead to global optimal?
