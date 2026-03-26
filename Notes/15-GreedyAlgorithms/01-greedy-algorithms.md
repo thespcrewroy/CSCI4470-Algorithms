@@ -55,3 +55,10 @@ Output = {10, 1, 1, 1, 1, 1, 1}
 
 - Greedy is fast and simple, but not always correct
 - Always verify: oes greedy lead to global optimal?
+
+## Time Complexity
+
+```
+Sorting coins: O(n log n)
+Greedy selection: O(n)
+```

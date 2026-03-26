@@ -1,6 +1,6 @@
 # Knapsack
 
-## Notes: Knapsack Problem
+## Notes: 01 Knapsack Problem
 
 - Number of items: n
 - Items: x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ..., x<sub>n</sub>

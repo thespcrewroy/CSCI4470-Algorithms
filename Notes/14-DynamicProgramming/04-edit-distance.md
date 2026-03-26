@@ -3,6 +3,11 @@
 ## Notes: Goal
 Convert string **S1 to S2** using the **minimum number of operations**
 
+```
+Time Complexity: O(nm)
+Space Complexity: O(mn)
+```
+
 ## Notes: Allowed Operations
 1. **Insert**
 2. **Delete**
