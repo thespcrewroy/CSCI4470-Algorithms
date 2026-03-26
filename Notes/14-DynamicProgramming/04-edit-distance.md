@@ -75,4 +75,44 @@ S2 = EACB
 3. Match C  
 4. Delete B  
 5. Match A  
-6. Insert E  
+6. Insert E 
+
+
+## Notes: Top Down Approach
+
+```
+Convert: DOG -> DIG
+
+(DOG, DIG)
+|
+`-- Match G -> (DO, DI)
+    |
+    |-- Replace O -> I -> (DI, DI)
+    |   `-- Match I -> (D, D)
+    |       `-- Match D -> ("", "")  [base case]
+    |
+    |-- Insert I -> (DOI, DI)
+    |   `-- Match I -> (DO, D)
+    |       |
+    |       |-- Insert D -> (DOD, D)
+    |       |   `-- Match D -> (DO, "")  [dead end]
+    |       |
+    |       |-- Replace O -> D -> (DD, D)
+    |       |   `-- Match D -> (D, "")  [dead end]
+    |       |
+    |       `-- Delete O -> (D, D)
+    |           `-- Match D -> ("", "")  [base case]
+    |
+    `-- Delete O -> (D, DI)
+        |
+        |-- Insert I -> (DI, DI)
+        |   `-- Match I -> (D, D)
+        |       `-- Match D -> ("", "")  [base case]
+        |
+        |-- Delete D -> ("", DI)
+        |   `-- [dead end]
+        |
+        `-- Replace D -> I -> (I, DI)
+            `-- Match I -> ("", D)
+                `-- [dead end]
+```
