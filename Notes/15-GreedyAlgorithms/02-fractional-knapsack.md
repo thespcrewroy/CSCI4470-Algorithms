@@ -13,6 +13,8 @@
 
 ```
 Average Case: O(nlog(n))
+    - Sorting: O(nlog(n))
+    - Selection: O(n)
 Best Case (pre-sorted): O(n)
 ```
 
@@ -33,3 +35,12 @@ Capacity: **W = 14**
 
 
 **Goal: Maximize total value such that: Σ wᵢ xᵢ ≤ W**
+
+## Greedy Selection Criteria (Fractional Knapsack)
+
+### ❌ a) Pick smallest / lightest first
+
+- Pick item 3 (w = 5): remaining = 14 − 5 = 9  (value = 15)
+- Pick item 1 (w = 6): remaining = 9 − 6 = 3  (value = 72)
+- Take fraction of item 2: remaining = 3 - 3 = 0 (value = (90 / 9) × 3 = 30 )
+**Total value:** 15 + 72 + 30 = 117
