@@ -6,15 +6,15 @@
 </p>
 
 - Number of items: n
-- Items: x1, x2, x3, ..., x_n
-- Weights: w1, w2, ..., wn
-- Values: v1, v2, ..., vn
+- Items: x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ..., x<sub>n</sub>
+- Weights: w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>
+- Values: v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>
 
 Representations:
 
-- Item set: x = {xi | 1 <= i <= n}
-- Weight set: w = {wi | 1 <= i <= n}
-- Value set: v = {vi | 1 <= i <= n}
+- Item set: x = {x<sub>i</sub> | 1 <= i <= n}
+- Weight set: w = {w<sub>i</sub> | 1 <= i <= n}
+- Value set: v = {v<sub>i</sub> | 1 <= i <= n}
 
 Additional notation:
 
@@ -25,16 +25,16 @@ Specifications:
 
 Objective function:
 
-- Maximize FN = sum from i = 1 to n of (vi * xi)
-- Equivalent form: sum of vi for all i in M
+- Maximize F<sub>N</sub> = sum from i = 1 to n of (v<sub>i</sub> * x<sub>i</sub>)
+- Equivalent form: sum of v<sub>i</sub> for all i in M
 - Simple form: maximize total value
 
 Constraint:
 
-- Sum from i = 1 to n of (xi * wi) <= W
-- Equivalent form: sum of wi for all i in M <= W
+- Sum from i = 1 to n of (x<sub>i</sub> * w<sub>i</sub>) <= W
+- Equivalent form: sum of w<sub>i</sub> for all i in M <= W
 
 Decision variable:
 
-- xi = 1 if the i-th item is selected
-- xi = 0 otherwise
+- x<sub>i</sub> = 1 if the i-th item is selected
+- x<sub>i</sub> = 0 otherwise
