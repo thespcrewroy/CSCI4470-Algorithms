@@ -100,6 +100,15 @@ Q) What is an optimal Huffman code for the following set of frequencies?
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/h22.png" alt="Huffman Encoding Example 2" width="800" />
 </p>
 
+### Encodings
+| Char | Code | Char | Code |
+|------|------|------|------|
+| n    | 000  | t    | 100  |
+| i    | 001  | d    | 1010 |
+| o    | 010  | h    | 1011 |
+| a    | 011  | e    | 110  |
+| r    | 1110 | s    | 1111 |
+
 
 ## Slides: Huffman Satisfies the Greedy Properties
 
