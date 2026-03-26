@@ -44,7 +44,7 @@ S2 = EACB
 - Fill first row and first column using gap penalty (+1):
   - dp[0][j] = j  
   - dp[i][0] = i  
-- Look at the **inverse “L” shape** of the cell you are at, and choose the minimum out of that for the cell:
+- Take the minimum of the invese L shape cells of the current cell, then perform the following operation on the value based on its position in the inverse L to determine the cost of the cell:
   - left (insert)
   - top (delete)
   - diagonal (replace/match)
@@ -113,12 +113,41 @@ Scoring:
 - Fill first row and column using gap penalty (-2)
  - dp[0][j] = -2j  
   - dp[i][0] = -2i   
-- Look at the **inverse “L” shape** of the cell you are at, and choose the maximum of that for the cell:
+- Take the maximum of the invese L shape cells of the current cell, then perform the following operation on the value based on its position in the inverse L to determine the cost of the cell:
   - left → insert (-2)
   - top → delete (-2)
   - diagonal → match (+4) or mismatch (-4)
 
 ### Cost Table f[i,j]
+
+|   |   | D | I | S | T | A | N | C | E |
+|---|---|---|---|---|---|---|---|---|---|
+|   | X | -2 | -4 | -6 | -8 | -10 | -12 | -14 | -16 |
+| D | -2 | X | 2 | 0 | -2 | -4 | -6 | -8 | -10 |
+| E | -4 | 2 | X | -2 | -4 | -6 | -8 | -10 | -4 |
+| S | -6 | 0 | -2 | X | 2 | 0 | -2 | -4 | -6 |
+| T | -8 | -2 | -4 | 2 | X | 6 | 4 | 2 | 0 |
+| I | -10 | -4 | 2 | 0 | 6 | X | 2 | 0 | -2 |
+| N | -12 | -6 | 0 | -2 | 4 | 2 | X | X | 4 |
+| Y | -14 | -8 | -2 | -4 | 2 | 0 | 6 | 4 | X |
+
+**Edit Distance = +3**
+
+- Move **diagonal** → match / mismatch  
+- Move **left** → delete 
+- Move **up** → insert 
+- Follow direction of **maximum value**
+
+### Final Selection
+
+1. Mismatch at E. Cost is -4  
+2. Delete at C. Cost is -2  
+3. Match at N. Cost is +4  
+4. Mismatch at A. Cost is -4  
+5. Match at T. Cost is +4  
+6. Match at S. Cost is +4  
+7. Mismatch at E. Cost is -4  
+8. Match at D. Cost is +4  
 
 
 ## Notes: Top Down Approach
