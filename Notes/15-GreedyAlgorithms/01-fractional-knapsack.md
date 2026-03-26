@@ -25,14 +25,14 @@ Specifications:
 
 Objective function:
 
-- Maximize F<sub>N</sub> = sum from i = 1 to n of (v<sub>i</sub> * x<sub>i</sub>)
-- Equivalent form: sum of v<sub>i</sub> for all i in M
+- Maximize F<sub>N</sub> = ∑<sub>i=1</sub><sup>n</sup> (v<sub>i</sub> * x<sub>i</sub>)
+- Equivalent form: ∑<sub>i∈M</sub> v<sub>i</sub>
 - Simple form: maximize total value
 
 Constraint:
 
-- Sum from i = 1 to n of (x<sub>i</sub> * w<sub>i</sub>) <= W
-- Equivalent form: sum of w<sub>i</sub> for all i in M <= W
+- ∑<sub>i=1</sub><sup>n</sup> (x<sub>i</sub> * w<sub>i</sub>) ≤ W
+- Equivalent form: ∑<sub>i∈M</sub> w<sub>i</sub> ≤ W
 
 Decision variable:
 
