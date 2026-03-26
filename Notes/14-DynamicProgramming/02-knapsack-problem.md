@@ -242,4 +242,18 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
   - Item values add up to: v = 2 + 5 + 3 = 10
   - Item weights add up to: w = 1 + 4 + 2 = 7
 
-## Slides: Bruteforce
+## Slides: Bottom Up
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bottomup.png" alt="Bottom Up Example" width="800" />
+</p>
+
+**Val(W, i) = max value for Knapsack(W, {x1, ..., xi}),**
+
+| wt | val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|----|-----|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
+| 7  | 6   | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 | 6 | 6 | 6  | 6  | 6  | 6  | 6  | 6  |
+| 4  | 5   | 0 | 0 | 0 | 0 | 5 | 5 | 5 | 6 | 6 | 6 | 6  | 11 | 11 | 11 | 11 | 11 |
+| 5  | 8   | 0 | 0 | 0 | 0 | 5 | 8 | 8 | 8 | 8 | 13| 13 | 13 | 14 | 14 | 14 | 14 |
+| 9  | 9   | 0 | 0 | 0 | 0 | 5 | 8 | 8 | 8 | 8 | 13| 13 | 13 | 14 | 14 | 17 | 17 |
+
+**Val(W, i) → bottom right → optimal value = 17.**
