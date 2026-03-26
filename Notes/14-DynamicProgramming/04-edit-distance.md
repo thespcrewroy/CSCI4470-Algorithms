@@ -48,3 +48,31 @@ S2 = EACB
   - left (insert)
   - top (delete)
   - diagonal (replace/match)
+
+### Cost Table f[i,j]
+
+|   | A | B | C | A | B |
+|---|---|---|---|---|---|
+|   | X | 1 | 2 | 3 | 4 | 5 |
+| E | X | 1 | 2 | 3 | 4 | 5 |
+| A | 2 | X | X | 3 | 3 | 4 |
+| C | 3 | 2 | 2 | X | X | 4 |
+| B | 4 | 3 | 2 | 3 | 3 | X |
+
+**Edit Distance = 3**
+
+- Move **diagonal** → match / replace  
+- Move **left** → delete  
+- Move **up** → insert  
+
+- Follow direction of minimum value
+- Edit distance doesn’t always give one unique solution
+
+### Final Selection
+
+1. Match B  
+2. Delete A  
+3. Match C  
+4. Delete B  
+5. Match A  
+6. Insert E  
