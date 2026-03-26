@@ -58,7 +58,7 @@ Decision variable:
 | v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
 
 - First item: figure out all the best possible values for each capacity.
-- Second item: reuse information about the solution for the first-item sub-problem to formulate a combined best value for those two items.
+- Second item: reuse information about the optimal solution for the first-item to determine the optimal solution for the next item
 - Complete other items by repeating and expanding the same process.
 
 For each column and the current row:
