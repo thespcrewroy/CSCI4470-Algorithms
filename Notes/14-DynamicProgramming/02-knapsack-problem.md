@@ -1,6 +1,6 @@
 # Fractional Knapsack
 
-## Knapsack Problem
+## Slides: Knapsack Problem
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Relation Example" width="800" />
 </p>
@@ -38,6 +38,80 @@ Decision variable:
 
 - x<sub>i</sub> = 1 if the i-th item is selected
 - x<sub>i</sub> = 0 otherwise
+
+## Slides: Bruteforce Appraoch
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Relation Example" width="800" />
+</p>
+
+### Case 1: Capacity W = 10
+
+Try combinations:
+
+- Item 1 + Item 2 → weight = 4 + 5 = 9 ≤ 10
+- Value = 5 + 8 = 13
+
+Best solution:
+
+- Items {1, 2} → Value = 13
+
+### Case 2: Capacity W = 15
+
+Try combinations:
+
+- Item 2 + Item 4 → weight = 5 + 9 = 14 ≤ 15
+- Value = 8 + 9 = 17
+
+Best solution:
+
+- Items {2, 4} → Value = 17
+
+### Case 3: Capacity W = 17
+
+Try combinations:
+
+- Item 1 + Item 2 + Item 3 → weight = 4 + 5 + 7 = 16 ≤ 17
+- Value = 5 + 8 + 7 = 20
+
+### Best Solution
+
+**Items {1, 2, 3} → Value = 20**
+
+### Key Observations
+
+Some solutions for smaller capacities can be part of larger solutions:
+
+- Solution for W = 10 ({1,2}) is part of solution for W = 17 ({1,2,3}).
+
+But not always:
+
+- Solution for W = 15 ({2,4}) is not part of solution for W = 17.
+
+### Why Dynamic Programming Is Needed
+
+You must:
+
+- Check all possible subproblems.
+- Compare and pick the optimal combination.
+
+You cannot assume:
+
+- The best solution for a smaller capacity will always help build the best solution for a larger capacity.
+
+### Conclusion
+
+Knapsack exhibits:
+
+- Optimal substructure (solutions built from subproblems).
+- Overlapping subproblems.
+
+However:
+
+- Not every optimal sub-solution directly contributes to the final solution.
+
+This is why dynamic programming is used:
+
+- To systematically evaluate and store results of subproblems to ensure the global optimum.
 
 ## Tutorial: Bottom Up Approach
 <p align="center">
@@ -118,30 +192,6 @@ Item 1: [v<sub>1</sub> = 2, w<sub>1</sub> = 3]
 
 Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
 
-- (2,0) → {w<sub>2</sub> = 1 > 0} → best solution: 0
-  - Short Arrow: (1,0) = 0
-- (2,1) → {w<sub>2</sub> = 1 = 1} → best solution: 2
-  - Short Arrow: (1,1) = 0
-  - Long Arrow: (1,0) = 0
-- (2,2) → {w<sub>2</sub> = 1 < 2} → best solution: 2
-  - Short Arrow: (1,2) = 0
-  - Long Arrow: (1,1) = 0 + 2 = 2
-- (2,3) → {w<sub>2</sub> = 1 < 3} → best solution: 2
-  - Short Arrow: (1,3) = 2
-  - Long Arrow: (1,2) = 0 + 2 = 2
-- (2,4) → {w<sub>2</sub> = 1 < 4} → best solution: 4
-  - Short Arrow: (1,4) = 2
-  - Long Arrow: (1,3) = 2 + 2 = 4
-- (2,5) → {w<sub>2</sub> = 1 < 5} → best solution: 4
-  - Short Arrow: (1,5) = 2
-  - Long Arrow: (1,4) = 2 + 2 = 4
-- (2,6) → {w<sub>2</sub> = 1 < 6} → best solution: 4
-  - Short Arrow: (1,6) = 2
-  - Long Arrow: (1,5) = 2 + 2 = 4
-- (2,7) → {w<sub>2</sub> = 1 < 7} → best solution: 4
-  - Short Arrow: (1,7) = 2
-  - Long Arrow: (1,6) = 2 + 2 = 4
-
 ### Item 3
 | Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |------------------|---|---|---|---|---|---|---|---|
@@ -198,3 +248,4 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
   - Item values add up to: v = 2 + 5 + 3 = 10
   - Item weights add up to: w = 1 + 4 + 2 = 7
 
+## Slides: Bruteforce
