@@ -6,7 +6,7 @@
 </p>
 
 - Number of items: n
-- Items: x1, x2, x3, ..., xn
+- Items: x1, x2, x3, ..., x_n
 - Weights: w1, w2, ..., wn
 - Values: v1, v2, ..., vn
 
