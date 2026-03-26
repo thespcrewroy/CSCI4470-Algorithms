@@ -13,4 +13,14 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3p2-1.png" alt="Relation Example" width="800" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3p2-2.png" alt="Relation Example" width="800" />
+</p>
 
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3p2-3.png" alt="Relation Example" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3p2-4.png" alt="Relation Example" width="800" />
+</p>
