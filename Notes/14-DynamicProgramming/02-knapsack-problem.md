@@ -53,6 +53,16 @@ Decision variable:
 - Complete other items by repeating and expanding the same process.
 
 ### For Each Cell
+
+| Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|------------------|---|---|---|---|---|---|---|---|
+| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| v1=2, w1=3 (1)   |   |   |   |   |   |   |   |   |
+| v2=2, w2=1 (2)   |   |   |   |   |   |   |   |   |
+| v3=4, w3=3 (3)   |   |   |   |   |   |   |   |   |
+| v4=5, w4=4 (4)   |   |   |   |   |   |   |   |   |
+| v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
+
 - Shorter Arrow (select 0): not including the current item, but instead taking the best value from before within that capacity.
   - v<sub>i</sub> of W<sub>j</sub> = v<sub>(i - 1)</sub> of W<sub>j</sub>
 - Longer Arrow (select 1): include the previous item and add its value to the value of current item.
@@ -62,11 +72,10 @@ Decision variable:
 - If w<sub>i</sub> ≥ W<sub>i</sub>: compare the shorter and longer arrow, and use the one that is larger.
 
 ### Item 1
-
 | Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |------------------|---|---|---|---|---|---|---|---|
 | Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| v1=2, w1=3 (1)   |   |   |   |   |   |   |   |   |
+| v1=2, w1=3 (1)   | 0 | 0 | 0 | 2 | 2 | 2 | 2 | 2 |
 | v2=2, w2=1 (2)   |   |   |   |   |   |   |   |   |
 | v3=4, w3=3 (3)   |   |   |   |   |   |   |   |   |
 | v4=5, w4=4 (4)   |   |   |   |   |   |   |   |   |
