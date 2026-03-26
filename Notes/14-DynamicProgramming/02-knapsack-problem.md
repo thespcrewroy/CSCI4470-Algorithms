@@ -315,8 +315,8 @@ The table below is a selection table for the knapsack problem. What is the optim
    - value = 14
    - move to Sel(0, 4 - 3) = Sel(0,1)
 
-**Optimal solution = {x1, x2, x4}**
-**Optimal weight = 3 + 3 + 2 = 8**
+**Optimal solution = {x1, x2, x4}** <br>
+**Optimal weight = 3 + 3 + 2 = 8** <br>
 **Optimal value = 14 + 8 + 7 = 29**
 
 ## Slides: Top Down
