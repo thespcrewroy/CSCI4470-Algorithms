@@ -84,11 +84,11 @@ Example (invalid):
 Q) Encode TEAR <br>
 Ans) **111011010**
 
-Q) Decode 101101110
-Ans) RATE
+Q) Decode 101101110 <br>
+Ans) **RATE**
 
 
-## Slides: FHuffman Satisfies the Greedy Properties
+## Slides: Huffman Satisfies the Greedy Properties
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/huffmangreedyproperty.png" alt="Huffman Satisfies Greedy Property" width="800" />
