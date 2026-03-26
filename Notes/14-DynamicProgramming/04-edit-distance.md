@@ -24,7 +24,7 @@ Change one character in S1
 ## Notes: Dynamic Programming Recursive Solution
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursiveeditdistance.png" alt="Recursive Edit Distance DPy" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursiveeditdistance.png" alt="Recursive Edit Distance DP" width="800" />
 </p>
 
 ## Notes: Bottom Up Approach
@@ -41,7 +41,7 @@ S2 = EACB
 | B | 4 | 3 | 2 | 3 | 3 | 3 |
 
 ### Table Creation
-- Fill first row and first column:
+- Fill first row and first column using gap penalty (+1):
   - dp[0][j] = j  
   - dp[i][0] = i  
 - Look at the **inverse “L” shape** of the cell you are at, and choose the minimum out of that for the cell:
@@ -70,12 +70,55 @@ S2 = EACB
 
 ### Final Selection
 
-1. Match B  
-2. Delete A  
-3. Match C  
-4. Delete B  
-5. Match A  
-6. Insert E 
+1. Match B. Cost is +0
+2. Delete A. Cost is +1
+3. Match C. Cost is +0
+4. Delete B. Cost is +1
+5. Match A. Cost is +0
+6. Insert E. Cost is +1
+
+## Homework: Bottom Up Approach
+
+(30 points) Consider the Edit Distance problem where edit operations have a cost and the goal is to **maximize editing score** in which matches are awarded positive scores.
+
+Consider editing between the two strings:
+
+S1 = DISTANCE  
+S2 = DESTINY  
+
+Scoring:
+- Match = +4  
+- Insert = -2  
+- Delete = -2  
+- Mismatch (replace) = -4  
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/newrule.png" alt="New f[i,j] formula" width="800" />
+</p>
+
+
+|   | D | I | S | T | A | N | C | E |
+|---|---|---|---|---|---|---|---|---|
+|   | 0 | -2 | -4 | -6 | -8 | -10 | -12 | -14 | -16 |
+| D | -2 | 4 | 2 | 0 | -2 | -4 | -6 | -8 | -10 |
+| E | -4 | 2 | 0 | -2 | -4 | -6 | -8 | -10 | -4 |
+| S | -6 | 0 | -2 | 4 | 2 | 0 | -2 | -4 | -6 |
+| T | -8 | -2 | -4 | 2 | 8 | 6 | 4 | 2 | 0 |
+| I | -10 | -4 | 2 | 0 | 6 | 4 | 2 | 0 | -2 |
+| N | -12 | -6 | 0 | -2 | 4 | 2 | 8 | 6 | 4 |
+| Y | -14 | -8 | -2 | -4 | 2 | 0 | 6 | 4 | 2 |
+
+### Table Creation
+
+- Fill first row and column using gap penalty (-2)
+ - dp[0][j] = -2j  
+  - dp[i][0] = -2i   
+- Look at the **inverse “L” shape** of the cell you are at, and choose the maximum of that for the cell:
+  - left → insert (-2)
+  - top → delete (-2)
+  - diagonal → match (+4) or mismatch (-4)
+
+### Cost Table f[i,j]
 
 
 ## Notes: Top Down Approach
