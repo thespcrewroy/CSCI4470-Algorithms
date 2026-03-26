@@ -48,27 +48,11 @@ Decision variable:
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsacktutorial2.png" alt="Relation Example" width="800" />
 </p>
 
-| Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|------------------|---|---|---|---|---|---|---|---|
-| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| v1=2, w1=3 (1)   |   |   |   |   |   |   |   |   |
-| v2=2, w2=1 (2)   |   |   |   |   |   |   |   |   |
-| v3=4, w3=3 (3)   |   |   |   |   |   |   |   |   |
-| v4=5, w4=4 (4)   |   |   |   |   |   |   |   |   |
-| v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
-
 - First item: figure out all the best possible values for each capacity.
 - Second item: reuse information about the optimal solution for the first-item to determine the optimal solution for the next item
 - Complete other items by repeating and expanding the same process.
 
-For each column and the current row:
-
-- Should you not include the current item?
-  - Look one row above.
-- Should you include the current item?
-  - Look one row above.
-  - Shift it over by the weight of the current item because that would be the state with the best possible value while being less than capacity.
-
+### For Each Cell
 - Shorter Arrow (select 0): not including the current item, but instead taking the best value from before within that capacity.
   - v<sub>i</sub> of W<sub>j</sub> = v<sub>(i - 1)</sub> of W<sub>j</sub>
 - Longer Arrow (select 1): include the previous item and add its value to the value of current item.
@@ -77,7 +61,16 @@ For each column and the current row:
 - If w<sub>i</sub> < W<sub>i</sub>: use the shorter arrow.
 - If w<sub>i</sub> ≥ W<sub>i</sub>: compare the shorter and longer arrow, and use the one that is larger.
 
-### Matrix Calculation
+### Item 1
+
+| Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|------------------|---|---|---|---|---|---|---|---|
+| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| v1=2, w1=3 (1)   |   |   |   |   |   |   |   |   |
+| v2=2, w2=1 (2)   |   |   |   |   |   |   |   |   |
+| v3=4, w3=3 (3)   |   |   |   |   |   |   |   |   |
+| v4=5, w4=4 (4)   |   |   |   |   |   |   |   |   |
+| v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
 
 Item 1: [v<sub>1</sub> = 2, w<sub>1</sub> = 3]
 
