@@ -131,7 +131,7 @@ Scoring:
 | N | -12 | -6 | 0 | -2 | 4 | 2 | **X** | **X** | 4 |
 | Y | -14 | -8 | -2 | -4 | 2 | 0 | 6 | 4 | **X** |
 
-**Edit Distance = +3**
+**Edit Distance = +2**
 
 - Move **diagonal** → match / mismatch  
 - Move **left** → delete 
