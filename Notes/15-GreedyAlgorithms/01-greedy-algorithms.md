@@ -62,3 +62,5 @@ Output = {10, 1, 1, 1, 1, 1, 1}
 Sorting coins: O(n log n)
 Greedy selection: O(n)
 ```
+
+## Greedy Properties
