@@ -2,7 +2,7 @@
 
 ## Slides: Knapsack Problem
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Relation Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Fractional Knapsack Problem Example" width="800" />
 </p>
 
 - Number of items: n
@@ -21,7 +21,7 @@ Additional notation:
 - n = number of items in the full set
 - M = number of items in the selected subset (optimal subset)
 
-Specifications:
+**Specifications:**
 
 Objective function:
 
@@ -39,9 +39,17 @@ Decision variable:
 - x<sub>i</sub> = 1 if the i-th item is selected
 - x<sub>i</sub> = 0 otherwise
 
+## Notes: Dynamic Programming Recursive Solution
+
+**Let Val(W,i) be the max value achievable using items {xi | 1 ≤ i ≤ n} and knapsack capacity W.**
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursiveknapsack.png" alt="Recursive Knapsack Example" width="800" />
+</p>
+
 ## Slides: Bruteforce Appraoch
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsackbruteforce.png" alt="Relation Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsackbruteforce.png" alt="Knapsack BurteforceExample" width="800" />
 </p>
 
 ### Case 1: Capacity W = 10
@@ -101,11 +109,11 @@ You cannot assume:
 
 ## Tutorial: Bottom Up Approach
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsacktutorial1.png" alt="Relation Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsacktutorial1.png" alt="Bottom Up Example" width="800" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsacktutorial2.png" alt="Relation Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsacktutorial2.png" alt="Knapsack Table Example" width="800" />
 </p>
 
 - First item: figure out all the best possible values for each capacity.

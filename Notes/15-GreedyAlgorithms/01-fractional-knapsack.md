@@ -2,7 +2,7 @@
 
 ## Knapsack Problem
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Relation Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Fractional Knapsack Problem" width="800" />
 </p>
 
 - Number of items: n
@@ -38,3 +38,4 @@ Decision variable:
 
 - x<sub>i</sub> = 1 if the i-th item is selected
 - x<sub>i</sub> = 0 otherwise
+
