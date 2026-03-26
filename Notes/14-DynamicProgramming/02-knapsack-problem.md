@@ -1,9 +1,6 @@
 # Knapsack
 
-## Slides: Knapsack Problem
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Fractional Knapsack Problem Example" width="800" />
-</p>
+## Notes: Knapsack Problem
 
 - Number of items: n
 - Items: x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ..., x<sub>n</sub>
