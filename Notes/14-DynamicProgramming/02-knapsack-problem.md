@@ -38,3 +38,97 @@ Decision variable:
 
 - x<sub>i</sub> = 1 if the i-th item is selected
 - x<sub>i</sub> = 0 otherwise
+
+## Tutorial: Bottom Up Approach
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsacktutorial1.png" alt="Relation Example" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsacktutorial2.png" alt="Relation Example" width="800" />
+</p>
+
+| Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|------------------|---|---|---|---|---|---|---|---|
+| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| v1=2, w1=3 (1)   |   |   |   |   |   |   |   |   |
+| v2=2, w2=1 (2)   |   |   |   |   |   |   |   |   |
+| v3=4, w3=3 (3)   |   |   |   |   |   |   |   |   |
+| v4=5, w4=4 (4)   |   |   |   |   |   |   |   |   |
+| v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
+
+- First item: figure out all the best possible values for each capacity.
+- Second item: reuse information about the solution for the first-item sub-problem to formulate a combined best value for those two items.
+- Complete other items by repeating and expanding the same process.
+
+For each column and the current row:
+
+- Should you not include the current item?
+  - Look one row above.
+- Should you include the current item?
+  - Look one row above.
+  - Shift it over by the weight of the current item because that would be the state with the best possible value while being less than capacity.
+
+- Shorter Arrow (select 0): not including the current item, but instead taking the best value from before within that capacity.
+  - v<sub>i</sub> of W<sub>j</sub> = v<sub>(i - 1)</sub> of W<sub>j</sub>
+- Longer Arrow (select 1): include the previous item and add its value to the value of current item.
+  - v<sub>i</sub> of W<sub>j</sub> = [v<sub>(i - 1)</sub> of W<sub>(j - w_i)</sub>] + v<sub>i</sub>
+
+- If w<sub>i</sub> < W<sub>i</sub>: use the shorter arrow.
+- If w<sub>i</sub> ≥ W<sub>i</sub>: compare the shorter and longer arrow, and use the one that is larger.
+
+### Matrix Calculation
+
+Item 1: [v<sub>1</sub> = 2, w<sub>1</sub> = 3]
+
+- (1,0) → {w<sub>1</sub> = 3 > 0} → best solution: 0
+  - Short Arrow: (0,0) = 0
+- (1,1) → {w<sub>1</sub> = 3 > 1} → best solution: 0
+  - Short Arrow: (0,1) = 0
+- (1,2) → {w<sub>1</sub> = 3 > 2} → best solution: 0
+  - Short Arrow: (0,2) = 0
+- (1,3) → {w<sub>1</sub> = 3 = 3} → best solution: 2
+  - Short Arrow: (0,3) = 0
+  - Long Arrow: (0,0) = 0 + 2 = 2
+- (1,3) → {w<sub>1</sub> = 3 < 4} → best solution: 2
+  - Short Arrow: (0,4) = 0
+  - Long Arrow: (0,1) = 0 + 2 = 2
+- (1,3) → {w<sub>1</sub> = 3 < 5} → best solution: 2
+  - Short Arrow: (0,5) = 0
+  - Long Arrow: (0,2) = 0 + 2 = 2
+- (1,3) → {w<sub>1</sub> = 3 < 6} → best solution: 2
+  - Short Arrow: (0,6) = 0
+  - Long Arrow: (0,3) = 0 + 2 = 2
+- (1,3) → {w<sub>1</sub> = 3 < 7} → best solution: 2
+  - Short Arrow: (0,7) = 0
+  - Long Arrow: (0,4) = 0 + 2 = 2
+
+Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
+
+- (2,0) → {w<sub>2</sub> = 1 > 0} → best solution: 0
+  - Short Arrow: (1,0) = 0
+- (2,1) → {w<sub>2</sub> = 1 = 1} → best solution: 2
+  - Short Arrow: (1,1) = 0
+  - Long Arrow: (1,0) = 0
+- (2,2) → {w<sub>2</sub> = 1 < 2} → best solution: 2
+  - Short Arrow: (1,2) = 0
+  - Long Arrow: (1,1) = 0 + 2 = 2
+- (2,3) → {w<sub>2</sub> = 1 < 3} → best solution: 2
+  - Short Arrow: (1,3) = 2
+  - Long Arrow: (1,2) = 0 + 2 = 2
+- (2,4) → {w<sub>2</sub> = 1 < 4} → best solution: 4
+  - Short Arrow: (1,4) = 2
+  - Long Arrow: (1,3) = 2 + 2 = 4
+- (2,5) → {w<sub>2</sub> = 1 < 5} → best solution: 4
+  - Short Arrow: (1,5) = 2
+  - Long Arrow: (1,4) = 2 + 2 = 4
+- (2,6) → {w<sub>2</sub> = 1 < 6} → best solution: 4
+  - Short Arrow: (1,6) = 2
+  - Long Arrow: (1,5) = 2 + 2 = 4
+- (2,7) → {w<sub>2</sub> = 1 < 7} → best solution: 4
+  - Short Arrow: (1,7) = 2
+  - Long Arrow: (1,6) = 2 + 2 = 4
+
+Complete matrix for the remaining items.
+
+Best value of selecting a subset of 5 items can be found at the bottom-right corner.
