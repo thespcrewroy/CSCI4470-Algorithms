@@ -98,20 +98,6 @@ You cannot assume:
 
 - The best solution for a smaller capacity will always help build the best solution for a larger capacity.
 
-### Conclusion
-
-Knapsack exhibits:
-
-- Optimal substructure (solutions built from subproblems).
-- Overlapping subproblems.
-
-However:
-
-- Not every optimal sub-solution directly contributes to the final solution.
-
-This is why dynamic programming is used:
-
-- To systematically evaluate and store results of subproblems to ensure the global optimum.
 
 ## Tutorial: Bottom Up Approach
 <p align="center">
