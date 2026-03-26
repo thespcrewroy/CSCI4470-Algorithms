@@ -73,9 +73,9 @@ Try combinations:
 - Item 1 + Item 2 + Item 3 → weight = 4 + 5 + 7 = 16 ≤ 17
 - Value = 5 + 8 + 7 = 20
 
-### Best Solution
+Best Solution
 
-**Items {1, 2, 3} → Value = 20**
+- Items {1, 2, 3} → Value = 20
 
 ### Key Observations
 
