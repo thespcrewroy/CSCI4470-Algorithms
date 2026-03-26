@@ -5,8 +5,6 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Relation Example" width="800" />
 </p>
 
-### Description
-
 - Number of items: n
 - Items: x1, x2, x3, ..., xn
 - Weights: w1, w2, ..., wn
