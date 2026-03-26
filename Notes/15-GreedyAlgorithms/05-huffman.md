@@ -109,6 +109,66 @@ Q) What is an optimal Huffman code for the following set of frequencies?
 | a    | 011  | e    | 110  |
 | r    | 1110 | s    | 1111 |
 
+## Quiz: Huffman Example 3
+
+Q0 Below are the frequencies for the certain alphabets. What is the Huffman encoding for characters **"c"** and **"f"**? Show all your work.
+
+| Alphabet  | d  | f | c  | a  | b  | e |
+|-----------|----|---|----|----|----|---|
+| Frequency | 16 | 5 | 12 | 45 | 13 | 9 |
+
+```
+   (14)
+     /    \
+   f(5)   e(9)
+```
+
+```
+c(12) + b(13) -> 25
+
+      (25)
+     /    \
+  c(12)   b(13)
+```
+
+```
+14 + d(16) -> 30
+
+         (30)
+        /    \
+      (14)   d(16)
+     /   \
+   f(5)  e(9)
+```
+
+```
+25 + 30 -> 55
+
+             (55)
+            /    \
+         (25)    (30)
+        /   \    /   \
+     c(12) b(13)(14) d(16)
+                  /  \
+                f(5) e(9)
+```
+
+```
+a(45) + 55 -> 100
+
+                (100)
+               /     \
+           a(45)     (55)
+                    /    \
+                 (25)    (30)
+                /   \    /   \
+             c(12) b(13)(14) d(16)
+                         /  \
+                       f(5) e(9)
+```
+
+- **c = 100**
+- **f = 1100**
 
 ## Slides: Huffman Satisfies the Greedy Properties
 
