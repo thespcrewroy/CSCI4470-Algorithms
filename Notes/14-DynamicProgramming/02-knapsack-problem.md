@@ -41,7 +41,7 @@ Decision variable:
 
 ## Slides: Bruteforce Appraoch
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Relation Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsackbruteforce.png" alt="Relation Example" width="800" />
 </p>
 
 ### Case 1: Capacity W = 10
