@@ -20,7 +20,7 @@ Best Case (pre-sorted): O(n)
 
 ## Example: Slides
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionknapsackexample.png" alt="Fractional Knapsack Problem" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionknapsackexample.png" alt="Fractional Knapsack Example" width="800" />
 </p>
 
 ## Notes: Example
