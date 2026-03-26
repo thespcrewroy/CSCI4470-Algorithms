@@ -329,3 +329,28 @@ Goal:
 - s[4,5] = 4 → (A1 (A2 A3)) (A4 / A5)
 
 **Optimal Parenthesization: ((A1 (A2 A3)) (A4 A5))**
+
+
+The table below is a selection table for Matrix Chain Multiply. The table is not turned sideways as the book does it. What is the optimal parenthesizing for this matrix chain?
+
+## Quiz: Parenthesizing
+
+### Selection Table s[i,j]
+
+| i \ j | 1 | 2 | 3 | 4 | 5 | 6 |
+|------|---|---|---|---|---|---|
+| 1    | - | 1 | 1 | 3 | 1 | 3 |
+| 2    |   | - | 2 | 3 | 3 | 3 |
+| 3    |   |   | - | 3 | 3 | 3 |
+| 4    |   |   |   | - | 4 | 5 |
+| 5    |   |   |   |   | - | 5 |
+| 6    |   |   |   |   |   | - |
+
+- (A1 A2 A3 A4 A5 A6)
+- s[1,6] = 3 → (A1 A2 A3) / (A4 A5 A6)
+- s[1,3] = 1 → (A1 / (A2 A3)) (A4 A5 A6)
+- s[2,3] = 2 → (A1 (A2 / A3)) (A4 A5 A6)
+- s[4,6] = 5 → (A1 (A2 A3)) ((A4 A5) / A6)
+- s[4,5] = 4 → (A1 (A2 A3)) ((A4 / A5) A6)
+
+**Optimal Parenthesization: ((A1 (A2 A3)) ((A4 A5) A6))**
