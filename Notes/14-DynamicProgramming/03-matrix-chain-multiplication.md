@@ -145,14 +145,14 @@ Goal:
 → Compute m[1,4]
 
 
-## Base Case A<sub>i</sub>
+### Base Case A<sub>i</sub>
 
 - m[1,1] = **0**
 - m[2,2] = **0**  
 - m[3,3] = **0**  
 - m[4,4] = **0**  
     
-## Compute A<sub>i</sub>A<sub>i+1</sub>
+### Compute A<sub>i</sub>A<sub>i+1</sub>
 
 - m[1,2] = **216**; s[1,2] = **1**
     - i = 1; k = 1; j = 2 => min[1,1] + min[2,2] + (p<sub>0</sub>)(p<sub>1</sub>)(<sub>2</sub>) = 0 + 0 + (3)(9)(8) = 216
@@ -167,7 +167,7 @@ Goal:
         - s[3,4] = 3  
 
 
-## Compute A<sub>i</sub>A<sub>i+1</sub>A<sub>i+2</sub>
+### Compute A<sub>i</sub>A<sub>i+1</sub>A<sub>i+2</sub>
 
 - m[1,3] = min(198, 264) = **198**; s[1,3] = **1**
     - i = 1; k = 1; j = 3 => m[1,1] + m[2,3] + (p<sub>0</sub>)(p<sub>1</sub>)(p<sub>3</sub>) = 0 + 144 + (3)(9)(2) = 198
@@ -180,7 +180,7 @@ Goal:
     - i = 2; k = 3; j = 4 => m[2,3] + m[4,4] + (p<sub>1</sub>)(p<sub>3</sub>)(p<sub>4</sub>) = 144 + 0 + (9)(2)(5) = 234
         - s[3,4] = 3
 
-## A<sub>i</sub>A<sub>i+1</sub>A<sub>i+2</sub>A<sub>i+3</sub>
+### A<sub>i</sub>A<sub>i+1</sub>A<sub>i+2</sub>A<sub>i+3</sub>
 
 - m[1,4] = min(369, 416, 228) = **228**; s[1,4] = **3**
     - i = 1; k = 1; j = 4 = m[1,1] + m[2,4] + (p<sub>0</sub>)(p<sub>1</sub>)(p<sub>4</sub>) = 0 + 234 + (3)(9)(5) = 369
@@ -190,7 +190,7 @@ Goal:
     - i = 1; k = 3; j = 4 = m[1,3] + m[4,4] + (p<sub>0</sub>)(p<sub>3</sub>)(p<sub>4</sub>) = 198 + 0 + (3)(2)(5) = 228
         - s[3,4] = 3
 
-## Final Answer
+### Cost Table m[i,j]
 
 | i \ j | 1   | 2   | 3   | 4   |
 |------|-----|-----|-----|-----|
@@ -201,5 +201,20 @@ Goal:
 
 **Optimal Cost: 228**
 
+### Selection Table s[i,j]
+
+| i \ j | 1 | 2 | 3 | 4 |
+|------|---|---|---|---|
+| 1    | - | 1 | 1 | 3 |
+| 2    |   | - | 2 | 3 |
+| 3    |   |   | - | 3 |
+| 4    |   |   |   | - |
+
+- (A1 A2 A3 A4)
+- s[1,4] = 3 → (A1 A2 A3) / A4 
+- s[1,3] = 1 → (A1 / (A2 A3)) A4 
+- s[2,3] = 2 → (A1 (A2 / A3)) A4 
+
+**Optimal Parenthesization: ((A1 (A2 A3)) A4)**
 
 ---
