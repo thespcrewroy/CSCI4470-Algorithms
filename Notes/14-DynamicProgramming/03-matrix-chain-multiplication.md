@@ -159,27 +159,24 @@ Goal:
 
 ## Compute A<sub>i</sub>A<sub>i+1</sub>
 
-- i = 1; k = 1; j = 2
-    - m[1,2] = (p<sub>0</sub>)(p<sub>1</sub>)(<sub>2</sub>) = (3)(9)(8) = 216
-    - s[1,2] = 1
+- m[1,2] = 216; s[1,2] = 1
+    - i = 1; k = 1; j = 2 => (p<sub>0</sub>)(p<sub>1</sub>)(<sub>2</sub>) = (3)(9)(8) = 216
+        - s[1,2] = 1
 
-- i = 2; k = 2; j = 3
-    - m[2,3] = (p<sub>1</sub>)(p<sub>2</sub>)(p<sub>3</sub>)(9)(8)(2) = 144  
-    - s[2,3] = 2  
+- m[2,3] = 144; s[2,3] = 2
+    -  i = 2; k = 2; j = 3 => (p<sub>1</sub>)(p<sub>2</sub>)(p<sub>3</sub>)(9)(8)(2) = 144  
+        - s[2,3] = 2  
 
-- i = 3; k = 3; j = 4
-    - m[3,4] = (p<sub>2</sub>)(p<sub>3</sub>)(p<sub>4</sub>) = (8)(2)(5) = 80  
-    - s[3,4] = 3  
+- m[2,4] = 80; s[3,4] = 3
+    - i = 3; k = 3; j = 4 => (p<sub>2</sub>)(p<sub>3</sub>)(p<sub>4</sub>) = (8)(2)(5) = 80  
+        - s[3,4] = 3  
 
 ---
 
-## Step 3: Chains of Length 3 (Ai Ai+2)
+## Compute A<sub>i</sub>A<sub>i+1</sub>A<sub>i+2</sub>
 
-### m[1,3]
 
-Try all k:
-
-- k = 1  
+- i = 1; k = 1; j = 2
   = m[1,1] + m[2,3] + (3)(9)(2)  
   = 0 + 144 + 54 = 198  
 
