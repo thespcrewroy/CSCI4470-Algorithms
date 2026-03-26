@@ -91,8 +91,33 @@ Step 2: Multiply A1 × (A2A3)
 ## Notes: Dynamic Programming Recursive Solution
 
 <p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/matrixchaintheory.png" alt="Fractional Knapsack Problem Example" width="800" />
+</p>
+
+<p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursivematrixchain.png" alt="Fractional Knapsack Problem Example" width="800" />
 </p>
+
+| Term | Meaning |
+|------|--------|
+| A_i ... A_j | The chain of matrices from i to j |
+| k | The position where we split the chain |
+| cost(A_i ... A_k) | Optimal cost of multiplying the left subchain |
+| cost(A_{k+1} ... A_j) | Optimal cost of multiplying the right subchain |
+| p_{i-1} p_k p_j | Cost of multiplying the two resulting matrices |
+| min | Choose the split k that gives the smallest total cost |
+
+### Paranthesizing (splitting the term
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/splitting.png" alt="Fractional Knapsack Problem Example" width="800" />
+</p>
+
+### Time Complexity
+
+**T(n) = O(n^3)**
+- Comes from 3 nested loops
+- Each loop runs up to n
+- Total operations ≈ n × n × n = n^3
 
 ## Notes: Bruteforce Approach
 
