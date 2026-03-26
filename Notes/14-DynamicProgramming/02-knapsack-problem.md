@@ -284,6 +284,41 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
 
 **Optimal selection = {x3, x4}**
 
+## Quiz: Derive Value From Selection Table
+
+The table below is a selection table for the knapsack problem. What is the optimal solution for this problem i.e optimal value (what is the maximum value) and weights (which weights are the part of the solution).
+
+### Selection Table
+
+| Item | wt | Val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|------|----|-----|---|---|---|---|---|---|---|---|---|---|
+| x1   | 3  | 14  | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| x2   | 3  | 8   | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
+| x3   | 2  | 6   | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 1 |
+| x4   | 2  | 7   | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 1 | 1 | 1 |
+
+1. Sel(4,9) = 1 → item x4 is included  
+   - weight = 2
+   - value = 7
+   - move to Sel(3, 9 - 2) = Sel(3,7)
+
+2. Sel(3,7) = 0 → item x3 is not included  
+   - move to Sel(2,7)
+
+3. Sel(2,7) = 1 → item x2 is included  
+   - weight = 3
+   - value = 8
+   - move to Sel(1, 7 - 3) = Sel(1,4)
+
+4. Sel(1,4) = 1 → item x1 is included  
+   - weight = 3
+   - value = 14
+   - move to Sel(0, 4 - 3) = Sel(0,1)
+
+**Optimal solution = {x1, x2, x4}**
+**Optimal weight = 3 + 3 + 2 = 8**
+**Optimal value = 14 + 8 + 7 = 29**
+
 ## Slides: Top Down
 
 ### Knapsack(15,4) recursive calls
