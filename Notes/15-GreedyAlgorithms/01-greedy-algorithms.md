@@ -63,4 +63,6 @@ Sorting coins: O(n log n)
 Greedy selection: O(n)
 ```
 
-## Greedy Properties
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/greedyapproach.png" alt="Fractional Knapsack Problem" width="800" />
+</p>
