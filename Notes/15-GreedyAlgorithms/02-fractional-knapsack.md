@@ -71,9 +71,9 @@ Capacity: **W = 14**
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-4-1.png" alt="Part 1" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-4-2.png" alt="Part 1" width="800" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-4-1.png" alt="Part 2" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-4-3.png" alt="Part 2" width="800" />
 </p>
