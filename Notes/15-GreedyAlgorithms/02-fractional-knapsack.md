@@ -23,7 +23,7 @@ Best Case (pre-sorted): O(n)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionknapsackexample.png" alt="Fractional Knapsack Example" width="800" />
 </p>
 
-## Notes: Example
+## Notes: Example 1
 
 Capacity: **W = 14**
 
@@ -41,19 +41,37 @@ Capacity: **W = 14**
 - Pick item 3 (w = 5): remaining = 14 − 5 = 9  (v = 15)
 - Pick item 1 (w = 6): remaining = 9 − 6 = 3  (v = 72)
 - Take fraction of item 2: remaining = 3 - 3 = 0 (v = (90 / 9) × 3 = 30 )
-- **Total value:** 15 + 72 + 30 = 117
+- **Optimal value:** 15 + 72 + 30 = 117
 
 ### ❌ b) Pick highest value item first
 
 - Pick item 2 (w = 9): remaining = 14 − 9 = 5  (v = 90)
 - Take fraction of item 1 (w = 6): remaining = 5 − 5 = 0  (v = (72 / 6) x 5 = 60)
-- **Total value:** 90 + 60 = 150
+- **Optimal value:** 90 + 60 = 150
 
 ### ✅ c) Pick highest value/weight ratio (optimal)
 - Pick item 1 (w = 6): remaining = 14 - 6 = 8 (v = 72)
 - Take fraction of item 2 (w = 9): remaining = 8 - 8 = 0 (v = (90 / 9) x 8 = 80)
-- **Total value:** 72 + 80 = 152
+- **Optimal value:** 72 + 80 = 152
 
+## Quiz: Example 2
+Q) Assume you have a set of items with values and weights as shown in the table below. What is the optimal value you can put into a knapsack with capacity **W = 12**, assuming you are allowed to take fractions of items?
+
+Capacity: **W = 12**
+
+| Item            | x1 | x2 | x3 | x4 | x5 | x6 |
+|-----------------|----|----|----|----|----|----|
+| Value           | 12 | 9  | 3  | 15 | 13 | 5  |
+| Weight          | 6  | 6  | 3  | 1  | 3  | 4  |
+| Value/Weight    | 2  | 1.5| 1  | 15 | 4.33 | 1.25 |
+
+- Pick item 4 (w = 1): remaining = 12 - 1 = 11 (v = 15)
+- Pick item 5 (w = 3): remaining = 11 - 3 = 8 (v = 13)
+- Pick item 1 (w = 6): remaining = 8 - 6 = 2 (v = 12)
+- Take fraction of item 2 (w = 6): remaining = 2 - 2 (v = (9 / 6) x 2 = 3)
+
+**Item Set:** x<sub>4</sub>, x<sub>5</sub>, x<sub>1</sub>, x<sub>2</sub> (2 units) <br>
+**Optimal value:** 15 + 13 + 12 + 3 = 43
 
 ## Notes: Fractional Knapsack Satisfies the Greedy Properties
 
