@@ -55,10 +55,25 @@ Capacity: **W = 14**
 - **Total value:** 72 + 80 = 152
 
 
-## Fractional Knapsack Satisfies the Greedy Properties
+## Notes: Fractional Knapsack Satisfies the Greedy Properties
 
 1. **Candidate Set:** The input of all possible items
 2. **Selection Function:** pick item with max (vᵢ / wᵢ) ratio
 3. **Feasibility Function:** Σ wᵢ xᵢ ≤ W
 4. **Objective Function:** maximize Σ vᵢ xᵢ (xᵢ is the fraction of item `i` that is added to the solution)
 5. **Solution Function:** all items have been entered in the sack OR capacity is reached
+
+
+## Homework: Proof That Greedy Choice is Optimal for Fractional Knapsack
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-4-1.png" alt="Prblem Definition" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-4-1.png" alt="Part 1" width="800" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-4-1.png" alt="Part 2" width="800" />
+</p>
