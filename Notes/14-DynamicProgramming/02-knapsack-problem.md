@@ -247,7 +247,9 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bottomup.png" alt="Bottom Up Example" width="800" />
 </p>
 
-**Val(W, i) = max value for Knapsack(W, {x1, ..., xi}),**
+### 1. Value Table
+
+**Val(W, i) = max value for Knapsack(W, {x1, ..., xi}).**
 
 | wt | val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
 |----|-----|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
@@ -257,3 +259,23 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
 | 9  | 9   | 0 | 0 | 0 | 0 | 5 | 8 | 8 | 8 | 8 | 13| 13 | 13 | 14 | 14 | 17 | 17 |
 
 **Optimal value = 17.**
+
+**Sel(W, i) = 1 if x_i is put in the knapsack, and 0 otherwise**
+
+### 2. Selection Table
+
+| wt | val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+|----|-----|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
+| 7  | 6   | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1  | 1  | 1  | 1  | 1  | 1  |
+| 4  | 5   | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 0  | 1  | 1  | 1  | 1  | 1  |
+| 5  | 8   | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1  | 1  | 1  | 1  | 1  | 1  |
+| 9  | 9   | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0  | 0  | 0  | 0  | 1  | 1  |
+
+- Sel(4,15) = 1 → item 4 included (w4 = 9, v4 = 9)  
+    - move to Sel(3, 15 - 9) = Sel(3,6)
+- Sel(3,6) = 1 → item 3 included (w3 = 5, v3 = 8)  
+    - move to Sel(2, 6 - 5) = Sel(2,1)
+- Sel(2,1) = 0 → item 2 not included  
+- Sel(1,1) = 0 → item 1 not included  
+
+**Optimal selection = {x3, x4}**
