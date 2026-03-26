@@ -1,4 +1,4 @@
-# Fractional Knapsack
+# Knapsack
 
 ## Slides: Knapsack Problem
 <p align="center">
