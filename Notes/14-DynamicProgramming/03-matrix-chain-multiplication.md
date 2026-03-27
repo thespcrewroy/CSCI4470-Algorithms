@@ -103,7 +103,7 @@ Step 2: Multiply A1 × (A2A3)
 
 1. Characterize the structure of the optimal solution
     * A<sub>i</sub> = (p<sub>i-1</sub>)(p<sub>i</sub>) in `<p1, p2, p3, ..., pn>`
-    * A<sub>i...j</sub> = (A<sub>i</sub>)(A<sub>k</sub>)(A<sub>k+1</sub>)(A<sub>k+2</sub>)...(A<sub>j</sub>)
+    * A<sub>i...j</sub> = (A<sub>i</sub>)(A<sub>i+1</sub>)...(A<sub>j</sub>)
     * dim(A<sub>i...j</sub>) = (p<sub>i-1</sub>)(<sub>j</sub>)
 2. Recursively defined m[i,j] as the minimum number of multiplications to compute A<sub>i...j</sub>
     * Assume the outermost parenthesis that splits the expression occurs between  A<sub>k</sub> and  A<sub>k+1</sub> 
