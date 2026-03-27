@@ -97,7 +97,7 @@ TA: Zaki Sukma (zis35724@uga.edu)
 | `ch20` | `Graph Algorithms`                     |
 | `ch21` | `Spanning Trees`                       |
 | `ch22` | `Single Source Shortest Path`          |
-| `ch23` | `All Pair Shortest Path`               |
+| `ch23` | `All-Pairs Shortest Path`              |
 | `ch24` | `Network Flow`                         |
 | `ch34` | `P vs. NP`                             |
 
