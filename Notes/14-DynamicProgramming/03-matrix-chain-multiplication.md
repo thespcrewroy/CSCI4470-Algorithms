@@ -113,14 +113,9 @@ Step 2: Multiply A1 × (A2A3)
     * Consult the table of previously evaluated optimal sequences
     * Each entry in the table is evaluated the same way
 
-### Paranthesizing: Splitting the Term
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/splitting.png" alt="Fractional Knapsack Problem Example" width="800" />
-</p>
-
-### Time Complexity
-
-**T(n) = O(n<sup>3</sup>)**
+```
+Time Complexity: T(n) = O(n^3)
+```
 - Comes from 3 nested loops
 - Each loop runs up to n
 - Total operations ≈ n × n × n = n<sup>3</sup>
