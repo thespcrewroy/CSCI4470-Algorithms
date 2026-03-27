@@ -3,7 +3,7 @@
 | Concept | Divide and Conquer | Dynamic Programming |
 | --- | --- | --- |
 | Subproblems | Independent | Overlapping |
-| Reuse | No reuse | Reuse via memoization |
+| Reuse | No | Yes |
 | Optimal Substructure | Always exists | Must be verified |
 | Example Implication | Smaller problems build up final solution directly | Must compare all possible subproblems for optimal result |
 
