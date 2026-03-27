@@ -27,7 +27,7 @@ shortest path, max flow, min cut), and the basics of NP Completeness Theory from
 <summary>📖 Table of Contents</summary>
 <br />
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#table-of-contents)
 
 ## Table of Contents
 
@@ -44,7 +44,7 @@ shortest path, max flow, min cut), and the basics of NP Completeness Theory from
 - [Attendance](#attendance)
 </details>
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#directory-structure)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#directory-structure)
 
 ## Directory Structure
 ```
@@ -58,14 +58,14 @@ shortest path, max flow, min cut), and the basics of NP Completeness Theory from
 └── roadmap.png
 ```
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#personnel)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#personnel)
 
 ## Personnel
 Professor: Dr. Sachin Meena (meena@uga.edu or sm54730@uga.edu) <br>
 TA: Ilma Shah (is04368@uga.edu)
 TA: Zaki Sukma (zis35724@uga.edu)
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#prerequisites)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#prerequisites)
 
 ## Prerequisites
 * CSCI 2720 (Data Structures) or CSCI 2725 (Data Structures for Data Science)
@@ -75,7 +75,7 @@ TA: Zaki Sukma (zis35724@uga.edu)
     * Paper
     * Laptops
 
- [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#topics)
+ [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#topics)
 
 ## Topics
 |  Chap  |               Topic                    |
@@ -103,7 +103,7 @@ TA: Zaki Sukma (zis35724@uga.edu)
 | `ch24` | `Network Flow`                         |
 | `ch34` | `P vs. NP`                             |
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#grading)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#grading)
 
 ## Grading Weights
 |      Tag     | Weight |
@@ -128,7 +128,7 @@ TA: Zaki Sukma (zis35724@uga.edu)
 | `D`    | `[60, 68)` |
 | `F`    | `[0, 60)`  |
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#late-submission-policy)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#late-submission-policy)
 
 ## Late Submission Policy
 * **There will be no late submission accepted in the course**
@@ -136,14 +136,14 @@ TA: Zaki Sukma (zis35724@uga.edu)
 inform the instructor about their situation as soon as possible. Students falling sick on the last day or
 two before the due date will not be granted any excuse to late the homework.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#regrade-policy)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#regrade-policy)
 
 ## ReGrade Policy
 Any request for grade adjustments or grade appeal to be made to any assignment including exams must
 be made **within 7 days** of when the assignment is returned either in class or via eLC. No grade
 adjustments will be made after 7 days have elapsed.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#extenuating-circumstances)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#extenuating-circumstances)
 
 ## Extenuating Circumstances
 **Makeup tests will NOT be given.** If the midterm exam is missed due to an extreme and verified
@@ -155,7 +155,7 @@ whether to excuse an exam absence or not. If the absence is excused, then the al
 missed exam will be suggested by the instructor. If absence is not excused, then a grade of 0
 will be given.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#attendance)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#attendance)
 
 ## Attendance
 * Will be taken regularly in the class
@@ -168,7 +168,7 @@ will be given.
 * You are not  allowed to sign the attendance sheet and leave the class. If there is a reason to leave the class, then
 make sure to inform the instructor ahead of time.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#footer)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cut.png)](#footer)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/license/mit)
 
