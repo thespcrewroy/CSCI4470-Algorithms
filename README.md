@@ -41,6 +41,7 @@ shortest path, max flow, min cut), and the basics of NP Completeness Theory from
 - [Late Submission Policy](#late-submission-policy)
 - [ReGrade Policy](#regrade-policy)
 - [Extenuating Circumstances](#extenuating-circumstances)
+- [Attendance](#attendance)
 </details>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#directory-structure)
@@ -154,12 +155,12 @@ whether to excuse an exam absence or not. If the absence is excused, then the al
 missed exam will be suggested by the instructor. If absence is not excused, then a grade of 0
 will be given.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#footer)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#attendance)
 
 ## Attendance
 * Will be taken regularly in the class
 * Will constitute 5% of the total grade
-* You can miss 4 classes without losing any attendance points
+* **You can miss 4 classes without losing any attendance points**
 * If you miss more than 40% of class attendance, then you will not get any attendance points
 * Excused absence will only be granted in emergency case and students need to get prior approval from the instructor
 * If you miss a class for medical reasons, then you need to submit a doctor’s note for any kind of approval
