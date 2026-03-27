@@ -102,7 +102,8 @@ Step 2: Multiply A1 × (A2A3)
 | min | Choose the split k that gives the smallest total cost |
 
 1. Characterize the structure of the optimal solution
-    * A<sub>i</sub>
+    * A<sub>i</sub> = (p<sub>i-1</sub>)(p<sub>i</sub>) in `<p1, p2, p3, ..., pn>`
+    * A<sub>i...j</sub> = (A<sub>i</sub>)(A<sub>k</sub>)(A<sub>k+1</sub>)(A<sub>k+2</sub>)...(A<sub>j</sub>)
 
 ### Paranthesizing (splitting the term)
 <p align="center">
