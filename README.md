@@ -57,10 +57,9 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#personnel)
 
 ## Personnel
-Professor: Dr. Sami Menik, PhD <br>
-TA: Triparna <br>
-TA: Braveenan <br>
-
+Professor: Dr. Sachin Meena (meena@uga.edu or sm54730@uga.edu) <br>
+TA: Ilma Shah (is04368@uga.edu)
+TA: Zaki Sukma (zis35724@uga.edu)
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#prerequisites)
 
 ## Prerequisites
