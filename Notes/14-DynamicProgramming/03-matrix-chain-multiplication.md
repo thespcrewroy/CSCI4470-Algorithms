@@ -104,8 +104,9 @@ Step 2: Multiply A1 × (A2A3)
 1. Characterize the structure of the optimal solution
     * A<sub>i</sub> = (p<sub>i-1</sub>)(p<sub>i</sub>) in `<p1, p2, p3, ..., pn>`
     * A<sub>i...j</sub> = (A<sub>i</sub>)(A<sub>k</sub>)(A<sub>k+1</sub>)(A<sub>k+2</sub>)...(A<sub>j</sub>)
+    * dim(A<sub>i...j</sub>) = (p<sub>i - 1</sub>)(<sub>j</sub>)
 
-### Paranthesizing (splitting the term)
+### Paranthesizing: Splitting the Term
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/splitting.png" alt="Fractional Knapsack Problem Example" width="800" />
 </p>
