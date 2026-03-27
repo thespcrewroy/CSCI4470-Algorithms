@@ -223,7 +223,7 @@ You cannot assume:
 
 ```
 Time Complexity: O(nW)
-    * The size of the table is nnW
+    * The size of the table is nW
     * Each entry is computed in O(1) time
     * Thus, runtime is exponential
 Space Complexity: O(nW)
