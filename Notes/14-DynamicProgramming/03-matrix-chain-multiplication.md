@@ -120,10 +120,10 @@ Step 2: Multiply A1 × (A2A3)
 
 ### Time Complexity
 
-**T(n) = O(n^3)**
+**T(n) = O(n<sup>3</sup>)**
 - Comes from 3 nested loops
 - Each loop runs up to n
-- Total operations ≈ n × n × n = n^3
+- Total operations ≈ n × n × n = n<sup>3</sup>
 
 ## Notes: Bruteforce Approach
 
