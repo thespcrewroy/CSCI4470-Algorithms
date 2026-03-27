@@ -81,16 +81,12 @@ Step 2: Multiply A1 × (A2A3)
 
 - Both give the **same resultant multiplication order**
 - But cost is **very different** since parenthesizaation is different.
-- Case 1 is **10× faster**
-- Thus, the order of multiplication significantly affects performance.
+- Case 1 is **10× faster.**
+- Considerable savings can be achieved.
 - Optimization goal: Choose the order that minimizes total scalar multiplications
 
 
 ## Notes: Dynamic Programming Recursive Solution
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/matrixchaintheory.png" alt="Matrix Chain Theory" width="800" />
-</p>
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursivematrixchain.png" alt="Recursive Formula" width="800" />
@@ -104,6 +100,9 @@ Step 2: Multiply A1 × (A2A3)
 | cost(A_{k+1} ... A_j) | Optimal cost of multiplying the right subchain |
 | p_{i-1} p_k p_j | Cost of multiplying the two resulting matrices |
 | min | Choose the split k that gives the smallest total cost |
+
+1. Characterize the structure of the optimal solution
+    * A<sub>i</sub>
 
 ### Paranthesizing (splitting the term)
 <p align="center">

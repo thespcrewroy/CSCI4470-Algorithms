@@ -109,9 +109,9 @@ You cannot assume:
 
 * Case 1: If an item is too heavy (w<sub>i</sub> > W)
     * Ignore it (Val(W, i) = Val(W, i - 1))
-* Case 2: If an item fits (w<sub>i</sub> &le; W), determine if it is optimal to add it or ignore it at each weight value (`max`)
-    * Ignore the current item, and take the best value from the previous subproblem solution within that weight capacity (Val(W, i) = Val(W, i - 1))
-    * Include the previous item(s) and add its value to the value of current item within that weight capacity (Val(w - w<sub>i</sub>, i - 1) + v<sub>i</sub>)
+* Case 2: If an item fits (w<sub>i</sub> &le; W), determine if it is optimal to add it or ignore it at each capacity (`max`)
+    * Ignore the current item (Val(W, i) = Val(W, i - 1))
+    * Add the current item to the subset of items within that weight capacity (Val(w - w<sub>i</sub>, i - 1) + v<sub>i</sub>)
 
 ## Tutorial: Bottom Up Approach
 <p align="center">
