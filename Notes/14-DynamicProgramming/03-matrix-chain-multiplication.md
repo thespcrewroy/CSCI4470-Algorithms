@@ -116,6 +116,7 @@ Step 2: Multiply A1 × (A2A3)
 ```
 Time Complexity: T(n) = O(n^3)
 ```
+
 - Comes from 3 nested loops
 - Each loop runs up to n
 - Total operations ≈ n × n × n = n<sup>3</sup>
