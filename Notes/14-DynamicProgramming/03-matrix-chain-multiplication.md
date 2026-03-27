@@ -104,7 +104,14 @@ Step 2: Multiply A1 × (A2A3)
 1. Characterize the structure of the optimal solution
     * A<sub>i</sub> = (p<sub>i-1</sub>)(p<sub>i</sub>) in `<p1, p2, p3, ..., pn>`
     * A<sub>i...j</sub> = (A<sub>i</sub>)(A<sub>k</sub>)(A<sub>k+1</sub>)(A<sub>k+2</sub>)...(A<sub>j</sub>)
-    * dim(A<sub>i...j</sub>) = (p<sub>i - 1</sub>)(<sub>j</sub>)
+    * dim(A<sub>i...j</sub>) = (p<sub>i-1</sub>)(<sub>j</sub>)
+2. Recursively defined m[i,j] as the minimum number of multiplications to compute A<sub>i...j</sub>
+    * Assume the outermost parentheses occur between  A<sub>k</sub> and  A<sub>k+1</sub> 
+    * k = parenthesis placement that goes over the range from `i` to `j - 1`
+    * (A<sub>i...k</sub>)(A<sub>k+1 ... j</sub>) takes (p<sub>i-1</sub>)(p<sub>k</sub>)(p<sub>j</sub>) multiplication
+3. Find the optimal parenthesizing for A<sub>1...k</sub> and A<sub>k+1 ... n</sub>
+    * Consult the table of previously evaluated optimal sequences
+    * Each entry in the table is evaluated the same way
 
 ### Paranthesizing: Splitting the Term
 <p align="center">
