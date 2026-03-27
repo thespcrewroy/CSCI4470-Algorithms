@@ -48,6 +48,12 @@ Decision variable:
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursiveknapsack.png" alt="Recursive Knapsack Example" width="800" />
 </p>
 
+* Case 1: If an item is too heavy (w<sub>i</sub> > W)
+    * Ignore it (Val(W, i) = Val(W, i - 1))
+* Case 2: If an item fits (w<sub>i</sub> &le; W)
+    * Skip it because it is not optimal to add it (Val(W, i) = Val(W, i - 1))
+    * Cmbine it with the best possible earlier items (Val(w - w<sub>i</sun>, i - 1) + v<sub>i</sub>)
+
 ## Slides: Bruteforce Appraoch
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsackbruteforce.png" alt="Knapsack BurteforceExample" width="800" />
