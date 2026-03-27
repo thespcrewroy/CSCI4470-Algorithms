@@ -221,15 +221,17 @@ You cannot assume:
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bottomup.png" alt="Bottom Up Example" width="800" />
 </p>
 
-**Time Complexity: O(nW)** <br>
-**Space Complexity: O(nW)** <br> <br>
+```
+Time Complexity: O(nW)
+Space Complexity: O(nW)
+```
 
 **Find solutions to small subproblems and progressively build up solutions to larger subproblems because maller subproblems have fewer items to choose from or smaller knapsack weight capacity.**
 
 
 ### 1. Cost Table
 
-**Val(W, i) = max value for Knapsack(W, {x1, ..., xi}).**
+**Val(W, i) = max value for Knapsack(W, {x<sub>1</sub>, ..., x<sub>i</sub>}).**
 
 | Wt | Val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
 |----|-----|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
@@ -258,7 +260,7 @@ You cannot assume:
 - Sel(2,1) = 0 → item 2 not included  
 - Sel(1,1) = 0 → item 1 not included  
 
-**Optimal selection = {x3, x4}**
+**Optimal selection = {x<sub>3</sub>, x<sub>4</sub>}**
 
 ## Quiz: Derive Value From Selection Table
 
