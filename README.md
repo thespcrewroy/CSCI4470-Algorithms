@@ -5,8 +5,10 @@
 <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-red.svg" height="20"/></a>
 
 <p align="center">
-<a href="https://github.com/thespcrewroy/CSCI4470-Algorithms/graphs/forks"><img alt="Forks" src="https://img.shields.io/github/forks/thespcrewroy/CSCI-4370.svg" height="20"/></a>
-<a href="https://github.com/thespcrewroy/CSCI4470-Algorithms/graphs/stars"><img alt="Stars" src="https://img.shields.io/github/stars/thespcrewroy/CSCI-4370.svg" height="20"/></a>
+<a href="https://github.com/thespcrewroy/CSCI4470-Algorithms/graphs/forks"><img alt="Forks" src="https://img.shields.io/github/forks/thespcrewroy/CSCI4470-Algorithms
+.svg" height="20"/></a>
+<a href="https://github.com/thespcrewroy/CSCI4470-Algorithms/graphs/stars"><img alt="Stars" src="https://img.shields.io/github/stars/thespcrewroy/CSCI4470-Algorithms
+.svg" height="20"/></a>
 
 </p>
 
