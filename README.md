@@ -45,18 +45,11 @@
 ## Directory Structure
 ```
 .
-.
-├── Activities
-│   ├── 03-RelationalAlgebra.md
-│   └── 04-SQL.md
-├── LICENSE
+├── Leetcode
 ├── Notes
-│   ├── 01-DBMSIntro
-│   ├── 03-IntroductionToSQL
-│   ├── 04-ERModeling
-├── Personal Projects
-├── Projects
-│   └── 01-RelationalAlgebra
+│   ├── 14-DynamicProgramming
+│   ├── 15-GreedyAlgorithms
+│   └── assets
 ├── README.md
 └── roadmap.png
 ```
