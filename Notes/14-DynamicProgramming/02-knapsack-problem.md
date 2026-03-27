@@ -52,7 +52,7 @@ Decision variable:
     * Ignore it (Val(W, i) = Val(W, i - 1))
 * Case 2: If an item fits (w<sub>i</sub> &le; W)
     * Skip it because it is not optimal to add it (Val(W, i) = Val(W, i - 1))
-    * Cmbine it with the best possible earlier items (Val(w - w<sub>i</sun>, i - 1) + v<sub>i</sub>)
+    * Combine it with the best possible earlier items (Val(w - w<sub>i</sub>, i - 1) + v<sub>i</sub> )
 
 ## Slides: Bruteforce Appraoch
 <p align="center">
