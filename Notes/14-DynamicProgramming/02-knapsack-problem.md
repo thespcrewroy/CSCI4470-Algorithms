@@ -222,7 +222,9 @@ You cannot assume:
 </p>
 
 **Time Complexity: O(nW)** <br>
-**Space Complexity: O(nW)**
+**Space Complexity: O(nW)** <br> <br>
+
+**Find solutions to small subproblems and progressively build up solutions to larger subproblems because maller subproblems have fewer items to choose from or smaller knapsack weight capacity.**
 
 
 ### 1. Cost Table
