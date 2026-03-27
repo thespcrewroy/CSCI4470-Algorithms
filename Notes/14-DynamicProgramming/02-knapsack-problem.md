@@ -40,20 +40,6 @@ Decision variable:
 - x<sub>i</sub> = 1 if the i-th item is selected
 - x<sub>i</sub> = 0 otherwise
 
-## Notes: Dynamic Programming Recursive Solution
-
-**Let Val(W,i) be the max value achievable using items {x<sub>i</sub> | 1 ≤ i ≤ n} and knapsack capacity W.**
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursiveknapsack.png" alt="Recursive Knapsack Example" width="800" />
-</p>
-
-* Case 1: If an item is too heavy (w<sub>i</sub> > W)
-    * Ignore it (Val(W, i) = Val(W, i - 1))
-* Case 2: If an item fits (w<sub>i</sub> &le; W)
-    * Skip it because it is not optimal to add it (Val(W, i) = Val(W, i - 1))
-    * Combine it with the best possible earlier items (Val(w - w<sub>i</sub>, i - 1) + v<sub>i</sub> )
-
 ## Slides: Bruteforce Appraoch
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsackbruteforce.png" alt="Knapsack BurteforceExample" width="800" />
@@ -113,6 +99,19 @@ You cannot assume:
 
 - The best solution for a smaller capacity will always help build the best solution for a larger capacity.
 
+## Notes: Dynamic Programming Recursive Solution
+
+**Let Val(W,i) be the max value achievable using items {x<sub>i</sub> | 1 ≤ i ≤ n} and knapsack capacity W.**
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursiveknapsack.png" alt="Recursive Knapsack Example" width="800" />
+</p>
+
+* Case 1: If an item is too heavy (w<sub>i</sub> > W)
+    * Ignore it (Val(W, i) = Val(W, i - 1))
+* Case 2: If an item fits (w<sub>i</sub> &le; W), determine if it is optimal to add it or ignore it at each weight value (`max`)
+    * Ignore the current item, and take the best value from the previous subproblem solution within that weight capacity (Val(W, i) = Val(W, i - 1))
+    * Include the previous item(s) and add its value to the value of current item within that weight capacity (Val(w - w<sub>i</sub>, i - 1) + v<sub>i</sub>)
 
 ## Tutorial: Bottom Up Approach
 <p align="center">
@@ -124,39 +123,30 @@ You cannot assume:
 </p>
 
 - First item: figure out all the best possible values for each capacity.
-- Second item: reuse information about the optimal solution for the first-item to determine the optimal solution for the next item
-- Complete other items by repeating and expanding the same process.
+- Second item: reuse information about the optimal solution for the first-item to determine the optimal solution for the next item.
+- Future items: repeat and expanding the same process as the second item.
 
-### For Each Cell
+### Table Without Redundant '0' Item Consideration
 
 | Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |------------------|---|---|---|---|---|---|---|---|
-| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | v1=2, w1=3 (1)   |   |   |   |   |   |   |   |   |
 | v2=2, w2=1 (2)   |   |   |   |   |   |   |   |   |
 | v3=4, w3=3 (3)   |   |   |   |   |   |   |   |   |
 | v4=5, w4=4 (4)   |   |   |   |   |   |   |   |   |
 | v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
 
-- Shorter Arrow (select 0): not including the current item, but instead taking the best value from before within that capacity.
-  - v<sub>i</sub> of W<sub>j</sub> = v<sub>(i - 1)</sub> of W<sub>j</sub>
-- Longer Arrow (select 1): include the previous item and add its value to the value of current item.
-  - v<sub>i</sub> of W<sub>j</sub> = [v<sub>(i - 1)</sub> of W<sub>(j - w_i)</sub>] + v<sub>i</sub>
-
-- If w<sub>i</sub> < W<sub>i</sub>: use the shorter arrow.
-- If w<sub>i</sub> ≥ W<sub>i</sub>: compare the shorter and longer arrow, and use the one that is larger.
+- Shorter Arrow (select 0)
+- Longer Arrow (select 1)
 
 ### Item 1
-| Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|------------------|---|---|---|---|---|---|---|---|
-| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| v1=2, w1=3 (1)   | 0 | 0 | 0 | 2 | 2 | 2 | 2 | 2 |
-| v2=2, w2=1 (2)   |   |   |   |   |   |   |   |   |
-| v3=4, w3=3 (3)   |   |   |   |   |   |   |   |   |
-| v4=5, w4=4 (4)   |   |   |   |   |   |   |   |   |
-| v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
-
-Item 1: [v<sub>1</sub> = 2, w<sub>1</sub> = 3]
+|  Wt | Val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|-----|-----|---|---|---|---|---|---|---|---|
+|  3  |  2  | 0 | 0 | 0 | 2 | 2 | 2 | 2 | 2 |
+|  1  |  2  |   |   |   |   |   |   |   |   |
+|  3  |  4  |   |   |   |   |   |   |   |   |
+|  4  |  5  |   |   |   |   |   |   |   |   |
+|  2  |  3  |   |   |   |   |   |   |   |   |
 
 - (1,0) → {w<sub>1</sub> = 3 > 0} → best solution: 0
   - Short Arrow: (0,0) = 0
@@ -180,49 +170,26 @@ Item 1: [v<sub>1</sub> = 2, w<sub>1</sub> = 3]
   - Short Arrow: (0,7) = 0
   - Long Arrow: (0,4) = 0 + 2 = 2
 
-### Item 2
+### Final Cost Table
 
-| Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|------------------|---|---|---|---|---|---|---|---|
-| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| v1=2, w1=3 (1)   | 0 | 0 | 0 | 2 | 2 | 2 | 2 | 2 |
-| v2=2, w2=1 (2)   | 0 | 2 | 2 | 2 | 4 | 4 | 4 | 4 |
-| v3=4, w3=3 (3)   |   |   |   |   |   |   |   |   |
-| v4=5, w4=4 (4)   |   |   |   |   |   |   |   |   |
-| v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
+|  Wt | Val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|-----|-----|---|---|---|---|---|---|---|---|
+|  3  |  2  | 0 | 0 | 0 | 2 | 2 | 2 | 2 | 2 |
+|  1  |  2  | 0 | 2 | 2 | 2 | 4 | 4 | 4 | 4 |
+|  3  |  4  | 0 | 2 | 2 | 4 | 6 | 6 | 6 | 8 |
+|  4  |  5  | 0 | 2 | 2 | 4 | 6 | 7 | 7 | 9 |
+|  2  |  3  | 0 | 2 | 3 | 5 | 6 | 7 | 9 | 10 |
 
-Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
+### Selection Table
 
-### Item 3
-| Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|------------------|---|---|---|---|---|---|---|---|
-| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| v1=2, w1=3 (1)   | 0 | 0 | 0 | 2 | 2 | 2 | 2 | 2 |
-| v2=2, w2=1 (2)   | 0 | 2 | 2 | 2 | 4 | 4 | 4 | 4 |
-| v3=4, w3=3 (3)   | 0 | 2 | 2 | 4 | 6 | 6 | 6 | 8 |
-| v4=5, w4=4 (4)   |   |   |   |   |   |   |   |   |
-| v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
+|  Wt | Val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|-----|-----|---|---|---|---|---|---|---|---|
+|  3  |  2  | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 |
+|  1  |  2  | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+|  3  |  4  | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 |
+|  4  |  5  | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+|  2  |  3  | 0 | 0 | 1 | 1 | 0 | 1 | 1 | 1 |
 
-### Item 4
-| Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|------------------|---|---|---|---|---|---|---|---|
-| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| v1=2, w1=3 (1)   | 0 | 0 | 0 | 2 | 2 | 2 | 2 | 2 |
-| v2=2, w2=1 (2)   | 0 | 2 | 2 | 2 | 4 | 4 | 4 | 4 |
-| v3=4, w3=3 (3)   | 0 | 2 | 2 | 4 | 6 | 6 | 6 | 8 |
-| v4=5, w4=4 (4)   | 0 | 2 | 2 | 4 | 6 | 7 | 7 | 9 |
-| v5=3, w5=2 (5)   |   |   |   |   |   |   |   |   |
-
-### Item 5
-
-| Items / Capacity | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-|------------------|---|---|---|---|---|---|---|---|
-| Empty (0)        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| v1=2, w1=3 (1)   | 0 | 0 | 0 | 2 | 2 | 2 | 2 | 2 |
-| v2=2, w2=1 (2)   | 0 | 2 | 2 | 2 | 4 | 4 | 4 | 4 |
-| v3=4, w3=3 (3)   | 0 | 2 | 2 | 4 | 6 | 6 | 6 | 8 |
-| v4=5, w4=4 (4)   | 0 | 2 | 2 | 4 | 6 | 7 | 7 | 9 |
-| v5=3, w5=2 (5)   | 0 | 2 | 3 | 5 | 6 | 7 | 9 | 10 |
 
 ### Best Value
 
@@ -258,11 +225,11 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
 **Space Complexity: O(nW)**
 
 
-### 1. Value Table
+### 1. Cost Table
 
 **Val(W, i) = max value for Knapsack(W, {x1, ..., xi}).**
 
-| wt | val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+| Wt | Val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
 |----|-----|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
 | 7  | 6   | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 | 6 | 6 | 6  | 6  | 6  | 6  | 6  | 6  |
 | 4  | 5   | 0 | 0 | 0 | 0 | 5 | 5 | 5 | 6 | 6 | 6 | 6  | 11 | 11 | 11 | 11 | 11 |
@@ -275,7 +242,7 @@ Item 2: [v<sub>2</sub> = 2, w<sub>2</sub> = 1]
 
 **Sel(W, i) = 1 if x_i is put in the knapsack, and 0 otherwise**
 
-| wt | val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
+| Wt | Val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
 |----|-----|---|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|
 | 7  | 6   | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1  | 1  | 1  | 1  | 1  | 1  |
 | 4  | 5   | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 0 | 0 | 0 | 0  | 1  | 1  | 1  | 1  | 1  |
@@ -297,12 +264,12 @@ The table below is a selection table for the knapsack problem. What is the optim
 
 ### Selection Table
 
-| Item | wt | Val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-|------|----|-----|---|---|---|---|---|---|---|---|---|---|
-| x1   | 3  | 14  | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| x2   | 3  | 8   | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
-| x3   | 2  | 6   | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 1 |
-| x4   | 2  | 7   | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 1 | 1 | 1 |
+| Wt | Val | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|----|-----|---|---|---|---|---|---|---|---|---|---|
+| 3  | 14  | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| 3  | 8   | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
+| 2  | 6   | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 1 |
+| 2  | 7   | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 1 | 1 | 1 |
 
 1. Sel(4,9) = 1 → item x4 is included  
    - weight = 2
