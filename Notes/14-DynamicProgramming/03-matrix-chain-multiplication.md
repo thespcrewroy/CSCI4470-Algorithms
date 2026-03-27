@@ -102,7 +102,7 @@ Step 2: Multiply A1 × (A2A3)
 | min | Choose the split k that gives the smallest total cost |
 
 1. Characterize the structure of the optimal solution
-    * A<sub>i</sub> takes (p<sub>i-1</sub>)(p<sub>i</sub>) multiplications
+    * A<sub>i</sub> takes (p<sub>i-1</sub>)(p<sub>j</sub>) multiplications
     * A<sub>i...j</sub> = (A<sub>i</sub>)(A<sub>i+1</sub>)...(A<sub>j</sub>)
     * dim(A<sub>i...j</sub>) = (p<sub>i-1</sub>)(<sub>j</sub>)
 2. Recursively defined m[i,j] as the minimum number of multiplications to compute A<sub>i...j</sub>
