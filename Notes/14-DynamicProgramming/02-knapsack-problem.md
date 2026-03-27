@@ -223,7 +223,11 @@ You cannot assume:
 
 ```
 Time Complexity: O(nW)
+    * The size of the table is nnW
+    * Each entry is computed in O(1) time
+    * Thus, runtime is exponential
 Space Complexity: O(nW)
+    * The size of the table is nnW
 ```
 
 **Find solutions to small subproblems and progressively build up solutions to larger subproblems because maller subproblems have fewer items to choose from or smaller knapsack weight capacity.**
