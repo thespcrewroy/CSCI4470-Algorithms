@@ -72,6 +72,7 @@ TA: Zaki Sukma (zis35724@uga.edu)
 * Materials:
     * Pen
     * Paper
+    * Laptops
 
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#topics)
 
@@ -106,55 +107,65 @@ TA: Zaki Sukma (zis35724@uga.edu)
 ## Grading Weights
 |      Tag     | Weight |
 | -------------| ------ |
-| `Activities` | `14%`  |
-| `Projects`   | `30%`  |
-| `Exam 1`     | `14%`  |
-| `Exam 2`     | `14%`  |
-| `Exam 3`     | `14%`  |
+| `Final`      | `25%`  |
+| `Midterm`    | `25%`  |
+| `Quiz`       | `25%`  |
+| `Homework`   | `20%`  |
+| `Attendance` | `5%`   |
 
 ## Letter Grade Breakdown
 | Letter |   Score    |
 | ------ | ---------- |
 | `A`    | `[93, ∞)`  |
 | `A-`   | `[90, 93)` |
-| `B+`   | `[87, 90)` |
-| `B`    | `[83, 87)` |
-| `B-`   | `[80, 83)` |
-| `C+`   | `[77, 80)` |
-| `C`    | `[73, 77)` |
-| `C-`   | `[70, 73)` |
-| `D`    | `[60, 70)` |
+| `B+`   | `[86, 90)` |
+| `B`    | `[82, 86)` |
+| `B-`   | `[78, 82)` |
+| `C+`   | `[74, 78)` |
+| `C`    | `[71, 74)` |
+| `C-`   | `[68, 71)` |
+| `D`    | `[60, 68)` |
 | `F`    | `[0, 60)`  |
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#late-submission-policy)
 
 ## Late Submission Policy
-|     Category     |   Points After Penalty    |
-| ---------------  | ------------------------- |
-| `<= 24hrs`       | `pointsEarned - 10`       |
-| `24hrs to 48hrs` | `pointsEarned - 20`       |
-| `>= 48hrs`       | `0`                       |
+* **There will be no late submission accepted in the course**
+* In case of prolonged illness or emergency (more than 4 days before the due date) students should contact and
+inform the instructor about their situation as soon as possible. Students falling sick on the last day or
+two before the due date will not be granted any excuse to late the homework.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#regrade-policy)
 
 ## ReGrade Policy
-
-Please send an email using your official UGA email account including the instructor and all
-TA(s), if you think there is a mistake in a grade you received. Please use a descriptive subject
-that begins with `[4370][grading issue]` for undergraduates and `[6370][grading issue]` for
-graduates without quotes followed by the name of the assignment and include a brief but
-specific description about the grading issue in your email.
+Any request for grade adjustments or grade appeal to be made to any assignment including exams must
+be made **within 7 days** of when the assignment is returned either in class or via eLC. No grade
+adjustments will be made after 7 days have elapsed.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#extenuating-circumstances)
 
 ## Extenuating Circumstances
-Retakes are not allowed for any assignment or exam. Accommodations such as due date
-extensions, exemptions or make-up exams will not be considered without a written request
-sent to the instructor using your official UGA email account with a descriptive subject that
-begins with `[4370][extenuating circumstance]` for undergraduates and `[6370][extenuating
-circumstance]` for graduates without quotes within 48 hours of the event with substantial proof
-for an extenuating circumstance such as a serious medical injury, bereavement, trauma or
-mandatory court attendance.
+**Makeup tests will NOT be given.** If the midterm exam is missed due to an extreme and verified
+emergency, then it might be excused by the instructor. To be considered for an excused exam
+absence, students must bring detailed documentation explaining the circumstances to the
+instructor during office hours no more than 7 days after an exam is missed. Students must leave
+a copy of their documentation with the instructor. The instructor has full authority to decide
+whether to excuse an exam absence or not. If the absence is excused, then the alternative for the
+missed exam will be suggested by the instructor. If absence is not excused, then a grade of 0
+will be given.
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#footer)
+
+## Attendance
+* Will be taken regularly in the class
+* Will constitute 5% of the total grade
+* You can miss 4 classes without losing any attendance points
+* If you miss more than 40% of class attendance, then you will not get any attendance points
+* Excused absence will only be granted in emergency case and students need to get prior approval from the instructor
+* If you miss a class for medical reasons, then you need to submit a doctor’s note for any kind of approval
+* You cannot come to a class more than 10 minutes late
+* You are not  allowed to sign the attendance sheet and leave the class. If there is a reason to leave the class, then
+make sure to inform the instructor ahead of time.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#footer)
 
