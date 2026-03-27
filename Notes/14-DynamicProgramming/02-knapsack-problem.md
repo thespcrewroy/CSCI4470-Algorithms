@@ -42,7 +42,7 @@ Decision variable:
 
 ## Notes: Dynamic Programming Recursive Solution
 
-**Let Val(W,i) be the max value achievable using items {xi | 1 ≤ i ≤ n} and knapsack capacity W.**
+**Let Val(W,i) be the max value achievable using items {x<sub>i</sub> | 1 ≤ i ≤ n} and knapsack capacity W.**
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/recursiveknapsack.png" alt="Recursive Knapsack Example" width="800" />
