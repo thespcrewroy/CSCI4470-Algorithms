@@ -11,7 +11,10 @@
 </p>
 
 <p align="center">
-  <b>CSCI 4370 offers an introduction to database design and the utilization of database management systems in applications. The course also provides an introduction to inner workings of database management systems. Based on <i>Database System Concepts, Seventh Edition, By Avi Silberschatz, Henry F. Korth and S. Sudarshan (2019)</i>.<sub></b>
+  <b>This course covers basic analysis (Big O, small O, Big Ω, small ω notations), basic design techniques
+(divide and conquer, dynamic programming, greedy algorithms), graph algorithms (BFS, DFS, MST,
+shortest path, max flow, min cut), and the basics of NP Completeness Theory from the text
+    <i>Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein, 4th edition</i>.<sub></b>
 </p>
 
 <br />
@@ -60,16 +63,13 @@
 Professor: Dr. Sachin Meena (meena@uga.edu or sm54730@uga.edu) <br>
 TA: Ilma Shah (is04368@uga.edu)
 TA: Zaki Sukma (zis35724@uga.edu)
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#prerequisites)
 
 ## Prerequisites
 * CSCI 2720 (Data Structures) or CSCI 2725 (Data Structures for Data Science)
+* CSCI 2670 (Theory of Computation)
 * Materials:
-    * Java (JDK 21 LTS) programming language
-    * MySQL 8 database management system
-    * Docker
-    * Unix-Based Computer is preffered (macOS, linux, etc.)
-    * Internet Connection
     * Pen
     * Paper
 
@@ -78,21 +78,28 @@ TA: Zaki Sukma (zis35724@uga.edu)
 ## Topics
 |  Chap  |               Topic                    |
 | -------| -------------------------------------- |
-| `ch01` | `Introduction`                         |
-| `ch02` | `Introduction to the Relational Model` |
-| `ch03` | `Intermediate SQL`                     |
-| `ch04` | `Introduction to the Relational Model` |
-| `ch06` | `Database Design Using The E-R Model`  |
-| `ch07` | `Relational Database Design`           |
-| `ch09` | `Application Development`              |
-| `ch10` | `Big Data`                             |
-| `ch11` | `Data Analysis`                        |
-| `ch12` | `Physical Storage Systems`             |
-| `ch13` | `Data Storage Structures`              |
-| `ch14` | `Indexing`                             |
-| `ch15` | `Query Processing`                     |
-| `ch16` | `Query Optimization`                   |
-| `ch17` | `Transactions`                         |
+| `ch01` | `Sorting Algorithms`                   |
+| `ch02` | `Insertion Sort`                       |
+| `ch03` | `Asymptotic Analysis`                  |
+| `ch04` | `Recurrence Relations`                 |
+| `ch05` | `Statistics and Probability`           |
+| `ch06` | `Heaps and Priority Queues`            |
+| `ch07` | `Quick Sort`                           |
+| `ch08` | `Linear Time Sorting`                  |
+| `ch09` | `Medians and Order Statistics`         |
+| `ch10` | `Elementary Data Structures`           |
+| `ch11` | `Hash Tables`                          |
+| `ch12` | `Binary Search Trees`                  |
+| `ch13` | `AVL & Red-Black Trees`                |
+| `ch14` | `Dynamic Programming`                  |
+| `ch15` | `Greedy Algorithms`                    |
+| `ch19` | `Disjoint Sets`                        |
+| `ch20` | `Graph Algorithms`                     |
+| `ch21` | `Spanning Trees`                       |
+| `ch22` | `Single Source Shortest Path`          |
+| `ch23` | `All Pair Shortest Path`               |
+| `ch24` | `Network Flow`                         |
+| `ch34` | `P vs. NP`                             |
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#grading)
 
