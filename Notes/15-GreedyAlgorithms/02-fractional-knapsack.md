@@ -70,7 +70,7 @@ Capacity: **W = 12**
 - Pick item 1 (w = 6): remaining = 8 - 6 = 2 (v = 12)
 - Take fraction of item 2 (w = 6): remaining = 2 - 2 (v = (9 / 6) x 2 = 3)
 
-**Item Set:** x<sub>4</sub>, x<sub>5</sub>, x<sub>1</sub>, x<sub>2</sub> (2 units) <br>
+**Item Set:** x<sub>4</sub>, x<sub>5</sub>, x<sub>1</sub>, x<sub>2</sub> <br>
 **Optimal value:** 15 + 13 + 12 + 3 = 43
 
 ## Notes: Fractional Knapsack Satisfies the Greedy Properties
