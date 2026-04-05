@@ -179,6 +179,8 @@ Inverse Assumption:
   t<sub>a</sub> - t<sub>b</sub> &gt; 0
 </p>
 
+Thus:
+
 <p>
   (b - a)(t<sub>a</sub> - t<sub>b</sub>) &gt; 0
 </p>
