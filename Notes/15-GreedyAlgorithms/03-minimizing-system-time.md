@@ -2,7 +2,7 @@
 
 ## Fractional Knapsack Problem
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minimizingtime.png" alt="Fractional Knapsack Problem" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minimizingtime.png" alt="Greedy Scheduling Problem" width="800" />
 </p>
 
 ```
@@ -13,7 +13,7 @@ Scheduling after sorting: O(n)
 
 ## Slides: Example
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minimizingtimeexample1.png" alt="Fractional Knapsack Problem" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minimizingtimeexample1.png" alt="Example of Greedy Scheduling" width="800" />
 </p>
 
 ## Notes: Greedy Strategy
@@ -47,7 +47,7 @@ This is the same idea as shortest processing time first.
 
 ## Homework: Greedy Scheduling with Waiting Penalties
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-6.png" alt="Fractional Knapsack Problem" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-6.png" alt="Greedy Scheduling with Penalties" width="800" />
 </p>
 
 ## Notes: Proof of Optimality (BWOC)
