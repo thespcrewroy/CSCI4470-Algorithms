@@ -1,4 +1,4 @@
-# Complete Tree
+# Complete Graph
 
 ## Notes: Number of Edges Calculation
 
