@@ -11,7 +11,7 @@
 ## Notes: Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/unidirected2.png" alt="Undirected Graph Example 2" height="300" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/unidirected2.png" alt="Undirected Graph Example 2" height="500" width="500" />
 </p>
 
 **V = {a, b, c, d}** <br>
