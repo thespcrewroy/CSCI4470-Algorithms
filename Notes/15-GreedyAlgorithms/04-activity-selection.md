@@ -35,10 +35,7 @@ Greedy Selection Rule: Select the activity that has the **earliest finish time.*
 
 ### Step 2: Greedy Selection Process
 
-- Pick first activity: a<sub>2</sub> (finishes at 4)
-
-Now check compatibility:
-
+- Greedy Select: Pick first activity: a<sub>2</sub> (finishes at 4)
 - a<sub>4</sub>: starts at 2 ❌ (overlaps with 4)
 - a<sub>3</sub>: starts at 4 ✅ (compatible)
 - a<sub>1</sub>: starts at 6 ✅ (but we already pick earlier compatible one first)
