@@ -49,6 +49,8 @@ Assume each customer has a service time:
   t<sub>1</sub>, t<sub>2</sub>, ..., t<sub>n</sub>
 </p>
 
+### Objective Function
+
 The objective function is:
 
 <p>
@@ -70,17 +72,13 @@ So the intended order is:
   t<sub>1</sub> &le; t<sub>2</sub> &le; ... &le; t<sub>n</sub>
 </p>
 
----
 
-## Goal of the Proof
+### Proof By Contradiction
 
-We want to prove that serving customers in sorted order by smallest service time first is **optimal**.
+We want to prove that serving customers in sorted order by smallest service time first is **optimal**. We use a **proof by contradiction**.
 
-We use a **proof by contradiction**.
 
----
-
-## Step 1: Assume an Optimal Solution That Is Not Sorted
+### Step 1: Assume an Optimal Solution That Is Not Sorted
 
 Assume there exists an optimal solution that is **not** sorted.
 
@@ -98,9 +96,7 @@ but the service times are out of order:
 
 So even though customer <b>a</b> comes before customer <b>b</b>, it has a larger service time.
 
----
-
-## Step 2: Define the Two Solutions
+### Step 2: Define the Two Solutions
 
 Let:
 
