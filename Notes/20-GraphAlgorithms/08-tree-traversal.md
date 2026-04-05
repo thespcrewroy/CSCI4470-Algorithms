@@ -1,7 +1,7 @@
 # Tree Traversal Algorithms
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/treetraversal.png" alt="Weighted Graph Example" height=500" width="700" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/treetraversal.png" alt="Weighted Graph Example" height=500" width="900" />
 </p>
 
 ## Notes: Inorder
