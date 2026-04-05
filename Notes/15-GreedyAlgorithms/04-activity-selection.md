@@ -52,7 +52,7 @@ a2 → a3
 
 We want to prove that the greedy choice is optimal: <b>Select the activity with the earliest finish time</b>
 
-## Theorem 15.1
+### Theorem 15.1
 
 Consider any non-empty subproblem <b>S<sub>k</sub></b>.
 
