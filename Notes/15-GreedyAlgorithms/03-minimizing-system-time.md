@@ -5,6 +5,12 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minimizingtime.png" alt="Fractional Knapsack Problem" width="800" />
 </p>
 
+```
+Average Case: O(n log n)
+Sorting: O(nlog(n))
+Scheduling after sorting: O(n)
+```
+
 ## Slides: Example
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minimizingtimeexample1.png" alt="Fractional Knapsack Problem" width="800" />
@@ -152,7 +158,7 @@ For <b>S<sub>2</sub></b>, after swapping:
   Obj<sub>old</sub> - Obj<sub>new</sub> = (b - a)(t<sub>a</sub> - t<sub>b</sub>)
 </p>
 
-### Step 6: Reach the Contradiction
+### Step 5: Reach the Contradiction
 
 But this is impossible.
 
@@ -166,9 +172,7 @@ Yet after swapping the out-of-order pair, we found a new solution <b>S<sub>2</su
 
 This contradicts the assumption that <b>S<sub>1</sub></b> was optimal.
 
----
-
-## Final Conclusion
+### Final Conclusion
 
 Therefore, an optimal solution cannot contain an out-of-order pair.
 
@@ -178,13 +182,7 @@ So the optimal ordering must be sorted:
   t<sub>1</sub> &le; t<sub>2</sub> &le; ... &le; t<sub>n</sub>
 </p>
 
-That proves the greedy rule:
-
-- Always select the customer/job with the **smallest service time** first
-
----
-
-## Why This Works
+That proves the greedy rule: Always select the customer/job with the **smallest service time** first
 
 Earlier positions in the schedule get multiplied by larger coefficients:
 
@@ -195,38 +193,3 @@ Earlier positions in the schedule get multiplied by larger coefficients:
 So putting a large service time early increases the total time in the system more than putting it later.
 
 That is why sorting by smallest service time first minimizes the objective function.
-
----
-
-## Takeaway
-
-- Objective:
-  <p>
-    min &Sigma;<sub>i=1</sub><sup>n</sup> (n - i + 1)t<sub>i</sub>
-  </p>
-
-- Greedy choice:
-  serve jobs in increasing order of service time
-
-- Proof idea:
-  if an optimal solution is not sorted, swap an inverted pair
-
-- Result:
-  the swap lowers the objective function
-
-- Contradiction:
-  the original solution could not have been optimal
-
-- Conclusion:
-  **Shortest job first is optimal**
-
----
-
-## Time Complexity
-
-If we sort the jobs first:
-
-```text
-Sorting: O(n log n)
-Scheduling after sorting: O(n)
-Overall: O(n log n)
