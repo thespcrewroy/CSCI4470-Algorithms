@@ -2,7 +2,7 @@
 
 ## Slides: Example 1: Flight Connections
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted.png" alt="Weighted Graph Example" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted.png" alt="Weighted Graph Example" height=600" width="600" />
 </p>
 
 ### 1-D Vertecies Array
@@ -14,7 +14,7 @@
 ### 2-D Adjacency Matrix for Edges
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent.png" alt="Vertices Matrix" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent.png" alt="Vertices Matrix" height="600" width="600" />
 </p>
 
 ```
@@ -30,7 +30,7 @@ Space Complexity: O(V + E) = O(V + V^2) = O(V^2)
 ### Adjacency List
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked.png" alt="Adjacency List" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked.png" alt="Adjacency List" height="600" width="750" />
 </p>
 
 ```
