@@ -18,10 +18,12 @@
 </p>
 
 ```
-Time Complexity: O(V^2)
-Space Complexity: O(V + E) = O(V + V^2) = O(V^2)
+Time Complexity: E = O(V^2)
+Space Complexity: E = O(V + E) = O(V + V^2) = O(V^2)
 ```
 
+- Represents all the edges going out of each vertex in the 1-D array
+- There are V^2 possible edges that could go out of one vertex
 - Preffered for dense graphs: E = O(V^2)
 - Can quickly determine if there is an edge between two vertices
 - Consumes unecessary significant memory for sparse large graphs
@@ -35,8 +37,8 @@ Space Complexity: O(V + E) = O(V + V^2) = O(V^2)
 
 ```
 Space Complexity
-- Sparse: E = O(V)
-- Dense: E = O(V^2)
+- Sparse: E = O(V + E) = O(V + V) = O(V)
+- Dense: E = O(V + E) = O(V + V^2) = O(V^2)
 ```
 
 **Preffered for sparse graphs where E = O(V).**
