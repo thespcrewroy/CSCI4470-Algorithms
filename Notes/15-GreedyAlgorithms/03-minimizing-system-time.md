@@ -23,8 +23,18 @@ The optimal greedy choice is to serve the customer with the smallest service tim
 This is the same idea as shortest processing time first.
 
 ## Notes: Objective Function
-<pre>
-1) Totaltime(i) = min Σ(j=1 to n) Σ(c=1 to j-1) ServiceTime(i) + ServiceTime(j)
+<p>
+  <strong>1.</strong>
+  Totaltime(i) =
+  min
+  &Sigma;<sub>j=1</sub><sup>n</sup>
+  &Sigma;<sub>c=1</sub><sup>j-1</sup>
+  ServiceTime(i) + ServiceTime(j)
+</p>
 
-2) min Σ(i=1 to n) (n - i + 1)k_i
-</pre>
+<p>
+  <strong>2.</strong>
+  min
+  &Sigma;<sub>i=1</sub><sup>n</sup>
+  (n - i + 1)k<sub>i</sub>
+</p>
