@@ -88,3 +88,15 @@ Space Complexity
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent4.png" alt="Vertices Matrix 4" height="500" width="500" />
 </p>
+
+## Slides: Example 5: Undirected Graph
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted5.png" alt="Graph Example 5" height="500" width="300" />
+</p>
+
+### Adjacency Matrix
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent5.png" alt="Vertices Matrix 5" height="500" width="500" />
+</p>
