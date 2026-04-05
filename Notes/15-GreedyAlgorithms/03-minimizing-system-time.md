@@ -6,6 +6,3 @@
 </p>
 
 ## Slides: Example
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minimizingtimeexample.png" alt="Fractional Knapsack Problem" width="800" />
-</p>
