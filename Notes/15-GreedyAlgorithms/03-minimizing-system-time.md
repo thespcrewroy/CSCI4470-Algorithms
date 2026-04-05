@@ -57,13 +57,11 @@ The objective function is:
 
 This means earlier jobs affect more total waiting time, so their position matters more.
 
----
-
-## Greedy Choice
+### Greedy Choice
 
 The greedy strategy is:
 
-- Sort the service times in **nondecreasing order**
+- Sort the service times in **increasing order**
 - Serve the customer with the **smallest** service time first
 
 So the intended order is:
