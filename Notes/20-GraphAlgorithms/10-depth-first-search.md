@@ -11,7 +11,7 @@ Time Complexity: O(V + E)
 ## Notes: Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/depth.png" alt="Depth First Search Example 1" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfs.png" alt="Depth First Search Example 1" height="500" width="600" />
 </p>
 
 * From any given vertex, you can go to any neighbor of that vertex
