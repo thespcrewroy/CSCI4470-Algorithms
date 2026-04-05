@@ -38,3 +38,5 @@ This is the same idea as shortest processing time first.
   &Sigma;<sub>i=1</sub><sup>n</sup>
   (n - i + 1)t<sub>i</sub>
 </p>
+
+## Notes: Proof of Optimality (BWOC)
