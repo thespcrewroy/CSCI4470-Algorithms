@@ -98,5 +98,5 @@ Space Complexity
 ### Adjacency Matrix
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent6.png" alt="Vertices Matrix 5" height="500" width="500" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent6.png" alt="Vertices Matrix 5" height="400" width="400" />
 </p>
