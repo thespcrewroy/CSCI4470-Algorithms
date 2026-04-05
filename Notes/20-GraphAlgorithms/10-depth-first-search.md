@@ -24,12 +24,17 @@ Time Complexity: O(V + E)
 * This is **NOT** a unique sequence
 * The above implementation uses pre-order traversal
 
+## Notes: Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfs3.png" alt="Depth First Search Example 3" height="500" width="600" />
+</p>
+
 ## Slides: Example
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfs2.png" alt="Depth First Search Example 2" height="500" width="600" />
 </p>
-
 ## Stack-Based Imlementation
 
 <p align="center">
