@@ -45,6 +45,11 @@ This is the same idea as shortest processing time first.
   (n - i + 1)t<sub>i</sub>
 </p>
 
+## Homework: Greedy Scheduling with Waiting Penalties
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw3-6.png" alt="Fractional Knapsack Problem" width="800" />
+</p>
+
 ## Notes: Proof of Optimality (BWOC)
 
 We want to minimize the **total time in the system** for all customers/jobs.
@@ -73,7 +78,6 @@ So the intended order is:
 <p>
   t<sub>1</sub> &le; t<sub>2</sub> &le; ... &le; t<sub>n</sub>
 </p>
-
 
 ### Proof By Contradiction
 
