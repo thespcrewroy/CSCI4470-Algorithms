@@ -44,10 +44,10 @@ Time Complexity: O(V + E)
 ## Slides: Queue-Based Imlementation
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/queue1.png" alt="Queue Example" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/queue1.png" alt="Queue Example" height="800" width="800" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/queue2.png" alt="Queue Example" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/queue2.png" alt="Queue Example" height="800" width="800" />
 </p>
 
