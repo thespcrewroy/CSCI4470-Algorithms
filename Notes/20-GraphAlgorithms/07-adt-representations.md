@@ -44,31 +44,31 @@ Space Complexity
 ## Slides: Example 2
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted2.png" alt="Graph 2" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted2.png" alt="Graph 2" height="500" width="500" />
 </p>
 
 ### Adjacency Matrix
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent2.png" alt="Adjacency Matrix 2" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent2.png" alt="Adjacency Matrix 2" height="500" width="500" />
 </p>
 
 ### Adjacency List
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked2.png" alt="Adjacency List 2" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked2.png" alt="Adjacency List 2"  width="800" />
 </p>
 
 ## Slides: Example 3
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted3.png" alt="Graph Example 3" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted3.png" alt="Graph Example 3" height="500" width="500" />
 </p>
 
 ### Adjacency Matrix
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent3.png" alt="Vertices Matrix 3" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent3.png" alt="Vertices Matrix 3" height="500" width="500" />
 </p>
 
 ### Adjacency List
@@ -80,11 +80,11 @@ Space Complexity
 ## Slides: Example 4: Directed Graph
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted4.png" alt="Graph Example 4" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted4.png" alt="Graph Example 4" height="500" width="300" />
 </p>
 
 ### Adjacency Matrix
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent4.png" alt="Vertices Matrix 4" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent4.png" alt="Vertices Matrix 4" height="500" width="500" />
 </p>
