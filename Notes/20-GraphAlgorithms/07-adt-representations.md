@@ -33,6 +33,13 @@ Space Complexity: O(V + E) = O(V + V^2) = O(V^2)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked.png" alt="Adjacency List" width="800" />
 </p>
 
+```
+Space Complexity
+- Sparse: E = O(V)
+- Dense: E = O(V^2)
+```
+
+**Preffered for sparse graphs where E = O(V).**
 
 ## Slides: Example 2
 
@@ -68,4 +75,16 @@ Space Complexity: O(V + E) = O(V + V^2) = O(V^2)
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked3.png" alt="Adjacency List 3" width="800" />
+</p>
+
+## Slides: Example 4: Directed Graph
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weighted4.png" alt="Graph Example 4" width="800" />
+</p>
+
+### Adjacency Matrix
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/adjacent4.png" alt="Vertices Matrix 4" width="800" />
 </p>
