@@ -152,54 +152,7 @@ For <b>S<sub>2</sub></b>, after swapping:
   Obj<sub>old</sub> - Obj<sub>new</sub> = (b - a)(t<sub>a</sub> - t<sub>b</sub>)
 </p>
 
-
-## Step 5: Show the Difference Is Positive
-
-From the assumption:
-
-<p>
-  a &lt; b
-</p>
-
-so:
-
-<p>
-  b - a &gt; 0
-</p>
-
-Also from the inversion assumption:
-
-<p>
-  t<sub>a</sub> &gt; t<sub>b</sub>
-</p>
-
-so:
-
-<p>
-  t<sub>a</sub> - t<sub>b</sub> &gt; 0
-</p>
-
-Therefore:
-
-<p>
-  (b - a)(t<sub>a</sub> - t<sub>b</sub>) &gt; 0
-</p>
-
-So:
-
-<p>
-  Obj<sub>old</sub> - Obj<sub>new</sub> &gt; 0
-</p>
-
-which means:
-
-<p>
-  Obj<sub>old</sub> &gt; Obj<sub>new</sub>
-</p>
-
----
-
-## Step 6: Reach the Contradiction
+### Step 6: Reach the Contradiction
 
 But this is impossible.
 
