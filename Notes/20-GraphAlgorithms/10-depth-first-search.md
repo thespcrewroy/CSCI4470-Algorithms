@@ -36,25 +36,25 @@ Time Complexity: O(V + E)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfs3.png" alt="Depth First Search Example 3" height="500" width="600" />
 </p>
 
-## Stack-Based Imlementation
+## Slides: Stack-Based Imlementation
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack1.png" alt="Breadth First Search Example" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack1.png" alt="Stack Example" height="500" width="600" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack2.png" alt="Breadth First Search Example" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack2.png" alt="Stack Example" height="500" width="600" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack3.png" alt="Breadth First Search Example" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack3.png" alt="Stack Example" height="500" width="600" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack4.png" alt="Breadth First Search Example" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack4.png" alt="Stack Example" height="500" width="600" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack5.png" alt="Breadth First Search Example" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack5.png" alt="Stack Example" height="500" width="600" />
 </p>
 

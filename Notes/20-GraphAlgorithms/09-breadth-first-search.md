@@ -40,3 +40,14 @@ Time Complexity: O(V + E)
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfs4.png" alt="Breadth First Search Example 3" height="200" width="500" />
 </p>
+
+## Slides: Queue-Based Imlementation
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/queue1.png" alt="Queue Example" height="500" width="600" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/queue2.png" alt="Queue Example" height="500" width="600" />
+</p>
+
