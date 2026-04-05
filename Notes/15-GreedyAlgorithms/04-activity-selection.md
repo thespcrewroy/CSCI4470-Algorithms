@@ -13,7 +13,7 @@ Goal: Select the **maximum number of non-overlapping activities.** <br>
 
 Greedy Selection Rule: Select the activity that has the **earliest finish time.**
 
-## Notes: Example 1
+## Notes: Example
 
 ### Input
 
@@ -115,9 +115,7 @@ So replacing <b>a<sub>j</sub></b> with <b>a<sub>m</sub></b> does **not** create 
 
 That means <b>A<sub>k</sub><sup>'</sup></b> is still a compatible set.
 
----
-
-## Why Is It Still Optimal?
+### Why Is It Still Optimal?
 
 The size of the new set does not change.
 
@@ -161,21 +159,3 @@ The greedy algorithm for Activity Selection is optimal:
 - Sort activities by finish time
 - Repeatedly choose the next compatible activity with earliest finish time
 
-
-## Notes: Example 2
-
-Suppose:
-
-|    Activity   | s<sub>i</sub> | f<sub>i</sub> |
-|---------------|---------------|---------------|
-| a<sub>1</sub> | 0             | 4             |
-| a<sub>2</sub> | 4             | 7             |
-| a<sub>3</sub> | 8             | 10            |
-| a<sub>4</sub> | 11            | 13            |
-
-If <b>a<sub>2</sub></b> has the earliest finish time, then the theorem says:
-
-- there is some optimal solution containing <b>a<sub>2</sub></b>
-- so picking <b>a<sub>2</sub></b> first cannot hurt optimality
-
-Then we solve the rest of the problem on the remaining compatible activities.
