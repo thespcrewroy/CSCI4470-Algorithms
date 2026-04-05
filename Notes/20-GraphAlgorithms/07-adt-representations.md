@@ -92,7 +92,7 @@ Space Complexity
 ### Adjacency List
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked4.png" alt="Adjacency List 4"  width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked4.png" alt="Adjacency List 4"  height="500" width="250" />
 </p>
 
 ## Slides: Example 5: Undirected Graph
@@ -110,5 +110,5 @@ Space Complexity
 ### Adjacency List
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked5.png" alt="Adjacency List 5"  width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linked5.png" alt="Adjacency List 5"  height="350" width="500" />
 </p>
