@@ -94,7 +94,7 @@ but the service times are out of order:
   t<sub>a</sub> &gt; t<sub>b</sub>
 </p>
 
-So even though customer <b>a</b> comes before customer <b>b</b>, it has a larger service time.
+So even though we chose customer <b>a</b> before customer <b>b</b>, customer a has a larger service time then customer b (not greedy).
 
 ### Step 2: Define the Two Solutions
 
@@ -114,9 +114,8 @@ Now swap the two out-of-order terms:
 
 The idea is to compare the objective values of <b>S<sub>1</sub></b> and <b>S<sub>2</sub></b>.
 
----
 
-## Step 3: Write Only the Terms That Change
+### Step 3: Write Only the Terms That Change
 
 Swapping two jobs only changes the part of the objective function involving those two positions.
 
