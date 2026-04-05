@@ -6,6 +6,8 @@
 
 ```
 Time Complexity: O(V + E)
+- Stack Time: O(V)
+- Neighbors Visiting Time: O(E)
 ```
 
 ## Notes: Example
@@ -21,6 +23,12 @@ Time Complexity: O(V + E)
 * Visit the child that is the closest to the former path you took that led to the dead-end
 * This is **NOT** a unique sequence
 * The above implementation uses pre-order traversal
+
+## Slides: Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfs2.png" alt="Depth First Search Example 2" height="500" width="600" />
+</p>
 
 ## Stack-Based Imlementation
 

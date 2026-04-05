@@ -11,7 +11,7 @@ Time Complexity: O(V + E)
 ## Notes: Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfs.png" alt="Depth First Search Example 1" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfs.png" alt="Breadth First Search Example 1" height="500" width="600" />
 </p>
 
 * Proceed along the width of the graph recursively
@@ -22,3 +22,10 @@ Time Complexity: O(V + E)
 * Go through each vertex only once
 * This is **NOT** a unique sequence
 * The above implementation uses pre-order traversal
+
+
+## Slides: Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfs2.png" alt="Breadth First Search Example 12" height="500" width="600" />
+</p>
