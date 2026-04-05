@@ -36,5 +36,5 @@ This is the same idea as shortest processing time first.
   <strong>2.</strong>
   min
   &Sigma;<sub>i=1</sub><sup>n</sup>
-  (n - i + 1)k<sub>i</sub>
+  (n - i + 1)t<sub>i</sub>
 </p>
