@@ -1,6 +1,5 @@
 # Fractional Knapsack
 
-## Slides: Fractional Knapsack Problem
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/fractionalknapsackproblem.png" alt="Fractional Knapsack Problem" width="800" />
 </p>
