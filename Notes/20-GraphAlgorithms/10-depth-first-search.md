@@ -11,7 +11,7 @@ Time Complexity: O(V + E)
 ## Notes: Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfs.png" alt="Depth First Search Example 1" height="500" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfs1.png" alt="Depth First Search Example 1" height="500" width="600" />
 </p>
 
 * From any given vertex, you can go to any neighbor of that vertex
@@ -20,6 +20,7 @@ Time Complexity: O(V + E)
 * If there are no more valid neighbors to go to (dead-end), backtrack to the parent
 * Visit the child that is the closest to the former path you took that led to the dead-end
 * This is **NOT** a unique sequence
+* The above implementation uses pre-order traversal
 
 ## Stack-Based Imlementation
 
