@@ -132,7 +132,7 @@ And now it contains <b>a<sub>m</sub></b>.
 ### Conclusion
 
 <p>
-  \text{There exists an optimal solution that includes the earliest-finishing activity } a<sub>m</sub>
+  There exists an optimal solution that includes the earliest-finishing activity a<sub>m</sub>
 </p>
 
 So choosing the activity with the earliest finish time is a **safe greedy choice**.
