@@ -18,8 +18,7 @@ Time Complexity: O(V + E)
     * Visit all the children of the parent
     * Visit all the children of one of the children
     * Continue...
-* Go to the children of the current vertex that have not been visited
-* If there are no more valid neighbors to go to (dead-end), backtrack to the parent
-* Visit the child that is the closest to the former path you took that led to the dead-end
+* Traverse through all the 1-distance neighbords first
+* Go through each vertex only once
 * This is **NOT** a unique sequence
 * The above implementation uses pre-order traversal
