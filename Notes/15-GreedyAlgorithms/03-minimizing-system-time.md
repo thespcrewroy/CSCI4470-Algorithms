@@ -51,8 +51,6 @@ Assume each customer has a service time:
 
 ### Objective Function
 
-The objective function is:
-
 <p>
   TotalTime = min &Sigma;<sub>i=1</sub><sup>n</sup> (n - i + 1)t<sub>i</sub>
 </p>
@@ -60,8 +58,6 @@ The objective function is:
 This means earlier jobs affect more total waiting time, so their position matters more.
 
 ### Greedy Choice
-
-The greedy strategy is:
 
 - Sort the service times in **increasing order**
 - Serve the customer with the **smallest** service time first
@@ -131,17 +127,11 @@ For <b>S<sub>2</sub></b>, after swapping:
   Obj<sub>new</sub> = (n - a + 1)t<sub>b</sub> + (n - b + 1)t<sub>a</sub>
 </p>
 
----
-
-## Step 4: Subtract the Two Objective Values
-
-Now compute:
+### Step 4: Subtract the Two Objective Values
 
 <p>
   Obj<sub>old</sub> - Obj<sub>new</sub>
 </p>
-
-Substitute the two expressions:
 
 <p>
   Obj<sub>old</sub> - Obj<sub>new</sub> =
@@ -150,25 +140,18 @@ Substitute the two expressions:
   ((n - a + 1)t<sub>b</sub> + (n - b + 1)t<sub>a</sub>)
 </p>
 
-Distribute and group like terms:
-
 <p>
-  = (n - a + 1)(t<sub>a</sub> - t<sub>b</sub>) + (n - b + 1)(t<sub>b</sub> - t<sub>a</sub>)
+  Obj<sub>old</sub> - Obj<sub>new</sub> = (n - a + 1)(t<sub>a</sub> - t<sub>b</sub>) + (n - b + 1)(t<sub>b</sub> - t<sub>a</sub>)
 </p>
 
-Factor:
-
 <p>
-  = ((n - a + 1) - (n - b + 1))(t<sub>a</sub> - t<sub>b</sub>)
+  Obj<sub>old</sub> - Obj<sub>new</sub> = ((n - a + 1) - (n - b + 1))(t<sub>a</sub> - t<sub>b</sub>)
 </p>
 
-Simplify:
-
 <p>
-  = (b - a)(t<sub>a</sub> - t<sub>b</sub>)
+  Obj<sub>old</sub> - Obj<sub>new</sub> = (b - a)(t<sub>a</sub> - t<sub>b</sub>)
 </p>
 
----
 
 ## Step 5: Show the Difference Is Positive
 
