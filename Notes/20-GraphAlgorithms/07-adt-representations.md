@@ -18,8 +18,12 @@
 </p>
 
 ```
-Time Complexity: E = O(V^2)
-Space Complexity: E = O(V + E) = O(V + V^2) = O(V^2)
+Time Complexity: 
+- Array: O(1) if sparse, O(E) if dense
+- Matrix: O(1)
+Space Complexity:
+- Array: E = O(V + E)
+- Matrix: E = O(V + E) = O(V + V^2) = O(V^2)
 ```
 
 - Represents all the edges going out of each vertex in the 1-D array
@@ -36,7 +40,7 @@ Space Complexity: E = O(V + E) = O(V + V^2) = O(V^2)
 </p>
 
 ```
-Space Complexity
+Space Complexity:
 - Sparse: E = O(V + E) = O(V + V) = O(V)
 - Dense: E = O(V + E) = O(V + V^2) = O(V^2)
 ```
