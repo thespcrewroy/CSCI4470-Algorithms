@@ -6,6 +6,8 @@
 
 ```
 Time Complexity: O(V + E)
+- O(V): queue operations
+- O(E): total time for the loop
 ```
 
 ## Notes: Example
