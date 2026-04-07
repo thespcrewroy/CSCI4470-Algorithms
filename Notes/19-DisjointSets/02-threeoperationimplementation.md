@@ -61,7 +61,7 @@
 
 - Find_Set(A) = A  
 - Find_Set(D) = A  
-- same → ❌ no union
+- Same → ❌ no union
 
 #### Edge (E, F)
 
