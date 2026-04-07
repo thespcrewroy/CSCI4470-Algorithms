@@ -29,4 +29,4 @@ Q) S = { S₁, S₂ }
 
 ## Implementation
 - **Find(x)**: find which set x belongs to
-- **Union(x, y)*#: merge two sets
+- **Union(x, y)**: merge two sets
