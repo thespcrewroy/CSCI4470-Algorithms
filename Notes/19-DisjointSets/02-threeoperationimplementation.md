@@ -69,7 +69,7 @@
 - Find_Set(F) = F  
 - Union() = {E, F}   (rep = E)
 
-### Connected Components
+### Step 3: List Out Connected Components
 
 {A, B, C, D}, {E, F}, {G}
 
