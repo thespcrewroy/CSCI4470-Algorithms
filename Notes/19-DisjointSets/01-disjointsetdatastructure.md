@@ -10,7 +10,7 @@ Let:
 S = { S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>n</sub> }
 
 - Each S<sub>i</sub> is a subset
-- The sets are **disjoint**: S<sub>i</sub> &cap; S<sub>j<sub> = &empty;   for i &ne; j
+- The sets are **disjoint**: S<sub>i</sub> &cap; S<sub>j</sub> = &empty;   for i &ne; j
 - No two sets share any common elements  
 - Every set is **independent**
 
