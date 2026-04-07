@@ -3,7 +3,7 @@
 - A collection of **non-overlapping (disjoint) sets**
 - Each element belongs to **exactly one set**
 
-## Definition
+## Slides: Definition
 
 Let:
 
@@ -14,7 +14,7 @@ S = { S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>n</sub> }
 - No two sets share any common elements  
 - Every set is **independent**
 
-## Example
+## Notes: Example
 
 Q) S = { S₁, S₂ }
 
@@ -22,11 +22,12 @@ Q) S = { S₁, S₂ }
 - S₂ = {3, 8, 5}   (representative = 3)
 - S<sub>i</sub> &cap; S<sub>j</sub> = &empty;: No common elements, so sets are disjoint
 
-## Applications
+## Notes: Applications
 - Connected components
 - Union-Find algorithms
 - Graph cycle detection
 
-## Implementation
-- **Find(x)**: find which set x belongs to
-- **Union(x, y)**: merge two sets
+## Slides: 3 Operation Implementation
+- **Make_Set(x)**: creates a set (S = {x})
+- **Find_Set(x)**: returns a pointer to the representative for the set containing x
+- **Union(x, y)**: merge set containing x with set containing y
