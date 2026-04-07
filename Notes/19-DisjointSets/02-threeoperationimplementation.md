@@ -32,8 +32,6 @@
 - Vertices: A, B, C, D, E, F, G  
 - Edges: (A, B), (B, C), (C, D), (A, D), (E, F)
 
----
-
 ### Step 1: Make_Set on all vertices
 
 {A}, {B}, {C}, {D}, {E}, {F}, {G}
@@ -63,7 +61,7 @@
 
 - Find_Set(A) = A  
 - Find_Set(D) = A  
-→ same → ❌ no union
+- same → ❌ no union
 
 #### Edge (E, F)
 
