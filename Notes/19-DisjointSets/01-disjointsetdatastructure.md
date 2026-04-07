@@ -20,7 +20,7 @@ Q) S = { S₁, S₂ }
 
 - S₁ = {2, 4, 7}   (representative = 2)
 - S₂ = {3, 8, 5}   (representative = 3)
-- S<sub>i</sub> &cap; S<sub>j<sub> = &empty;: No common elements, so sets are disjoint
+- S<sub>i</sub> &cap; S<sub>j</sub> = &empty;: No common elements, so sets are disjoint
 
 ## Applications
 - Connected components
