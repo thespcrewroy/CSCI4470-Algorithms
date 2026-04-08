@@ -6,12 +6,12 @@
 
 ## Notes: Inorder
 
-**Left-Root-Right: Yields sorted order in binary search trees.**
+**Left-Root-Right:** Yields sorted order in binary search trees.
 
 ## Notes: Post-Order
 
-**Left-Right-Root: Used for deleting nodes or evaluating postfix expressions.** 
+**Left-Right-Root:** Used for deleting nodes or evaluating postfix expressions.
 
 ## Notes: Pre-Order
 
-**Root-Left-Right: Used for copying trees or prefix expressions.**
+**Root-Left-Right:** Used for copying trees or prefix expressions.
