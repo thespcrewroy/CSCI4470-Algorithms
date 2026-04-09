@@ -1,13 +1,13 @@
 # Tree Disjoint Set
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/tree.png" alt="Linked List Disjoint Set" height="300" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/tree.png" alt="Tree Disjoint Set" height="300" width="800" />
 </p>
 
 ## Path Compression
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathcompression.png" alt="Linked List Disjoint Set" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathcompression.png" alt="Path Compression" width="800" />
 </p>
 
 
