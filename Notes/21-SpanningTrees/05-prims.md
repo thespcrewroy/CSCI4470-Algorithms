@@ -27,7 +27,12 @@
 ...
 - e.key = &infin;
 - e.&pi; = NIL
-3. Dequeue(a)
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap1.png" alt="Prim Use Case"  />
+</p>
+
+1. Dequeue(a)
 - Consider neighbors: `b` and `h`
   - b.key = &infin;
   - w(a, b) = 4
@@ -36,3 +41,7 @@
 - If the key value is bigger than weight, then update the key
   - b.key = 4
   - h.key = 8
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap2.png" alt="Prim Use Case"  />
+</p>
