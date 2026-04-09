@@ -42,7 +42,7 @@ There is a forward edge from `a` to `c`.
 ## Homework: Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-2-1.png" alt="BFS Implementation Theory" height="500" width="700" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-2.png" alt="BFS Implementation Theory" height="500" width="700" />
 </p>
 
 <p align="center">
