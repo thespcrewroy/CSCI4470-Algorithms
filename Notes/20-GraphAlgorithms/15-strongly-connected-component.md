@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/sccimpl2.png" alt="BFS Implementation Theory" height=500" width="700" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/sccimpl2.png" alt="BFS Implementation Theory" height=300" width="700" />
 </p>
 
 ```
