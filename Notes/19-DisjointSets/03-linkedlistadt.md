@@ -1,7 +1,7 @@
 # Linked List Disjoint Set
 
 
-## Slides: Example
+## Notes: Example
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linkedlist.png" alt="Linked List Disjoint Set" width="800" />

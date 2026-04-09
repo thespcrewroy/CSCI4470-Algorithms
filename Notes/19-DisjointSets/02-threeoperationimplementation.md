@@ -33,7 +33,7 @@ Time Complexity: O(1)
 Time Complexity: O(1)
 ```
 
-## Example: Finding Connected Components
+## Notes Example: Finding Connected Components
 
 ### Graph
 

@@ -1,10 +1,23 @@
 # Tree Disjoint Set
 
+
+## Notes: Example
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/tree.png" alt="Tree Disjoint Set" height="800" width="300" />
 </p>
 
-## Path Compression
+
+### Make_Set(A)
+```
+Time Complexity: O(1)
+```
+
+### Find_Set(D)
+```
+Time Complexity: O(1)
+```
+
+## Notes: Path Compression
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathcompression.png" alt="Path Compression" width="800" />
@@ -13,4 +26,5 @@
 
 - We know that the representative is A at all times as we travel along the tree
 - So we can reduce the size of the path
-- Used for find_set(A)
+- Advantage: returns find_set(A) in constant time
+- Tradeoff: one time cost of compression in exchange for constant search time
