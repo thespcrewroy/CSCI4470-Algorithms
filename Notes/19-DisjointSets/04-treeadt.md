@@ -1,11 +1,11 @@
 # Tree Disjoint Set
 
+**Preffered over linked list implementation**
 
 ## Notes: Example
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/tree.png" alt="Tree Disjoint Set" height="800" width="300" />
 </p>
-
 
 ### Make_Set(A)
 
@@ -37,6 +37,11 @@ Time Complexity: O(1)
 - Merge the smaller set into the bigger set
 - Link the representative of the smaller with the representative of the bigger
 - The representative of the bigger set takes over in the new connected set
+- All you are doing is changing one pointer
+
+```
+Time Complexity: O(1)
+```
 
 ## Notes: Path Compression
 

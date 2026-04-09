@@ -32,3 +32,14 @@ Q) S = { S₁, S₂ }
 - **Make_Set(x)**: creates a set (S = {x})
 - **Find_Set(x)**: returns a pointer to the representative for the set containing x
 - **Union(x, y)**: merge set containing x with set containing y
+
+## Notes: Cost Analysis
+
+```
+O(m	α (n))
+```
+
+- m: total number of MakeSet, FindSet, and Union operations.
+- n: total number of MakeSet operations
+- &alpha;(n): a constant or slow growing f(n)
+- 'm' is linear in number of operations, and thus, making it better than BFS/DFS
