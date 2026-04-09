@@ -97,3 +97,11 @@ Time Complexity: O(V + E)
 - f.d = 4
 - f.&pi; = e
 - Queue Q = `<>`
+
+## Proof: &delta;(s, u)
+
+Proof: at the termination of the BFS, u.d converges to &delta;(s, u)
+- &delta;(s, u): shortest distance from vertex `u` from source `s`
+- u.d: distance of vertex `u` from source `s` (number of edges between `u` and `s`)
+- The graph must be undirected and **unweighted**
+    - Weighted graphs need the **Djikstra's Algorithm**
