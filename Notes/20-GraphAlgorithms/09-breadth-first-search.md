@@ -9,6 +9,9 @@ Time Complexity: O(V + E)
 - O(V): queue operations
 - O(E): total time for the loop
 ```
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/timeanalysisbfs.png" alt="Breadth First Search Analysis" width="800" />
+</p>
 
 ## Notes: Example
 
