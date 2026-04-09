@@ -80,7 +80,7 @@ Time Complexity: O(V + E)
 ## Homework: Implementation Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-2-1.png" alt="BFS Implementation Theory" height="800" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-2-1.png" alt="BFS Implementation Theory" height="1000" width="1000" />
 </p>
 
 ## Notes: Parenthesis Theorem
