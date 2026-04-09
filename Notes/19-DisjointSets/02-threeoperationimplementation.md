@@ -8,18 +8,30 @@
 - S<sub>1</sub> = Make_Set(2) = {2}   (rep = 2)
 - S<sub>2</sub> = Make_Set(5) = {5}   (rep = 5)
 - S<sub>3</sub> = Make_Set(7) = {7}   (rep = 7)
-- S<sub>4</sub> = Make_Set(3) = {3}   (rep = 3) 
+- S<sub>4</sub> = Make_Set(3) = {3}   (rep = 3)
+
+```
+Time Complexity: O(1)
+```
 
 ## Notes: Union(x) Example
 
 - S<sub>5</sub> = Union(S<sub>2</sub> , S<sub>4</sub>) = {5, 3}       (rep = 5)
 - S<sub>6</sub> = Union(S<sub>5</sub> , S<sub>1</sub>) = {5, 3, 2}    (rep = 5)
 
+```
+Time Complexity: O(1)
+```
+
 ## Notes: Find_Set(x) Example
 - S<sub>7</sub> = Find_Set(2) = 5     (rep = 5)
 - S<sub>8</sub> = Find_Set(3) = 5     (rep = 5)
 - S<sub>9</sub> = Find_Set(5) = 5     (rep = 5)
 - S<sub>10</sub> = Find_Set(7) = 7    (rep = 7)
+
+```
+Time Complexity: O(1)
+```
 
 ## Example: Finding Connected Components
 
