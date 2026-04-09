@@ -67,7 +67,6 @@ Time Complexity: O(V + E)
 - u.d: discover time of vertex `u`. Assign when vertex becomes gray.
 - u.f: finish time of vertex `u`. Assign when vertex becomes black.
 
-
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsimpltable.png" alt="DFS Implementation Example" height="500" width="500" />
 </p>
@@ -78,10 +77,16 @@ Time Complexity: O(V + E)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfstraversal.png" alt="DFS Traversal" height="700" width=700" />
 </p>
 
-## Parenthesis Theorem
+## Notes: Parenthesis Theorem
 - [u.d, u.f]: discover time and finish time of vertex `u`
 - [v.d, v.f]: discover time and finish time of vertex `v`
 
 During DFS Traversal
 1. The interval [u.d, u.f] is nested inside the interval [v.d, v.f] or vice versa. Then, `u` and `v` are ancestors/descendents of each other.
 2. The intervals [u.d, u.f] and [v.d, v.f] are completely disjoint. Then, `u` and `v` are not ancestors/descendents of each other. Happens for disconnected graphs.
+
+## Notes: White Path Theorem
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/whitepath.png" alt="White Path Theorem" height="700" width=400" />
+</p>
