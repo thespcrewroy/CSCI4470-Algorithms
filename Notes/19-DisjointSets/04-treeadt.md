@@ -1,7 +1,7 @@
 # Tree Disjoint Set
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/tree.png" alt="Tree Disjoint Set" height="300" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/tree.png" alt="Tree Disjoint Set" height="800" width="300" />
 </p>
 
 ## Path Compression
