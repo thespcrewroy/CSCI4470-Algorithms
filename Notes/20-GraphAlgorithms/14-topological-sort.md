@@ -7,4 +7,6 @@
 </p>
 
 - Directed: edges have direction
-- Acyclic: there should be no cycles
+- Acyclic: there should be no cycles because a right to left direction will violate the property of all edges going from left to right
+- Topolgical sorted output arranges the vertices in a way that if you draw an edge, the edge only goes from left to right
+- Utilized a depth-first search algorithm to produce the output
