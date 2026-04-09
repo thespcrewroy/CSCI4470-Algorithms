@@ -1,6 +1,6 @@
 # Topological Sort
 
-## Slides: Example
+## Slides: Definition
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/topologicalexample.png" alt="Topological Sort Example" height="700" width="700" />
@@ -11,3 +11,11 @@
     - Acyclic: there should be no cycles because a right to left direction will topological all edges left to right property
 - Topolgical sorted output arranges the vertices in a way that if you draw an edge, the edge only goes from left to right
 - Utilizes the depth-first search algorithm DFS(G) to produce the output
+
+## Notes: Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/topologicalorder.png" alt="Topological Sort Example" height="700" width="700" />
+</p>
+
+**Output orders are based on finish time!**
