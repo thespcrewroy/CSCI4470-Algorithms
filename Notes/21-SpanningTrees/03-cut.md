@@ -30,3 +30,4 @@ A cut respects a set `A` of edges if no edges in `A` crosses the cut.
 
 - A light edge is the minimum weight edge out of all the edges crossing the cut.
 - This edge becomes the safe edge
+- Find the safe edge, add to spanning tree, and iterate
