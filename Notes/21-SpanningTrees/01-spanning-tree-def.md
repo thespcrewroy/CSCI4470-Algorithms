@@ -3,7 +3,7 @@
 ## Notes: Definition
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/spanningtree.png" alt="Spanning Tree Definition" height=700" width="700" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/spanningtree.png" alt="Spanning Tree Definition" width="700" />
 </p>
 
 - It spans all the vertices without forming a cycle
