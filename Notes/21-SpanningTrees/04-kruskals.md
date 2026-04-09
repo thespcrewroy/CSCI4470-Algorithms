@@ -9,6 +9,12 @@
 
 - Greedy Algorithm: pick the lowest edge (safe edge) at any given moment
 - Take the sum of all the edges you added to determine the cost
+- Ideal for sparse graphs, where all edges can be checked easily
+- Utilizes a disjoint set data structure (DSDS) in its implementation
+
+```
+Time Complexity: Elog(E) + Elog(V)
+```
 
 ## Homework: Example
 <p align="center">
@@ -22,3 +28,5 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-6-1-2.png" alt="Kruskal's Algo Example"  />
 </p>
+
+
