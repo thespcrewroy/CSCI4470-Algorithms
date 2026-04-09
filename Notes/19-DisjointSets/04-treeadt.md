@@ -39,3 +39,11 @@ Time Complexity: O(1)
 - So we can reduce the size of the path
 - Advantage: returns find_set(A) in constant time
 - Tradeoff: one time cost of compression in exchange for constant search time
+
+## Notes: Rank
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/rank.png" alt="Path Compression" width="800" />
+</p>
+
+The height of the tree.
