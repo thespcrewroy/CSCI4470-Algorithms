@@ -58,3 +58,16 @@ Time Complexity: O(V + E)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/stack5.png" alt="Stack Example" height="500" width="600" />
 </p>
 
+## Notes: Implementation
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsexample.png" alt="Stack Example" height="500" width="600" />
+</p>
+
+- time: global variable that starts with value of 0 and will get updated
+- u.d: discover time of vertex `u`. Assign when vertex becomes gray.
+- u.f: finish time of vertex `u`. Assign when vertex becomes black.
+
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsimpltable.png" alt="Stack Example" height="500" width="500" />
+</p>
