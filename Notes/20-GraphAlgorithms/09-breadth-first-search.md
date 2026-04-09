@@ -59,10 +59,6 @@ Time Complexity: O(V + E)
 ## Notes: Implementation
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfs5.png" alt="Breadth First Search Example 3" height="500" width="500" />
-</p>
-
-<p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfsimpl.png" alt="BFS Implementation Code" height="500" width="500" />
 </p>
 
@@ -71,10 +67,10 @@ Time Complexity: O(V + E)
 - White: undiscovered or unvisited
 - Gray: visited but sitting in queue
 - Black: removed from queue because we finished processing all the neighbors/children
-2. Track the distance of the current vertex (u) from the source vertex (s)
+1. Track the distance of the current vertex (u) from the source vertex (s)
 - u.d: distance of u from source s
 - u.&pi;: parent of u
-3. Initialization
+1. Initialization
 - u.color = white (all the vertex except source vertex)
 - u.d = &infin;
 - u.&pi; = NIL
@@ -82,7 +78,7 @@ Time Complexity: O(V + E)
 - s.d = 0
 - s.&pi; = NIL
 - Queue Q = `<s>`
-4. Dequeue `s`
+1. Dequeue `s`
 - b.color = gray
 - b.d = s.d + 1 = 0 + 1 = 1
 - b.&pi; = s
@@ -92,7 +88,7 @@ Time Complexity: O(V + E)
 - s.color = black
 - Queue Q = `<b, c>` <br>
 ...
-5. Final
+1. Final
 - f.color = black
 - f.d = 4
 - f.&pi; = e
