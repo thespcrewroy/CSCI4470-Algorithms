@@ -59,3 +59,26 @@ Time Complexity: O(V + E)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/queue2.png" alt="Queue Example" height="800" width="800" />
 </p>
 
+## Notes: Implementation
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfsimpl.png" alt="BFS Implementation Code" height="500" width="500" />
+</p>
+
+
+1. Coloring the vertices: white, gray, or black.
+- White: undiscovered or unvisited
+- Gray: visited but sitting in queue
+- Black: removed from queue because we finished visiting all its neighbors
+2. Track the distance of the current vertex (u) from the source vertex (s)
+- u.d: distance of u from source s
+- u.&pi;: parent of u
+3. Initialization
+- u.color = white (all the vertex except source vertex)
+- u.d = &infin;
+- u.&pi; = NIL
+- s.color = gray
+- s.d = 0
+- Queue Q = <s>
+4. 
+
