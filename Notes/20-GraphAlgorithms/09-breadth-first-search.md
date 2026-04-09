@@ -79,6 +79,6 @@ Time Complexity: O(V + E)
 - u.&pi; = NIL
 - s.color = gray
 - s.d = 0
-- Queue Q = <s>
+- Queue Q = `<s>`
 4. 
 
