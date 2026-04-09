@@ -13,7 +13,7 @@
 
 ## Homework: Example
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-2.png" alt="BFS Implementation Theory" height="1000" width="1000" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4big.png" alt="BFS Implementation Theory" height="1000" width="1000" />
 </p>
 
 <p align="center">
