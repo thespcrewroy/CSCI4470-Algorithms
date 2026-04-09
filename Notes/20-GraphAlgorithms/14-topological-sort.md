@@ -29,9 +29,9 @@ Time Complexity: O(V + E) ~ O(n)
 ## Homework: Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-5-1.png" alt="Parenthesis Theorem HW" height="700" width="700" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-5-1.png" alt="Topological Sort HW" height="700" width="700" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-5-2.png" alt="Parenthesis Theorem HW" height="700" width="700" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-5-2.png" alt="Topological Sort HW" height="700" width="700" />
 </p>
