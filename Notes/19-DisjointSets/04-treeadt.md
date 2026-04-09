@@ -8,11 +8,22 @@
 
 
 ### Make_Set(A)
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/makea.png" alt="Find Linked List Disjoint Set" width="800" />
+</p>
+
+
 ```
 Time Complexity: O(1)
 ```
 
 ### Find_Set(D)
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/findd.png" alt="Find Linked List Disjoint Set" width="800" />
+</p>
+
 ```
 Time Complexity: O(1)
 ```
