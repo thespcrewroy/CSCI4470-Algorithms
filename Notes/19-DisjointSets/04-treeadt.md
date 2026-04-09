@@ -28,6 +28,16 @@ Time Complexity: O(1)
 Time Complexity: O(1)
 ```
 
+### Union(S<sub>1</sub>, S<sub>2</sub>)
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/unions.png" alt="Union of Trees" height="600" width="300" />
+</p>
+
+- Merge the smaller set into the bigger set
+- Link the representative of the smaller with the representative of the bigger
+- The representative of the bigger set takes over in the new connected set
+
 ## Notes: Path Compression
 
 <p align="center">
@@ -46,4 +56,5 @@ Time Complexity: O(1)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/rank.png" alt="Path Compression" width="800" />
 </p>
 
-The height of the tree.
+- The height of the tree
+- Needed for the Union(S<sub>1</sub>, S<sub>2</sub>) operation
