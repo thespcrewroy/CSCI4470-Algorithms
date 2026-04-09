@@ -21,7 +21,7 @@ Time Complexity: O(V + E) ~ O(n)
 ## Notes: Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/topologicalorder.png" alt="Topological Sort Example" height="700" width="700" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/topoex.png" alt="Topological Sort Example" height="700" width="700" />
 </p>
 
 **Output orders are based on finish time!**
