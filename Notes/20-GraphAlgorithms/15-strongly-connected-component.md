@@ -17,5 +17,5 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4big.png" alt="BFS Implementation Theory" height=800" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4big.png" alt="BFS Implementation Theory" height=600" width="800" />
 </p>
