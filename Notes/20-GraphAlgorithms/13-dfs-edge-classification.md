@@ -39,6 +39,16 @@ There is a forward edge from `a` to `c`.
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsedgeclassification.png" alt="Edge Types" height="550" width="550" />
 </p>
 
+## Homework: Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-2-1.png" alt="BFS Implementation Theory" height="500" width="700" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-2-2.png" alt="BFS Implementation Theory" height="500" width="700" />
+</p>
+
 ## Notes: Coloring for Edge(u, v)
 
 - If `v` is white, then edge(u, v) is a tree edge

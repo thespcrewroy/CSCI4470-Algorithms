@@ -77,6 +77,12 @@ Time Complexity: O(V + E)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfstraversal.png" alt="DFS Traversal" height="700" width=700" />
 </p>
 
+## Homework: Implementation Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-2.png" alt="BFS Implementation Theory" height="500" width="700" />
+</p>
+
 ## Notes: Parenthesis Theorem
 - [u.d, u.f]: discover time and finish time of vertex `u`
 - [v.d, v.f]: discover time and finish time of vertex `v`
