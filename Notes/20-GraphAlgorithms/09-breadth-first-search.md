@@ -10,7 +10,7 @@ Time Complexity: O(V + E)
 - O(E): total time for the loop
 ```
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/timeanalysisbfs.png" alt="Breadth First Search Analysis" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/timeanalysisbfs.png" alt="Breadth First Search Analysis" height="500" width="500" />
 </p>
 
 ## Notes: Example
