@@ -60,7 +60,7 @@ Time Complexity: O(V + E)
 
 ## Notes: Implementation
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsexample.png" alt="DFS Example" height="700" width=500" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsexample.png" alt="DFS Example" height="300" width=300" />
 </p>
 
 - time: global variable that starts with value of 0 and will get updated
