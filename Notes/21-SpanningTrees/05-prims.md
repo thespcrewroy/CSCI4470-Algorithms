@@ -43,5 +43,5 @@
   - h.key = 8
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap2.png" alt="Prim Use Case"  />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap2.png" height="400" width="400" alt="Prim Use Case"  />
 </p>
