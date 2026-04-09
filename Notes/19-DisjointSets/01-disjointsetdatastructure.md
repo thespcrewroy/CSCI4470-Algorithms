@@ -2,6 +2,7 @@
 
 - A collection of **non-overlapping (disjoint) sets**
 - Each element belongs to **exactly one set**
+- Use-Case: the cheapest way of finding out cycles
 
 ## Slides: Definition
 
