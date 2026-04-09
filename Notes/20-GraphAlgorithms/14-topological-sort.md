@@ -12,6 +12,12 @@
 - Topolgical sorted output arranges the vertices in a way that if you draw an edge, the edge only goes from left to right
 - Utilizes the depth-first search algorithm DFS(G) to produce the output
 
+```
+Time Complexity: O(V + E) ~ O(n)
+- DFS: O(V + E)
+- Linked List of Size v: O(V)
+```
+
 ## Notes: Example
 
 <p align="center">
