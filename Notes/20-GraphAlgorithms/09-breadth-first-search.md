@@ -94,6 +94,21 @@ Time Complexity: O(V + E)
 - f.&pi; = e
 - Queue Q = `<>`
 
+## Homework: Implementation
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw5-1-1.png" alt="BFS Implementation Theory" height="500" width="500" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw5-1-2.png" alt="BFS Implementation Theory" height="500" width="500" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw5-1-3.png" alt="BFS Implementation Theory" height="500" width="500" />
+</p>
+
+
 ## Proof: &delta;(s, u)
 
 Proof: at the termination of the BFS, u.d converges to &delta;(s, u)
