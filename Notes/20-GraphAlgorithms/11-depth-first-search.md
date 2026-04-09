@@ -87,6 +87,19 @@ During DFS Traversal
 
 ## Notes: White Path Theorem
 
+- During DFS, you are at vertex `a`
+- There is a path from vertex `a` to vertex `d`
+- If intermediate vertices (b & c) are white, then `d` is a descendent of `a`
+
+### `d` is a Descendant of `a`
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/whitepath.png" alt="White Path Theorem" height="700" width=400" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/whitepath1.png" alt="White Path Theorem" height="700" width=400" />
 </p>
+
+### `d` is Not a Descendant of `a`
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/whitepath2.png" alt="White Path Theorem" height="700" width=400" />
+</p>
+
+`d` is the descendent of `e`, and not `a`
