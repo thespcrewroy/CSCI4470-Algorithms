@@ -99,11 +99,11 @@ During DFS Traversal
 ## Homework: Parenthesis Theorem
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-3-1.png" alt="Parenthesis Theorem HW" height="1000" width="1000" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-3-1.png" alt="Parenthesis Theorem HW" height="700" width="700" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-3-2.png" alt="Parenthesis Theorem HW" height="1000" width="1000" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-3-2.png" alt="Parenthesis Theorem HW" height="700" width="700" />
 </p>
 
 ## Notes: White Path Theorem
