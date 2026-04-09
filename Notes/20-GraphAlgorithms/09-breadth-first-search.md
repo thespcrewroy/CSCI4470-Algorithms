@@ -90,4 +90,7 @@ Time Complexity: O(V + E)
 - Queue Q = `<b, c>`
 ...
 5. Final
+- f.color = black
 - f.d = 4
+- f.&pi; = e
+- Queue Q = `<>`
