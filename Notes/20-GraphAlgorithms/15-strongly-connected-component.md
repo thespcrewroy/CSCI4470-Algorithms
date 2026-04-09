@@ -13,9 +13,9 @@
 
 ## Homework: Example
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4big.png" alt="BFS Implementation Theory" height=8000" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-5.png" alt="BFS Implementation Theory" height="700" width="700" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-5.png" alt="BFS Implementation Theory" height="500" width="500" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4big.png" alt="BFS Implementation Theory" height=800" width="800" />
 </p>
