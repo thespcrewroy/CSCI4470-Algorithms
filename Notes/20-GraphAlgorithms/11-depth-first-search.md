@@ -60,7 +60,7 @@ Time Complexity: O(V + E)
 
 ## Notes: Implementation
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsexample.png" alt="Stack Example" height="700" width=500" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsexample.png" alt="DFS Example" height="700" width=500" />
 </p>
 
 - time: global variable that starts with value of 0 and will get updated
@@ -69,5 +69,11 @@ Time Complexity: O(V + E)
 
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsimpltable.png" alt="Stack Example" height="500" width="500" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsimpltable.png" alt="DFS Implementation Example" height="500" width="500" />
+</p>
+
+## Notes: Implementation Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dftraversal.png" alt="DFS Traversal" height="700" width=700" />
 </p>
