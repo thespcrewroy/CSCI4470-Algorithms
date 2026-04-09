@@ -46,10 +46,6 @@ Time Complexity: O(V + E)
 ## Slides: Queue-Based Imlementation
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfs5.png" alt="Breadth First Search Example 3" height="500" width="500" />
-</p>
-
-<p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/queue1.png" alt="Queue Example" height="800" width="800" />
 </p>
 
@@ -58,6 +54,10 @@ Time Complexity: O(V + E)
 </p>
 
 ## Notes: Implementation
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfs5.png" alt="Breadth First Search Example 3" height="500" width="500" />
+</p>
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfsimpl.png" alt="BFS Implementation Code" height="500" width="500" />
