@@ -69,7 +69,7 @@ Time Complexity: O(V + E)
 1. Coloring the vertices: white, gray, or black.
 - White: undiscovered or unvisited
 - Gray: visited but sitting in queue
-- Black: removed from queue because we finished visiting all its neighbors
+- Black: removed from queue because we finished processing all the neighbors/children
 2. Track the distance of the current vertex (u) from the source vertex (s)
 - u.d: distance of u from source s
 - u.&pi;: parent of u
@@ -79,6 +79,14 @@ Time Complexity: O(V + E)
 - u.&pi; = NIL
 - s.color = gray
 - s.d = 0
+- s.&pi; = NIL
 - Queue Q = `<s>`
-4. 
-
+4. Dequeue `s`
+- b.color = gray
+- b.d = s.d + 1 = 0 + 1 = 1
+- b.&pi; = s
+- c.color = gray
+- c.d = s.d + 1 = 0 + 1 = 1
+- c.&pi; = s
+- s.color = black
+- Queue Q = `<b, c>`
