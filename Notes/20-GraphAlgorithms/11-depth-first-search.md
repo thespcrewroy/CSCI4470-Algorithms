@@ -80,6 +80,9 @@ Time Complexity: O(V + E)
 ## Notes: Parenthesis Theorem
 - [u.d, u.f]: discover time and finish time of vertex `u`
 - [v.d, v.f]: discover time and finish time of vertex `v`
+- White: undiscovered or unvisited
+- Gray: visited but sitting in stack
+- Black: removed from stack because we finished processing all the neighbors/children
 
 During DFS Traversal
 1. The interval [u.d, u.f] is nested inside the interval [v.d, v.f] or vice versa. Then, `u` and `v` are ancestors/descendents of each other.

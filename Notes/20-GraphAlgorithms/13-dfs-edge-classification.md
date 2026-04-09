@@ -38,3 +38,9 @@ There is a forward edge from `a` to `c`.
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsedgeclassification.png" alt="Edge Types" height="550" width="550" />
 </p>
+
+## Notes: Coloring for Edge(u, v)
+
+- If `v` is white, then edge(u, v) is a tree edge
+- If `v` is gray, then edge(u, v) is a back edge
+- If `v` is black, then edge(u, v) is a cross or forward edge
