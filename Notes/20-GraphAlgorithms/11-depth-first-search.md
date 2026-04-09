@@ -77,3 +77,11 @@ Time Complexity: O(V + E)
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfstraversal.png" alt="DFS Traversal" height="700" width=700" />
 </p>
+
+## Parenthesis Theorem
+- [u.d, u.f]: discover time and finish time of vertex `u`
+- [v.d, v.f]: discover time and finish time of vertex `v`
+
+During DFS Traversal
+1. The interval [u.d, u.f] is nested inside the interval [v.d, v.f] or vice versa. Then, `u` and `v` are ancestors/descendents of each other.
+2. The intervals [u.d, u.f] and [v.d, v.f] are completely disjoint. Then, `u` and `v` are not ancestors/descendents of each other. Happens for disconnected graphs.
