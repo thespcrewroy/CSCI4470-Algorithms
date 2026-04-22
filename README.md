@@ -31,7 +31,6 @@ shortest path, max flow, min cut), and the basics of NP Completeness Theory from
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Directory Structure](#directory-structure)
 - [Personnel](#personnel)
 - [Prerequisites](#prerequisites)
