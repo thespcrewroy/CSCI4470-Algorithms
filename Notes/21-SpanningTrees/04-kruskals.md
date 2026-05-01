@@ -9,7 +9,7 @@
 
 - Greedy Algorithm: pick the lowest edge (safe edge) at any given moment
 - Take the sum of all the edges you added to determine the cost
-- Optimal for sparse graphs, where E &#8494; V<
+- Optimal for sparse graphs, where E ~ V
 - Utilizes a disjoint set data structure (DSDS) in its implementation
 
 ```
