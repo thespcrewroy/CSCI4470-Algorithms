@@ -150,15 +150,17 @@ Vertex `u` is unreachable, so vertex `v` is also unreachable.
 
 ### Lemma 20.2
 
-- BFS satisfies v.d &ge; &delta;(s, v) - (eq 1) at all times
+- BFS satisfies v.d &ge; &delta;(s, v) (eq 1) at all times
 - Base case is the source vertex `s`
     - v.d = 0 = &delta;(s, s)
     - s.d = &delta;(s, s)
-- Assume that eq(1) works of vertex `u` and we are looking at edge `(u, v)`
+- Assume that (eq 1) works of vertex `u` and we are looking at edge `(u, v)`
   - v.d = u.d + 1 (eq 2)
   - v.d &ge; &delta;(s, u) + 1 (eq 3)
   - &delta;(s, v) &le; &delta;(s, u) + 1 (lemma 20.1)
   - v.d &ge; &delta;(s, v)
   
-
-  
+### Lemma 20.3
+Q = < v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>r</sub> >
+v<sub>1</sub>.d &le; v<sub>2</sub>.d &le; ... v<sub>r</sub>.d &le;
+v<sub>r</sub>.d &le; v<sub>1</sub>.d + 1
