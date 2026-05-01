@@ -3,10 +3,8 @@
 ## Notes: Definition
 - Greedy Algorithm: pick the cheapest edge that connects a vertex inside the tree to a vertex outside the tree.
 - Take the sum of all the edges you added to determine the cost
-- Optimal for dense graphs where E ~ V<sup>2</sup>
-- Utilizes a minimum prioirity queue in its implementation
-- Advantage: it can handle denser graphs
-- Disadvantage: it uses a more complex min-priority queue data structure compared to the easy DSDS in kruskal's
+- Optimal for dense graphs where E ~ V<sup>2</sup> (advantage - can handle denser graphs)
+- Utilizes a minimum prioirity queue in its implementation (disadvantage - more complex than DSDS)
 
 ```
 Time Complexity: Vlog(V) + Elog(V) = (V + E)log(V) = O(Elog(V)) 
