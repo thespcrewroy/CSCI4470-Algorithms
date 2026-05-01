@@ -11,7 +11,7 @@
 
 **Example**
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/wp2.png" alt="w(p) Example" height="150" width="300" />
 </p>
 
