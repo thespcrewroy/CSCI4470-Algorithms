@@ -11,6 +11,4 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/min2.png" alt="Minimum Spanning Tree Example" height="500" />
 </p>
 
-In order to find the MST, we leverage 2 greedy algorithms:
-* Prim's
-* Kruskal's
+In order to find the MST, we leverage 2 greedy algorithms: Prim's and Kruskal's
