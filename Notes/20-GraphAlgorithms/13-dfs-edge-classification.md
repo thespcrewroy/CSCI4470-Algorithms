@@ -23,7 +23,7 @@ An edge that connects vertex `u` with vertex `v` where vertex `u` and vertex `v`
 An edge that goes from parent `u` to descendent `v` that is not a tree edge. <br>
 There is a forward edge from `a` to `c`.
 
-### Notes: Example
+## Notes: Example
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dftree2.png" alt="DF Tree" height="500" width="500" />
 </p>
