@@ -33,9 +33,10 @@ O(Elog(V))
 - h.&pi; = NIL
 
 **a.key = 0**
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minqueue1.png" alt="Min Prioirty Queue 1" height="100" width="100"  />
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minqueue1.png" alt="Min Prioirty Queue 1" height="150" width="150"  />
 </p>
+
 
 ## Homework: Example
 
