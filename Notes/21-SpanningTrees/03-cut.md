@@ -22,7 +22,7 @@ A cut respects a set `A` of edges if no edges in `A` crosses the cut.
 ## Notes: Light Edge
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/accrosscut.png" alt="Safe Edge Cut" height="500" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/accrosscut.png" alt="Safe Edge Cut" width="500" />
 </p>
 
 - A light edge crossing the cut is the minimum weight edge out of all the edges crossing the cut.
