@@ -5,17 +5,12 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cut.png" alt="Cut" height="500" />
 </p>
+> (a,h), (b,h), (b,c), (c,d), (d,f), (f,e) are edges crossing the cut
 
 - A cut `(s, v - s)` of an unidrected graph `G(V, E)` is a partition of vertices `v`.
 - Any edge you add accross the cut will not form a cycle
 - Any edge added within a cut will form a cycle
-
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cut21.png" alt="Cut Part 2"  />
-</p>
-
-edge `E(u, v)` crosses the cut `(s, v - s)` if one of its endpoints is in `s` and the other end point is in `v - s`.
+- edge `E(u, v)` crosses the cut `(s, v - s)` if one of its endpoints is in `s` and the other end point is in `v - s`.
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/respect.png" alt="Cut Respect"  />
