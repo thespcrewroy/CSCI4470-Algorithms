@@ -34,7 +34,7 @@ O(Elog(V))
 
 **a.key = 0**
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minqueue1.png" alt="Min Prioirty Queue 1" width="300"  />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minqueue1.png" alt="Min Prioirty Queue 1" height="300" width="300"  />
 </p>
 
 ## Homework: Example
