@@ -37,6 +37,20 @@ O(Elog(V))
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minqueue1.png" alt="Min Prioirty Queue 1" height="150" width="150"  />
 </p>
 
+**dequeue: a**
+- w(a,b) = 4
+- w(a,h) = 8
+- b.key = 4
+- h.key = 8
+
+**b.key = 4**
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minqueue2.png" alt="Min Prioirty Queue 2" height="150" width="150"  />
+</p
+
+**dequeue: b**
+
+
 
 ## Homework: Example
 
