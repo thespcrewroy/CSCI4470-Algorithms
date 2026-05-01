@@ -17,15 +17,15 @@
 
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfsspan.png" alt="BFS Spanning Tree"  />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bfsspan.png" alt="BFS Spanning Tree"  /  height="600">
 </p>
 
 ## Notes: DFS Spanning Tree
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/normgraph.png" alt="Norm Graph"  />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/normgraph.png" alt="Norm Graph"  /  height="600">
 </p>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsspan.png" alt="DFS Spanning Tree"  />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsspan.png" alt="DFS Spanning Tree"  /  height="600">
 </p>
