@@ -161,6 +161,24 @@ Vertex `u` is unreachable, so vertex `v` is also unreachable.
   - v.d &ge; &delta;(s, v)
   
 ### Lemma 20.3
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/lemma3.png" alt="BFS Proof Lemma 20.3" height="200" width="200" />
+</p>
+
+**Q = < S >**
+
+**Q = < a, b, d >**
+- a.d = 1
+- b.d = 1
+- d.d = 1
+
+**Q = < d, c, e >**
+- d.d = 1 (v<sub>1</sub>)
+- c.d = 2
+- e.d = 2 (v<sub>r</sub>)
+
+**e.d &le; d.d + 1**
+
 Q = < v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>r</sub> > <br>
 v<sub>1</sub>.d &le; v<sub>2</sub>.d &le; ... v<sub>r</sub>.d <br>
 v<sub>r</sub>.d &le; v<sub>1</sub>.d + 1
