@@ -14,7 +14,7 @@
 - edge `E(u, v)` crosses the cut `(s, v - s)` if one of its endpoints is in `s` and the other end point is in `v - s`.
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/respect.png" alt="Cut Respect" height="300"  />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/respect.png" alt="Cut Respect" width="300"  />
 </p>
 
 A cut respects a set `A` of edges if no edges in `A` crosses the cut.
