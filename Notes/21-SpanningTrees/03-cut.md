@@ -41,7 +41,7 @@ Let `(s, v - s)` be any cut of `G` that respects `A` and lets `(u, v)` be a ligh
 ## Notes: Light Edge Proof
 
 - Let `T` be a MST that includes `A`.
-- Assume that light edge (u,v) is not part of the `T`.
+- Assume that light edge `(u, v)` is not part of the `T`.
 - We will construct another `T'` by copying edges in `T` that include `A` and light edge `(u, v)`.
 
 <p align="center">
