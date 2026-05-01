@@ -42,7 +42,7 @@ Shortest path calculation has the optimal substructure.
 Given: w<sub>(Pij)</sub> > w<sub>(Pij')</sub> <br>
 w<sub>(P0k)</sub> = w<sub>(P0i)</sub> + w<sub>(Pij)</sub> + w<sub>(Pjk)</sub> <br>
 w<sub>(P0k')</sub> = w<sub>(P0i)</sub> + w<sub>(Pij')</sub> + w<sub>(Pjk)</sub> <br>
-w<sub>(P0k)</sub> - w(P0k') = w<sub>(Pij)</sub> + w<sub>(Pij')</sub> <br>
+w<sub>(P0k)</sub> - w<sub>(P0k')</sub> = w<sub>(Pij)</sub> + w<sub>(Pij')</sub> <br>
 w<sub>(P0k)</sub> - w<sub>(P0k')</sub> = w<sub>(Pij)</sub> + w<sub>(Pij')</sub> <br>
 w<sub>(P0k)</sub> - w<sub>(P0k')</sub> > 0
 w<sub>(P0k)</sub> > w<sub>(P0k')</sub>
