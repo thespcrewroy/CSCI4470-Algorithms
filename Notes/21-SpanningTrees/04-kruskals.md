@@ -16,9 +16,6 @@
 Time Complexity: O(Elog(V))
 ```
 
-
-
-
 ## Notes: Kruskal's DSDS Implementation Cost Analysis
 
 ```

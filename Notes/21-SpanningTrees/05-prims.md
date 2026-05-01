@@ -20,6 +20,17 @@ O(Elog(V))
 
 **Complete Graph Time Complexity: O(Elog(V))**
 
+## Notes: Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/primwalk2.png" alt="Prim Walkthrough" width="500"  />
+</p>
+
+**Initialization**
+- b.key = &alpha;
+- b.&pi; = NIL
+- h.key = &alpha;
+- h.&pi; = NIL
 
 ## Homework: Example
 
