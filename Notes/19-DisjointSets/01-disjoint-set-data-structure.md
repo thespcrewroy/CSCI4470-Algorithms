@@ -36,7 +36,7 @@ Q) S = { S₁, S₂ }
 ## Notes: Cost Analysis
 
 ```
-O(m	α (n))
+Time Complexity: O(m α (n))
 ```
 
 - m: total number of MakeSet, FindSet, and Union operations.

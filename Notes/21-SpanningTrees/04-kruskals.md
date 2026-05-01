@@ -13,8 +13,24 @@
 - Utilizes a disjoint set data structure (DSDS) in its implementation
 
 ```
-Time Complexity: Elog(E) + Elog(V)
+Time Complexity: O(Elog(E) + Elog(V))
+- Sorting Edges: O(Elog(E))
+- Using DSDS to Detect Cycles: O(Elog(V))
 ```
+
+## Notes: Kruskal's DSDS Implementation
+
+```
+Time Complexity: O((V + 3E) α (V))
+- DSDS: O(m α (n))
+- Make_Set: O(V) for all vertices
+- Find_SET: O(2E) for all edges
+- Union: O(E) for all the edges
+```
+
+- m: total number of MakeSet, FindSet, and Union operations: V + 3E
+- n: total number of MakeSet operations: V
+- &alpha;(n): usually constant, but can be log() in the worst case
 
 ## Homework: Example
 <p align="center">
