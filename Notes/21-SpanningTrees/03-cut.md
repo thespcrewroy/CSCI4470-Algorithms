@@ -5,6 +5,7 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cut.png" alt="Cut" height="500" />
 </p>
+
 > (a,h), (b,h), (b,c), (c,d), (d,f), (f,e) are edges crossing the cut
 
 - A cut `(s, v - s)` of an unidrected graph `G(V, E)` is a partition of vertices `v`.
