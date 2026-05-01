@@ -13,22 +13,11 @@
 - Utilizes a disjoint set data structure (DSDS) in its implementation
 
 ```
-Cost Elog(E) + Elog(V)
-- Sorting Edges: O(Elog(E))
-- Using DSDS to Detect Cycles: O(Elog(V))
+Time Complexity: O(Elog(V))
 ```
 
-```
-Complete Graph Time Complexity: O(Elog(V))
 
 
-Elog(V) + Elog(E)
-E α V^2
-Elog(V) + Elog(V^2)
-Elog(V) + 2Elog(V)
-3Elog(V)
-O(Elog(V))
-```
 
 ## Notes: Kruskal's DSDS Implementation Cost Analysis
 
@@ -50,7 +39,25 @@ DSDS Time Complexity: O(m α (n)) = O(Elog(V))
 - n: total number of MakeSet operations: V
 - &alpha;(n): usually constant, but is log() in the worst case
 
+## Notes: Kruskal's Time Complexity Analysis
 
+
+```
+Average Cost: Elog(E) + Elog(V)
+- Sorting Edges: O(Elog(E))
+- Using DSDS to Detect Cycles: O(Elog(V))
+```
+
+```
+Elog(V) + Elog(E)
+E α V^2
+Elog(V) + Elog(V^2)
+Elog(V) + 2Elog(V)
+3Elog(V)
+O(Elog(V))
+```
+
+**Complete Graph Time Complexity: O(Elog(V))**
 
 ## Homework: Example
 <p align="center">
