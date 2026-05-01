@@ -37,12 +37,12 @@ Shortest path calculation has the optimal substructure.
 ## Optimal Substructure Proof by Contradiction
 - p<sub>0k</sub> = p<sub>0i</sub> (shortest) + p<sub>ij</sub> (shortest) + p<sub>jk</sub> (shortest)
 - Proof by Contrafuction: all paths used were optimal, so p<sub>0k</sub>' is NOT optimal (not shortest)
-- Assumption: w<sub>(P0k)</sub> < w<sub>(P0k')</sub>
+- Assumption: w(P<sub>0k</sub>) < w(P<sub>0k</sub>')
 
-Given: w<sub>(Pij)</sub> > w<sub>(Pij')</sub> <br>
-w<sub>(P0k)</sub> = w<sub>(P0i)</sub> + w<sub>(Pij)</sub> + w<sub>(Pjk)</sub> <br>
-w<sub>(P0k')</sub> = w<sub>(P0i)</sub> + w<sub>(Pij')</sub> + w<sub>(Pjk)</sub> <br>
-w<sub>(P0k)</sub> - w<sub>(P0k')</sub> = w<sub>(Pij)</sub> + w<sub>(Pij')</sub> <br>
-w<sub>(P0k)</sub> - w<sub>(P0k')</sub> = w<sub>(Pij)</sub> + w<sub>(Pij')</sub> <br>
-w<sub>(P0k)</sub> - w<sub>(P0k')</sub> > 0 <br>
-w<sub>(P0k)</sub> > w<sub>(P0k')</sub>
+Given: w(P<sub>ij</sub>) > w(P<sub>ij</sub>') <br>
+w(P<sub>0k</sub>) = w(P<sub>0i</sub>) + w(P<sub>ij</sub>) + w(P<sub>jk</sub>) <br>
+w(P<sub>0k</sub>') = w(P<sub>0i</sub>) + w(P<sub>ij</sub>') + w(P<sub>jk</sub>) <br>
+w(P<sub>0k</sub>) - w(P<sub>0k</sub>') = w(P<sub>ij</sub>) + w(P<sub>ij</sub>') <br>
+w(P<sub>0k</sub>) - w(P<sub>0k</sub>') = w(P<sub>ij</sub>) + w(P<sub>ij</sub>') <br>
+w(P<sub>0k</sub>) - w(P<sub>0k</sub>') > 0 <br>
+w(P<sub>0k</sub>) > w(P<sub>0k</sub>')
