@@ -78,12 +78,15 @@ O(Elog(V))
 - f.key = 4
 - d.key = 7
 
-  
+**i.key = 2**
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap4.png" alt="Min Priority Queue 4" height="150" width="150"  />
 </p>
   
-  
+**Current MST (Keep Going)**
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/currenttreepng" alt="Current MST" height="250" width="400"  />
+</p>
   
 
 ## Homework: Example
