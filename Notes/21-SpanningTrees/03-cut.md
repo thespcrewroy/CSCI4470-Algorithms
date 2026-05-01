@@ -30,6 +30,13 @@ A cut respects a set `A` of edges if no edges in `A` crosses the cut.
 - MST Algorithms find the safe edge, add to spanning tree, and then iterate
 - In the example from the *Definition* section, (c,d) is considered the light edge
 
+### Theorem 15.1
+
+Let `G={V,E}` be a connected undirected weighted graph with weight `W` defined on edge `E` <br>
+Let `A` be a subset of `E` that is included in some minimum spanning tree for graph `G ` <br>
+Let `(s, v - s)` be any cut of `G` that respects `A` and lets `(u, v)` be a light edge crossing the cut <br>
+**The edge (u, v) must be a safe edge for A.**
+
 ## Homework: Minimum Weight Edge
 
 <p align="center">
