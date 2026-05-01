@@ -1,0 +1,5 @@
+# Single Source Shortest Path Problem
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/sssp.png" alt=Single Source Shortest Path Problem" height="300" width="300" />
+
