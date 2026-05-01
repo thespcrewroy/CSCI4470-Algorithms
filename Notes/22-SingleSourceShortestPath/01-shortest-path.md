@@ -23,4 +23,4 @@ w(p) = -1 + 2 + -1 = 0
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/su.png" alt=delta(s, u)" height="300" width="300" />
 
 - &delta;(s, u): shortest path from vertex `s` to vertex `u`
-- &delta;(s, u) = &alpha;: if there is no path from `s` to `u`
+- &delta;(s, u) = &infin;: if there is no path from `s` to `u`
