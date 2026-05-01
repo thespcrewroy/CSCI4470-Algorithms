@@ -27,15 +27,15 @@ There is a forward edge from `a` to `c`.
 ## Notes: Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsexample9.png" alt="DF Tree" height="600" width="600" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsexample9.png" alt="DF Tree" height="400" width="400" />
 </p>
 
-### Depth-First Tree
+### Notes: Depth-First Tree
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dftree2.png" alt="DF Tree" height="500" width="500" />
 </p>
 
-### DFS Edge Classification
+### Notes: DFS Edge Classification
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsedgeclassification.png" alt="Edge Types" height="550" width="550" />
 </p>
