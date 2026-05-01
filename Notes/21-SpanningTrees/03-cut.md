@@ -6,7 +6,7 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cut.png" alt="Cut" height="500" />
 </p>
 
-> (a,h), (b,h), (b,c), (c,d), (d,f), (f,e) are edges crossing the cut
+> 8(a,h), 11(b,h), 8(b,c), 7(c,d), 14(d,f), 10(f,e) are edges crossing the cut
 
 - A cut `(s, v - s)` of an unidrected graph `G(V, E)` is a partition of vertices `v`.
 - Any edge you add accross the cut will not form a cycle
@@ -19,14 +19,11 @@
 
 A cut respects a set `A` of edges if no edges in `A` crosses the cut.
 
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/lightedge.png" alt="Light"  />
-</p>
-
-
-- A light edge is the minimum weight edge out of all the edges crossing the cut.
+## Notes: Light Edge
+- A light edge crossing the cut is the minimum weight edge out of all the edges crossing the cut.
 - This edge becomes the safe edge
-- Find the safe edge, add to spanning tree, and iterate
+- MST Algorithms find the safe edge, add to spanning tree, and then iterate
+- In the previous example from the *Definition* section, (c,d) is considered the light edge
 
 ## Homework: Minimum Weight Edge
 
