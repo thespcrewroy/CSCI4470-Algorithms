@@ -120,19 +120,19 @@ Example of Proof: v.d = &alpha;...  v.d = 5...  v.d = 3;... Done.
 - The graph must be undirected and **unweighted** (weighted proof needs **Djikstra's Algorithm**
 
 ### Lemma 20.1
-- Let `G=(V,E)` be directed or undirected graph
+- Let `G=(V, E)` be directed or undirected graph
 - Let S &isin; V be an arbitrary vertex
-- Then, for any edge `(u,v)` &isin; E, &delta;(s,v) &le; &delta;(s,u) + 1
+- Then, for any edge `(u, v)` &isin; E, &delta;(s, v) &le; &delta;(s,u) + 1
 
-### Case 1: &delta;(s,v) = &delta;(s,u) + 1
+### Case 1: &delta;(s, v) = &delta;(s, u) + 1
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/case1.png" alt="BFS Proof Lemma Case 1" height="200" width="200" />
 </p>
 
-There is a shortest path from `s` to `v` that goes through `u`: &delta;(s,v) = &delta;(s,u) + 1
+There is a shortest path from `s` to `v` that goes through `u`: &delta;(s, v) = &delta;(s, u) + 1.
 
-### Case 2: &delta;(s,v) < &delta;(s,u) + 1
+### Case 2: &delta;(s, v) < &delta;(s, u) + 1
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/case2.png" alt="BFS Proof Lemma Case 2" height="200" width="200" />
@@ -140,4 +140,25 @@ There is a shortest path from `s` to `v` that goes through `u`: &delta;(s,v) = &
 
 The shortest path from `s` to `v` does not go through `u`.
 
-### Case 3: 
+### Case 3 (Rare): &delta;(s, v) = &delta;(s, u) = &alpha;
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/case3.png" alt="BFS Proof Lemma Case 3" height="200" width="200" />
+</p>
+
+Vertex `u` is unreachable, so vertex `v` is also unreachable.
+
+### Lemma 20.2
+
+- BFS satisfies v.d &ge; &delta;(s, v) - (eq 1) at all times
+- Base case is the source vertex `s`
+    - v.d = 0 = &delta;(s, s)
+    - s.d = &delta;(s, s)
+- Assume that eq(1) works of vertex `u` and we are looking at edge `(u, v)`
+  - v.d = u.d + 1 (eq 2)
+  - v.d &ge; &delta;(s, u) + 1 (eq 3)
+  - &delta;(s, v) &le; &delta;(s, u) + 1 (lemma 20.1)
+  - v.d &ge; &delta;(s, v)
+  
+
+  
