@@ -63,7 +63,7 @@ O(Elog(V))
 - c.key = 8
 
 **c.key = 8**
-<p align="center">
+<p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap3.png" alt="Min Priority Queue 3" height="150" width="150"  />
 </p>
 
@@ -79,8 +79,8 @@ O(Elog(V))
 - d.key = 7
 
   
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap4.png" alt="Prim Use Case"  />
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap4.png" alt="Min Priority Queue 4" height="150" width="150"  />
 </p>
   
   
