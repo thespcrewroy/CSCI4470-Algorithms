@@ -7,9 +7,19 @@
 - Utilizes a minimum prioirity queue in its implementation
 
 ```
-Time Complexity: (V + E)log(V) = Elog(V)
-- V + E ~ E for dense graphs
+Time Complexity: O(Elog(V)) 
 ```
+
+## Notes: Prim's Time Complexity Analysis
+
+```
+(V + E)log(V)
+V + E ~ E (for dense graphs)
+O(Elog(V))
+```
+
+**Complete Graph Time Complexity: O(Elog(V))**
+
 
 ## Homework: Example
 
