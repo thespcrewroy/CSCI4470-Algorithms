@@ -12,7 +12,7 @@
 ## Notes: BFS Spanning Tree
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/normgraph.png" alt="Norm Graph"  />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/normgraph.png" alt="Norm Graph"  / height="600">
 </p>
 
 
