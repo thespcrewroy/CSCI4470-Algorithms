@@ -179,7 +179,7 @@ Vertex `u` is unreachable, so vertex `v` is also unreachable.
 
 e.d &le; d.d + 1
 
-**Lemma**
+**Lemma** <br>
 Q = < v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>r</sub> > <br>
 v<sub>1</sub>.d &le; v<sub>2</sub>.d &le; ... v<sub>r</sub>.d <br>
 v<sub>r</sub>.d &le; v<sub>1</sub>.d + 1
