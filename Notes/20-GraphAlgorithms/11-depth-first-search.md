@@ -60,7 +60,7 @@ Time Complexity: O(V + E)
 
 ## Notes: Implementation
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsexample.png" alt="DFS Example" height="300" width=300" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsexample.png" alt="DFS Example" height="300" width=200" />
 </p>
 
 - time: global variable that starts with value of 0 and will get updated
@@ -68,7 +68,7 @@ Time Complexity: O(V + E)
 - u.f: finish time of vertex `u`. Assign when vertex becomes black.
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsimpltable.png" alt="DFS Implementation Example" height="500" width="500" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dfsimpltable.png" alt="DFS Implementation Example" height="200" width="200" />
 </p>
 
 ## Notes: Implementation Example
