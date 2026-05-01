@@ -43,6 +43,5 @@ Given: w(P<sub>ij</sub>) > w(P<sub>ij</sub>') <br>
 w(P<sub>0k</sub>) = w(P<sub>0i</sub>) + w(P<sub>ij</sub>) + w(P<sub>jk</sub>) <br>
 w(P<sub>0k</sub>') = w(P<sub>0i</sub>) + w(P<sub>ij</sub>') + w(P<sub>jk</sub>) <br>
 w(P<sub>0k</sub>) - w(P<sub>0k</sub>') = w(P<sub>ij</sub>) + w(P<sub>ij</sub>') <br>
-w(P<sub>0k</sub>) - w(P<sub>0k</sub>') = w(P<sub>ij</sub>) + w(P<sub>ij</sub>') <br>
 w(P<sub>0k</sub>) - w(P<sub>0k</sub>') > 0 <br>
 w(P<sub>0k</sub>) > w(P<sub>0k</sub>')
