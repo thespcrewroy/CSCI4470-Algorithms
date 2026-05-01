@@ -42,3 +42,11 @@ Let `(s, v - s)` be any cut of `G` that respects `A` and lets `(u, v)` be a ligh
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-7.png" alt="Ligh Edge Examplet"  />
 </p>
+
+
+### Theorem 15.1
+
+Let `G={V,E}` be a connected undirected weighted graph with weight `W` defined on edge `E` <br>
+Let `A` be a subset of `E` that is included in some minimum spanning tree for graph `G ` <br>
+Let `(s, v - s)` be any cut of `G` that respects `A` and lets `(u, v)` be a light edge crossing the cut <br>
+**The edge (u, v) must be a safe edge for A.**
