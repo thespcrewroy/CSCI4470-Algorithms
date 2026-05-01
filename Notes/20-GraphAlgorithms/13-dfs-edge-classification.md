@@ -7,7 +7,7 @@
 An edge hat takes you from child to parent.
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/blackedge.png" alt="Edge Types" height="200" width="200" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/blackedge.png" alt="Edge Types" height="200" width="100" />
 </p>
 
 ## Notes: Cross Edge
