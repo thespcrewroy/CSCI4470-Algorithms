@@ -9,11 +9,11 @@
 
 - Greedy Algorithm: pick the lowest edge (safe edge) at any given moment
 - Take the sum of all the edges you added to determine the cost
-- Ideal for sparse graphs, where all edges can be checked easily
+- Optimal for sparse graphs, where E &#8494; V<
 - Utilizes a disjoint set data structure (DSDS) in its implementation
 
 ```
-Time Complexity: O(Elog(V))
+Time Complexity: Elog(E) + Elog(V) = Elog(V) + Elog(V) = (2E)log(V) = O(Elog(V))
 ```
 
 ## Notes: Kruskal's DSDS Implementation Cost Analysis

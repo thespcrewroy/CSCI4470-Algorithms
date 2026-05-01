@@ -7,7 +7,10 @@
 - Utilizes a minimum prioirity queue in its implementation
 
 ```
-Time Complexity: O(Elog(V)) 
+Time Complexity: Vlog(V) + Elog(V) = (V + E)log(V) = O(Elog(V)) 
+- Height of Heap: log(V)
+- Extract_Min (Dequeue): O(Vlog(V))
+- Decrease_Key (Enqueue): O(Elog(V))
 ```
 
 ## Notes: Prim's Time Complexity Analysis
