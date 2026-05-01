@@ -114,7 +114,7 @@ During DFS Traversal
 
 ### `d` is a Descendant of `a`
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/whitepath1.png" alt="White Path Theorem" height="400" width=200" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/whitepath1.png" alt="White Path Theorem" height="200" width=200" />
 </p>
 
 ### `d` is Not a Descendant of `a`
