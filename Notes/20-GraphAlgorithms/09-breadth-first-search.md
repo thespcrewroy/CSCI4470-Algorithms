@@ -120,6 +120,7 @@ Example of Proof: v.d = &alpha;...  v.d = 5...  v.d = 3;... Done.
 - The graph must be undirected and **unweighted** (weighted proof needs **Djikstra's Algorithm**
 
 ### Lemma 20.1
+
 - Let `G=(V, E)` be directed or undirected graph
 - Let S &isin; V be an arbitrary vertex
 - Then, for any edge `(u, v)` &isin; E, &delta;(s, v) &le; &delta;(s,u) + 1
@@ -185,4 +186,31 @@ v<sub>1</sub>.d &le; v<sub>2</sub>.d &le; ... v<sub>r</sub>.d <br>
 v<sub>r</sub>.d &le; v<sub>1</sub>.d + 1
 
 ### Corollary 20.4
+
 Implies that if vertex v<sub>i</sub> is dequeued before vertex v<sub>j</sub>, then v<sub>i</sub>.d &le; v<sub>j</sub>.d
+
+### Theorem 20.5
+
+During BFS execution, it discovers that vertex `v` is reachable from `s` then `v.d` = &delta;(s, v) for all the vertex v &isin; V
+
+### Proof by Contradiction
+
+All the vertex received by the shortest distance at convergence of BFS except vertex `v`. Vertex `u` appears before vertex `v`. Edge from vertex `u` to `v`.
+
+u.d = &delta;(s, u) (eq 1) <br>
+v.d &ge; &delta;(s, v) <br>
+v.d > &delta;(s, v) <br>
+&delta;(s, v) = &delta;(s, u) + 1  = u.d + 1 <br>
+
+Thus, v.d > u.d + 1 (eq 2) <br>
+
+When `u` is dequeued, `v` can be either white, gray, or black:
+- If `v` is white
+    - v.d = u.d + 1 (contradicts (eq 2))
+- If `v` is gray, `v` is made gray by some other vertex `w`, by lemma 20.3
+    - w.d &le; u.d (by lemma 20.3)
+    - v.d = w.d + 1
+    - w.d + 1 &le; u.d + 1
+    - v.d &le; u.d + 1 (contradicting (eq 2))
+- If `v` is black, it is removed from the queue before `u`
+    - v.d &le; u.d (contradicting (eq 2) by lemma 20.3)
