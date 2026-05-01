@@ -18,7 +18,7 @@ Time Complexity: O(Elog(E) + Elog(V))
 - Using DSDS to Detect Cycles: O(Elog(V))
 ```
 
-## Notes: Kruskal's DSDS Implementation
+## Notes: Kruskal's DSDS Implementation Cost Analysis
 
 ```
 Time Complexity: O((V + 3E) α (V))
