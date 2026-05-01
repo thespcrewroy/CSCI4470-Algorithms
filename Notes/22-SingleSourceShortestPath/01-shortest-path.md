@@ -37,7 +37,7 @@ Shortest path calculation has the optimal substructure.
 ## Optimal Substructure Proof by Contradiction
 - p<sub>0k</sub> = p<sub>0i</sub> (shortest) + p<sub>ij</sub> (shortest) + p<sub>jk</sub> (shortest)
 - Proof by Contrafuction: all paths used were optimal, so p<sub>0k</sub>' is NOT optimal (not shortest)
-- Assumption: w<sub>(P0k)</sub> <> w<sub>(P0k')</sub>
+- Assumption: w<sub>(P0k)</sub> < w<sub>(P0k')</sub>
 
 Given: w<sub>(Pij)</sub> > w<sub>(Pij')</sub> <br>
 w<sub>(P0k)</sub> = w<sub>(P0i)</sub> + w<sub>(Pij)</sub> + w<sub>(Pjk)</sub> <br>
