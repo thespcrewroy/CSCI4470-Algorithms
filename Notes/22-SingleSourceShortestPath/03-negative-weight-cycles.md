@@ -9,7 +9,7 @@ This section analyzes the effect of *positive weight cycles* on shortest path.
 
 path from vertex `a` to vertex `d`:
 - p<sub>1</sub>: < a, b, c, d >
-- w(p<sub>1</sub>) = 1 + 2 + 1
+- w(p<sub>1</sub>) = 1 + 2 + 1 = 4
 
 cycle `c`:
 - c: < b, e, f, c, b >
