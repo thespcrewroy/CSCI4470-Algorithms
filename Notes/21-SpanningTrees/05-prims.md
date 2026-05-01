@@ -85,7 +85,7 @@ O(Elog(V))
   
 **Current MST (Keep Going)**
 <p align="left">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/currenttreepng" alt="Current MST" height="250" width="400"  />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/currenttree.png" alt="Current MST" height="250" width="400"  />
 </p>
   
 
