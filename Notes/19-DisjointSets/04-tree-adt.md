@@ -10,7 +10,7 @@
 ### Make_Set(A)
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/makea.png" alt="Find Linked List Disjoint Set" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/makea.png" alt="Find Linked List Disjoint Set" width="500" />
 </p>
 
 
@@ -21,7 +21,7 @@ Time Complexity: O(1)
 ### Find_Set(D)
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/findd.png" alt="Find Linked List Disjoint Set" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/findd.png" alt="Find Linked List Disjoint Set" width="500" />
 </p>
 
 ```
@@ -46,7 +46,7 @@ Time Complexity: O(1)
 ## Notes: Path Compression
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathcompression.png" alt="Path Compression" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathcompression.png" alt="Path Compression" width="500" />
 </p>
 
 
@@ -58,7 +58,7 @@ Time Complexity: O(1)
 ## Notes: Rank
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/rank.png" alt="Path Compression" width="800" />
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/rank.png" alt="Path Compression" width="500" />
 </p>
 
 - The height of the tree
