@@ -207,7 +207,7 @@ Thus, v.d > u.d + 1 (eq 2) <br>
 When `u` is dequeued, `v` can be either white, gray, or black:
 - If `v` is white
     - v.d = u.d + 1 (contradicts (eq 2))
-- If `v` is gray, `v` is made gray by some other vertex `w`, by lemma 20.3
+- If `v` is gray, `v` is made gray by some other vertex `w`
     - w.d &le; u.d (by lemma 20.3)
     - v.d = w.d + 1
     - w.d + 1 &le; u.d + 1
