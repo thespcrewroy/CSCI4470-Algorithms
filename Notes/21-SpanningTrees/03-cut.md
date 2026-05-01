@@ -45,6 +45,10 @@ Let `(s, v - s)` be any cut of `G` that respects `A` and lets `(u, v)` be a ligh
 - We will construct another `T'` by copying edges in `T` that include `A` and light edge `(u, v)`.
 
 <p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/preproof.png" alt="Pre Light Edge Proof" width="500"  />
+</p>
+
+<p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/lightedgeproof.png" alt="Light Edge Proof" width="500"  />
 </p>
 
