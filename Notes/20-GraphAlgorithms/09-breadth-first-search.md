@@ -161,6 +161,6 @@ Vertex `u` is unreachable, so vertex `v` is also unreachable.
   - v.d &ge; &delta;(s, v)
   
 ### Lemma 20.3
-Q = < v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>r</sub> >
-v<sub>1</sub>.d &le; v<sub>2</sub>.d &le; ... v<sub>r</sub>.d &le;
+Q = < v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>r</sub> > <br>
+v<sub>1</sub>.d &le; v<sub>2</sub>.d &le; ... v<sub>r</sub>.d <br>
 v<sub>r</sub>.d &le; v<sub>1</sub>.d + 1
