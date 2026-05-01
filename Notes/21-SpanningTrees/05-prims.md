@@ -20,7 +20,11 @@ O(Elog(V))
 
 **Complete Graph Time Complexity: O(Elog(V))**
 
-## Notes: Example
+## Notes: Implementation Example
+
+- Create a minimum priority queue with all the vertices
+- You are using the key parameter to create the heap
+- If the key value is bigger than weight, then update the **key** to minimize it
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/primwalk2.png" alt="Prim Walkthrough" width="500"  />
@@ -37,7 +41,9 @@ O(Elog(V))
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minqueue1.png" alt="Min Prioirty Queue 1" height="150" width="150"  />
 </p>
 
-**dequeue: a**
+**dequeue(a)**
+- b.key = &alpha;
+- h.key = &alpha;
 - w(a,b) = 4
 - w(a,h) = 8
 - b.key = 4
@@ -48,9 +54,37 @@ O(Elog(V))
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/minqueue2.png" alt="Min Prioirty Queue 2" height="150" width="150"  />
 </p
 
-**dequeue: b**
+**dequeue(b)**
+- h.key = 8
+- c.key = &alpha;
+- w(b, h) = 11
+- w(b, c) = 8
+- h.key = 8
+- c.key = 8
 
+**c.key = 8**
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap3.png" alt="Min Priority Queue 3" height="150" width="150"  />
+</p>
 
+**dequeue(c)**
+- i.key = &infin;
+- f.key = &infin;
+- d.key = &infin;
+- w(c, i) = 2
+- w(c, f) = 4
+- w(c, d) = 7
+- i.key = 2
+- f.key = 4
+- d.key = 7
+
+  
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap4.png" alt="Prim Use Case"  />
+</p>
+  
+  
+  
 
 ## Homework: Example
 
@@ -60,67 +94,4 @@ O(Elog(V))
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/hw4-6-2.png" alt="Prim's Algo Example"  />
-</p>
-
-## Notes: Implementation Example
-
-- Create a minimum priority queue with all the vertices
-- You are using the key parameter to create the heap
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/primgraph.png" alt="Prim Use Case"  />
-</p>
-
-1. Choose Start_Vertex
-- a.key = 0
-2. Initialization (true for all vertices except one)
-- b.key = &infin;
-- b.&pi; = NIL <br>
-...
-- e.key = &infin;
-- e.&pi; = NIL
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap1.png" alt="Prim Use Case"  />
-</p>
-
-3. Dequeue(a)
-- Consider neighbors: `b` and `h`
-  - b.key = &infin;
-  - w(a, b) = 4
-  - h.key = &infin;
-  - w(a, h) = 8
-- If the key value is bigger than weight, then update the key
-  - b.key = 4
-  - h.key = 8
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap2.png" height="400" width="400" alt="Prim Use Case"  />
-</p>
-
-4. Dequeue(b)
-- Consider neighbors: `h` and `c`
-  - h.key = 8
-  - w(b, h) = 11
-  - c.key = 2
-  - w(b, c) = 8
-- If the key value is bigger than weight, then update the key
-  - h.key = 8
-  - c.key = 8
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap3.png" alt="Prim Use Case"  />
-</p>
-
-5. Dequeue(c)
-- Consider neighbors: `i`, `f`, and `d`
-  - i.key = &infin; 
-  - w(c, i) = 2
-  - f.key = &infin;
-  - w(c, f) = 4
-  - d.key = &infin;
-  - w(c, d) = 7
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap4.png" alt="Prim Use Case"  />
 </p>
