@@ -20,7 +20,7 @@ An edge that connects vertex `u` with vertex `v` where vertex `u` and vertex `v`
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/forwardedge.png" alt="Edge Types" height="500" width="300" />
 </p>
 
-An edge that goes from parent `u` to descendent `v` that is not a tree edge.
+An edge that goes from parent `u` to descendent `v` that is not a tree edge. <br>
 There is a forward edge from `a` to `c`.
 
 
