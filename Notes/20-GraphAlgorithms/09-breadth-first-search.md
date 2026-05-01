@@ -109,10 +109,35 @@ Time Complexity: O(V + E)
 </p>
 
 
-## Proof: &delta;(s, u)
+## Proof: &delta;(s, v)
 
-Proof: at the termination of the BFS, u.d converges to &delta;(s, u)
-- &delta;(s, u): shortest distance from vertex `u` from source `s`
-- u.d: distance of vertex `u` from source `s` (number of edges between `u` and `s`)
-- The graph must be undirected and **unweighted**
-    - Weighted graphs need the **Djikstra's Algorithm**
+Proof: at the termination of the BFS, u.d converges to &delta;(s, v)
+
+Example of Proof: v.d = &alpha;...  v.d = 5...  v.d = 3;... Done.
+
+- &delta;(s, v): shortest distance from vertex `v` from source `s`
+- u.d: distance of vertex `u` from source `s` (number of edges between `v` and `s`)
+- The graph must be undirected and **unweighted** (weighted proof needs **Djikstra's Algorithm**
+
+### Lemma 20.1
+- Let `G=(V,E)` be directed or undirected graph
+- Let S &isin; V be an arbitrary vertex
+- Then, for any edge `(u,v)` &isin; E, &delta;(s,v) &le; &delta;(s,u) + 1
+
+### Case 1: &delta;(s,v) = &delta;(s,u) + 1
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/case1.png" alt="BFS Proof Lemma Case 1" height="200" width="200" />
+</p>
+
+There is a shortest path from `s` to `v` that goes through `u`: &delta;(s,v) = &delta;(s,u) + 1
+
+### Case 2: &delta;(s,v) < &delta;(s,u) + 1
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/case2.png" alt="BFS Proof Lemma Case 2" height="200" width="200" />
+</p>
+
+The shortest path from `s` to `v` does not go through `u`.
+
+### Case 3: 
