@@ -28,9 +28,17 @@ Time Complexity: O((V + 3E) α (V))
 - Union: O(E) for all the edges
 ```
 
+```
+DSDS Time Complexity: O(m α (n)) = O(Elog(V))
+- There are more edges than vertices so `V + 3E ~ O(E)`
+- &alpha;(n): log() in the worst case
+```
+
 - m: total number of MakeSet, FindSet, and Union operations: V + 3E
 - n: total number of MakeSet operations: V
-- &alpha;(n): usually constant, but can be log() in the worst case
+- &alpha;(n): usually constant, but is log() in the worst case
+
+
 
 ## Homework: Example
 <p align="center">
