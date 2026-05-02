@@ -1,4 +1,7 @@
-# Triangle Inequality Property
+# Properties of Shortest Path and Relaxation
+
+
+## Triangle Inequality Property
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/triangle.png" alt="Triangle Inequality Property" height="200" width="200" 
