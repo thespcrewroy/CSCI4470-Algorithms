@@ -33,11 +33,11 @@ Relax the edges in topological order.
 
 | Vertex | Initial | After Pass 1 | After Pass 2 | After Pass 3 | After Pass 4 |
 |--------|---------|--------------|--------------|--------------|--------------|
-| a | (*) d=0<br/>π=NIL |  |  |  |  |
+| a | d=0<br/>(*)π=NIL |  |  |  |  |
 | b | d=∞<br/>π=NIL | d=2<br/>π=a |  |  |  |
-| c | d=∞<br/>π=NIL | d=6<br/>π=b | (*) d=5<br/>π=e |  |  |
-| d | d=∞<br/>π=NIL | d=4<br/>π=a | (*) d=3<br/>π=c |  |  |
-| e | d=∞<br/>π=NIL | (*) d=6<br/>π=a |  |  |  |
+| c | d=∞<br/>π=NIL | d=6<br/>π=b | d=5<br/>(*)π=e |  |  |
+| d | d=∞<br/>π=NIL | d=4<br/>π=a | d=3<br/>(*)π=c |  |  |
+| e | d=∞<br/>π=NIL | d=6<br/>(*)π=a |  |  |  |
 
 
 **Check `a`**
