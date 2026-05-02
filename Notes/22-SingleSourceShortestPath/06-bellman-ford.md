@@ -6,7 +6,7 @@
 - **Relax all the `E` edges `(V - 1)` times** to converge to shortest distance (v.d = &infin; -> &delta;(s, v))
 
 ```
-Time Complexity: O(V*E)
+Time Complexity: E(V - 1) = O(V*E)
 ```
 
 ## Example 
