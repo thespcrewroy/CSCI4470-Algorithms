@@ -1,4 +1,4 @@
-# DAG Algorithm
+# DAG Shortest Path Algorithm
 
 - Applies only to directed acyclic graphs, so it cannot have a negative cycle
 - Not all graphs in the real world fit the DAG definition (disadvantage)
@@ -13,7 +13,7 @@ Time Complexity: θ(V + E)
 - Relaxation: O(E)
 ```
 
-## Example
+## Notes: Example
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dag2.png" alt="DAG Example" height="500" width="500" 
