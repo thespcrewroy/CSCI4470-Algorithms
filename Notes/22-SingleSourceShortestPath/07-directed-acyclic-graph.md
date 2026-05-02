@@ -2,9 +2,10 @@
 
 - Applies only to directed acyclic graphs, so it cannot have a negative cycle
 - Not all graphs in the real world fit the DAG definition (disadvantage)
+  - PERT Charts are one application
 - Negative edge wieghts are allowed (advantage)
 - Utilizes topological sort or DFS-based algorithm as its implementation
-- Fast: by the path relaxation property, you only have to do 1 iteration due to topological sort going from v<sub>r</sub> to v<sub>0</sub> (advantage)
+- Fast: by the path relaxation property, you only have to do 1 iteration due to topological sort going from v<sub>r</sub> to v<sub>0</sub> (advantage) 
 
 ```
 Time Complexity: θ(V + E)
@@ -105,3 +106,20 @@ No outgoing edges. Skip.
 ### CONVERGED
 d.d = 3 = &delta;(a, d) <br>
 path is p: < a, e, c, d >
+
+## Notes: PERT Charts
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pertchart.png" alt="Pert Chart Example" height="400" width="400" 
+/>
+
+- Utilized in the software development cycle in software engineering
+- Different module can run in parallel
+- Identify the longest-path because we do not want any delays
+  - The longest path is generally the bottleneck for potential delays
+  - We do not want any delayes in this longest path
+- One application of DAG algorithm
+- However, this problem tries to look for the longest path (longest-path problem)
+- 2 Options
+  - Start with all non-start vertex having -&infin; and look for increasing `v.d`
+  - Start with normal initialization using &infin;, but flip the signs of all weights
