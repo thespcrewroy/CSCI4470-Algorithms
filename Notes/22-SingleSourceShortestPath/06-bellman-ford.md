@@ -134,7 +134,7 @@ a.d is less than `h.d + w(h, a)`. No relaxing.
 
 c.d is equal to `a.d + w(a, b, c)` (converged)
 
-**CONVERGED**
+### CONVERGED
 - h.d = 7 = &delta;(a, h)
 - shortest distance between `a` and `h` is 7
 - path is p: < a, f, g, h >
