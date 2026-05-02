@@ -64,4 +64,4 @@
 
 - v<sub>0</sub>.d = 0
 - v<sub>1</sub>.d = &infin;
-- v<sub>1</sub>.d = -1 = &delta(v<sub>0</sub>, v<sub>1</sub>) (update)
+- v<sub>1</sub>.d = -1 = &delta;(v<sub>0</sub>, v<sub>1</sub>) (update)
