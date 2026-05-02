@@ -123,6 +123,7 @@ Dijkstra's algorithm runs on a weighted directed graph `G(V, E)` with non-negati
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/down.png" alt="Case 1 of Proof" height="100" width="100" 
 />
+
 - When there is a shortest path from source `s` to vertex `u`
 - Where vertex `y` comes before vertex `u`
 - Set s = {s, x}
