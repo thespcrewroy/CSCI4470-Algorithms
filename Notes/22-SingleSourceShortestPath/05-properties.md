@@ -48,6 +48,9 @@
 
 ## Path Relaxation Property
 
+- If you relax all the edges in the proposed path, you will converge to the shortest distance
+- The order of relaxing or how many times you do it does not matter
+
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathrel1.png" alt="Path Relaxation Property Initial" height="200" width="400" 
 />
