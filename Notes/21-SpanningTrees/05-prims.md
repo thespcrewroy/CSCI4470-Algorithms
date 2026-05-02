@@ -11,17 +11,8 @@ Time Complexity: Vlog(V) + Elog(V) = (V + E)log(V) = O(Elog(V))
 - Height of Heap: log(V)
 - Extract_Min (Dequeue): O(Vlog(V))
 - Decrease_Key (Enqueue): O(Elog(V))
+- V + E ~ E (for dense graphs)
 ```
-
-## Notes: Prim's Time Complexity Analysis
-
-```
-(V + E)log(V)
-V + E ~ E (for dense graphs)
-O(Elog(V))
-```
-
-**Complete Graph Time Complexity: O(Elog(V))**
 
 ## Notes: Implementation Example
 

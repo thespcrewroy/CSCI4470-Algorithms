@@ -9,7 +9,9 @@
 - Processes vertices in the order of the shortest-cost from the source
 
 ```
-Time Complexity: O(V^2)
+Time Complexity: Vlog(V) + Elog(V) = (V + E)log(V) = O(Elog(V)) 
+- Extract_Min: All the veertices are extracted once: O(Vlog(V))
+- Decrease_Key: All the edges are relaxed once: O(Elog(V))
 ```
 
 ## Notes: Example
