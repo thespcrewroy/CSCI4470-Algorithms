@@ -27,29 +27,29 @@ Time Complexity: E(V - 1) = O(V*E)
 
 | Vertex | Initial | After Pass 1 | After Pass 2 | After Pass 3 | After Pass 4 |
 |--------|---------|--------------|--------------|--------------|--------------|
-| a | d=0<br/>π=NIL |  |  |  |  |
+| a | (*) d=0<br/>π=NIL |  |  |  |  |
 | b | d=∞<br/>π=NIL | d=2<br/>π=a | | | |
 | c | d=∞<br/>π=NIL | d=12<br/>π=a | d=7<br/>π=b |  |  |
 | d | d=∞<br/>π=NIL | d=-1<br/>π=c |  | | |
 | e | d=∞<br/>π=NIL |  |  |  |  |
-| f | d=∞<br/>π=NIL | d=4<br/>π=a | | | |
-| g | d=∞<br/>π=NIL | d=-2<br/>π=f  | |  |  |
-| h | d=∞<br/>π=NIL | d=24<br/>π=f | d=7<br/>π=g |  | |
+| f | d=∞<br/>π=NIL | (*) d=4<br/>π=a | | | |
+| g | d=∞<br/>π=NIL | (*) d=-2<br/>π=f  | |  |  |
+| h | d=∞<br/>π=NIL | d=24<br/>π=f | (*) d=7<br/>π=g |  | |
 
 **Check `a`**
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera1.png" alt="Bellman Ford Example Node A 1" height="100" width="100" 
 />
 
-b.d relaxes from &infin; to **0 + 2 = 2**
+b.d relaxes from &infin; to **0 + 2 = 2**.
 
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera2.png" alt="Bellman Ford Example Node A 2" height="100" width="100" 
 />
 
-c.d relaxes from &infin; to **0 + 12 = 12**
+c.d relaxes from &infin; to **0 + 12 = 12**.
 
-f.d relaxes from &infin; to **0 + 4 = 4**
+f.d relaxes from &infin; to **0 + 4 = 4**.
 
 **Check `b`**
 
@@ -57,7 +57,7 @@ f.d relaxes from &infin; to **0 + 4 = 4**
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterb1.png" alt="Bellman Ford Example Node B 1" height="100" width="100" 
 />
 
-c.d relaxes from **12** to **2 + 5 = 7**
+c.d relaxes from **12** to **2 + 5 = 7**.
 
 
 **Check `c`**
@@ -66,7 +66,7 @@ c.d relaxes from **12** to **2 + 5 = 7**
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterc1.png" alt="Bellman Ford Example Node C 1" height="100" width="100" 
 />
 
-d.d relaxes from &infin; to **7 - 8 = -1**
+d.d relaxes from &infin; to **7 - 8 = -1**.
 
 **Check `d`**
 
@@ -88,13 +88,13 @@ c.d is less than `e.d + w(e, c)`. No relaxing.
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterf1.png" alt="Bellman Ford Example Node F 1" height="100" width="100" 
 />
 
-g.d relaxes from &infin; to **4 - 6 = -2**
+g.d relaxes from &infin; to **4 - 6 = -2**.
 
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterf2.png" alt="Bellman Ford Example Node F 2" height="100" width="100" 
 />
 
-h.d relaxes from &infin; to **4 + 20 = 24**
+h.d relaxes from &infin; to **4 + 20 = 24**.
 
 **Check `g`**
 
@@ -102,7 +102,7 @@ h.d relaxes from &infin; to **4 + 20 = 24**
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterg1.png" alt="Bellman Ford Example Node G 1" height="100" width="100" 
 />
 
-h.d relaxes from 24 to **-2 + 9 = 7**
+h.d relaxes from 24 to **-2 + 9 = 7**.
 
 **Check `h`**
 
@@ -135,15 +135,14 @@ a.d is less than `h.d + w(h, a)`. No relaxing.
 c.d is equal to `a.d + w(a, b, c)` (converged)
 
 ### CONVERGED
-- h.d = 7 = &delta;(a, h)
-- shortest distance between `a` and `h` is 7
-- path is p: < a, f, g, h >
+h.d = 7 = &delta;(a, h) <br>
+path is p: < a, f, g, h >
 
-## Worst Case Belmon Ford
+## Worst Case Bellman Ford
 
 - There are 3 edges and 4 vertices
-- In the worst case, we run through 3 iterations
-- Thus, no matter what order or where you start, you will take `V - 1` iterations in the worst case
+- In the worst case path selection, we run through 3 iterations
+- Thus, no matter what order, you will take `V - 1` iterations in the worst case
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst.png" alt="Worst Relaxation" height="200" width="300" 
@@ -173,7 +172,7 @@ c.d is equal to `a.d + w(a, b, c)` (converged)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst3.png" alt="Worst Relaxation 3" height="100" width="100" 
 />
 
-v<sub>1</sub>.d relaxes from &infin; to **0 - 1 = -1**
+v<sub>1</sub>.d relaxes from &infin; to **0 - 1 = -1**.
 
 ### Iteration 2
 
@@ -190,7 +189,7 @@ v<sub>1</sub>.d relaxes from &infin; to **0 - 1 = -1**
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst5.png" alt="Worst Relaxation 5" height="100" width="100" 
 />
 
-v<sub>2</sub>.d relaxes from &infin; to **-1 + 2 = 1**
+v<sub>2</sub>.d relaxes from &infin; to **-1 + 2 = 1**.
 
 **Check v<sub>0</sub>**
 <p align="left">
@@ -206,7 +205,7 @@ v<sub>1</sub>.d is equal to v<sub>0</sub>.d + w(v<sub>0</sub>, v<sub>1</sub>) (c
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst7.png" alt="Worst Relaxation 7" height="100" width="100" 
 />
 
-v<sub>3</sub>.d relaxes from &infin; to **1 + 1 = 2**
+v<sub>3</sub>.d relaxes from &infin; to **1 + 1 = 2**.
 
 **Check v<sub>1</sub>**
 v<sub>2</sub>.d is equal to v<sub>1</sub>.d + w(v<sub>1</sub>, v<sub>2</sub>) (converged)
