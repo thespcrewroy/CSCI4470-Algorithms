@@ -6,12 +6,12 @@
 - There is a single source vertex
 - You calculate the shortest distance between the source and all the remaining vertices
 
-## SSSP Algorithms
+## Notes: SSSP Algorithms
 1. Bellman Ford
 2. DAG Based Algorithm
 3. Dijkstra's ALgorithm
 
-## Veriation Problems
+## Notes: Veriation Problems
 
 ### Single Destination Shortest Path Problem
 

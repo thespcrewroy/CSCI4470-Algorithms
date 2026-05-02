@@ -3,7 +3,7 @@
 - path p< v<sub>0</sub>, v<sub>1</sub>, ..., v<sub>k</sub> >
 - path from vertex v<sub>0</sub> to v<sub>k</sub>
 
-## w(p)
+## Notes: w(p)
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/wp.png" alt="w(p)" height="300" width="300" />
@@ -17,7 +17,7 @@
 
 w(p) = -1 + 2 + -1 = 0
 
-## &delta;(s, u)
+## Notes: &delta;(s, u)
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/su.png" alt=delta(s, u)" height="300" width="300" />
@@ -25,7 +25,7 @@ w(p) = -1 + 2 + -1 = 0
 - &delta;(s, u): shortest path from vertex `s` to vertex `u`
 - &delta;(s, u) = &infin;: if there is no path from `s` to `u`
 
-## Optimal Subsructure Lemma
+## Notes: Optimal Subsructure Lemma
 
 Shortest path calculation has the optimal substructure.
 
@@ -34,7 +34,7 @@ Shortest path calculation has the optimal substructure.
 - p<sub>0k</sub> = p<sub>0i</sub> (shortest) + p<sub>ij</sub> (shortest) + p<sub>jk</sub> (shortest)
 - Lemma: all paths used were optimal, so p<sub>0k</sub> is optimal
 
-## Optimal Substructure Proof by Contradiction
+## Notes: Optimal Substructure Proof by Contradiction
 - p<sub>0k</sub> = p<sub>0i</sub> (shortest) + p<sub>ij</sub> (shortest) + p<sub>jk</sub> (shortest)
 - Proof by Contrafuction: all paths used were optimal, so p<sub>0k</sub>' is NOT optimal (not shortest)
 - Assumption: w(P<sub>0k</sub>) < w(P<sub>0k</sub>')

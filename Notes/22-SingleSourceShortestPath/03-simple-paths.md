@@ -3,7 +3,7 @@
 - **Simple Path**: a graph that has no cycles
 - Shortest paths are all simple paths.
 
-## Negative Weight Cycles
+## Notes: Negative Weight Cycles
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/neg.png" alt="negative Weight Cycle" width="600" />
@@ -27,7 +27,7 @@ path from vertex `a` to vertex `d` with a cycle:
 - This is why Djikstra's Algorithm does not allow negative wights
 
 
-## Positive Weight Cycles
+## Notes: Positive Weight Cycles
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pos.png" alt="Positive Weight Cycle" height="600" width="600" />
