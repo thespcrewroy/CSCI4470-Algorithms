@@ -2,8 +2,7 @@
 
 - Let source be `s`, with edge `(u, v)` &isin; E.
 - The shortest-path distance is written as &delta;(x, y).
-- Triangle inequality in shortest paths:
-	- `&delta;(s, v) &le; &delta;(s, u) + w(u, v)`
+- Triangle inequality in shortest paths: &delta;(s, v) &le; &delta;(s, u) + w(u, v)
 - Why this is true (from the sketch):
 	- Consider path `P1`: a shortest path from `s` to `v` with length `&delta;(s, v)`.
 	- Consider path `P2`: go from `s` to `u` using a shortest path, then take edge `(u, v)`.
