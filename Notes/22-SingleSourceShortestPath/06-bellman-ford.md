@@ -39,27 +39,69 @@ Time Complexity: O(V*E)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera1.png" alt="Bellman Ford Example Node A 1" height="100" width="100" 
 />
 
-The b.d relaxes from &infin; to **0 + 2 = 2**
+b.d relaxes from &infin; to **0 + 2 = 2**
 
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera2.png" alt="Bellman Ford Example Node A 2" height="100" width="100" 
 />
 
-The c.d relaxes from &infin; to **0 + 12 = 12**
+c.d relaxes from &infin; to **0 + 12 = 12**
+
+f.d relaxes from &infin; to **0 + 4 = 4**
 
 **Check `b`**
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterab1.png" alt="Bellman Ford Example Node B 1" height="100" width="100" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterb1.png" alt="Bellman Ford Example Node B 1" height="100" width="100" 
 />
 
-The c.d relaxes from **12** to **2 + 5 = 7**
+c.d relaxes from **12** to **2 + 5 = 7**
 
 
 **Check `c`**
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterac1.png" alt="Bellman Ford Example Node C 1" height="100" width="100" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterc1.png" alt="Bellman Ford Example Node C 1" height="100" width="100" 
 />
 
-The d.d relaxes from &infin; to **7 - 8 = -1**
+d.d relaxes from &infin; to **7 - 8 = -1**
+
+**Check `d`**
+
+No outgoing edges. Skip.
+
+**Check `e`**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itere1.png" alt="Bellman Ford Example Node E 1" height="100" width="100" 
+/>
+
+a.d is less than `e.d + w(e, a)`. No relaxing.
+
+c.d is less than `e.d + w(e, c)`. No relaxing.
+
+**Check `f`**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterf1.png" alt="Bellman Ford Example Node F 1" height="100" width="100" 
+/>
+
+g.d relaxes from &infin; to **4 - 6 = -2**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterf2.png" alt="Bellman Ford Example Node F 2" height="100" width="100" 
+/>
+
+h.d relaxes from &infin; to **4 + 20 = 24**
+
+**Check `g`**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterg1.png" alt="Bellman Ford Example Node G 1" height="100" width="100" 
+/>
+
+h.d relaxes from 24 to **-2 + 9 = 7**
+
+**Check `h`**
+
+a.d is less than `h.d + w(h, a)`. No relaxing.
