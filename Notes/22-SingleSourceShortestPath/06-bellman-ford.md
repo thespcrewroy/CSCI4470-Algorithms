@@ -16,8 +16,8 @@ Time Complexity: O(V*E)
 />
 
 - You can pick and choose to start from any vertex
-- However, it is best practice to pick the source vertex `a`
-- We may not run it the full `(V - 1)` iterations
-- We will run in alphabetical order, starting from source `a`
-
-**StartVertex = F**
+  - However, it is best practice to pick the source vertex `a`
+  - We will run in alphabetical order, starting from source `a`
+- 11 Edges and 8 Vertices
+  - Relax all edges 7 times (`V - 1` times)
+  - We may not run it the full `(V - 1)` iterations
