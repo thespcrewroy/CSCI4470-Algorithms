@@ -59,7 +59,7 @@
 **Relax Edge From v<sub>0</sub> to v<sub>1</sub>**
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathrel2.png" alt="Path Relaxation Property Setp 1" height="200" width="200" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathrel2.png" alt="Path Relaxation Property Step 1" height="200" width="200" 
 />
 
 - v<sub>0</sub>.d = 0
@@ -70,10 +70,21 @@
 **Relax Edge From v<sub>1</sub> to v<sub>2</sub>**
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/relax3.png" alt="Path Relaxation Property Setp 2" height="200" width="200" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/relax3.png" alt="Path Relaxation Property Step 2" height="200" width="200" 
 />
 
 - v<sub>1</sub>.d = -1
 - v<sub>1</sub>.d + w(v<sub>1</sub>, v<sub>2</sub>) = -1 + 2 = 1
 - v<sub>2</sub>.d = &infin; > 1? Yes
-- v<sub>2</sub>.d = -1 = &delta;(v<sub>0</sub>, v<sub>2</sub>) (update)
+- v<sub>2</sub>.d = 1 = &delta;(v<sub>0</sub>, v<sub>2</sub>) (update)
+
+**Relax Edge From v<sub>2</sub> to v<sub>3</sub>**
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathrel3.png" alt="Path Relaxation Property Step 3" height="200" width="200" 
+/>
+
+- v<sub>2</sub>.d = 1
+- v<sub>2</sub>.d + w(v<sub>2</sub>, v<sub>3</sub>) = 1 + 1 = 2
+- v<sub>3</sub>.d = &infin; > 2? Yes
+- v<sub>3</sub>.d = 2 = &delta;(v<sub>0</sub>, v<sub>3</sub>) (update)
