@@ -1,10 +1,10 @@
 # DAG Algorithm
 
-- Applies only to directed acyclic graphs, so by definition it cannot have a negative cycle
+- Applies only to directed acyclic graphs, so it cannot have a negative cycle
 - Not all graphs in the real world fit the DAG definition (disadvantage)
 - Negative edge wieghts are allowed (advantage)
 - Utilizes topological sort or DFS-based algorithm as its implementation
-- Fast (advantage)
+- Fast: by the path relaxation property, you only have to do 1 iteration due to topological sort going from v<sub>r</sub> to v<sub>0</sub> (advantage)
 
 ```
 Time Complexity: θ(V + E)

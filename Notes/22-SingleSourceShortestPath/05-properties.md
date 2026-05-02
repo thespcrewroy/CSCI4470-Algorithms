@@ -1,6 +1,5 @@
 # Properties of Shortest Path and Relaxation
 
-
 ## Triangle Inequality Property
 
 <p align="center">
@@ -43,8 +42,6 @@
 
 - `u.d` stays at `3`, which matches &delta;(s, u).
 - Relaxing edge `(u, v)` updates `v.d` from `12` down to `8`, which matches &delta;(s, v).
-
-
 
 ## Path Relaxation Property
 
