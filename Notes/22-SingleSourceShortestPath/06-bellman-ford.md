@@ -27,7 +27,7 @@ Time Complexity: O(V*E)
 | a | d=0<br/>π=NIL |  |  |  |  |
 | b | d=∞<br/>π=NIL | d=2<br/>π=a | | | |
 | c | d=∞<br/>π=NIL | d=12<br/>π=a | d=7<br/>π=b |  |  |
-| d | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-1<br/>π=c | | |
+| d | d=∞<br/>π=NIL | d=-1<br/>π=c |  | | |
 | e | d=∞<br/>π=NIL |  |  |  |  |
 | f | d=∞<br/>π=NIL | d=4<br/>π=a | | | |
 | g | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-2<br/>π=f |  |  |
