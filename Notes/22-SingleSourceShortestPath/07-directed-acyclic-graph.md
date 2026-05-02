@@ -8,6 +8,8 @@
 
 ```
 Time Complexity: θ(V + E)
+- Depth-First Search: O(V + E)
+- Relaxation: O(E)
 ```
 
 ## Example
