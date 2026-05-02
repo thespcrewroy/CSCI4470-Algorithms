@@ -95,6 +95,6 @@ y.d is less than `t.d + w(t, y)`. No relaxing.
 
 z.d is less than `x.d + w(x, z)`. No relaxing.
 
-**CONVERGED**
+**CONVERGED** <br>
 s.x = 8 = &delta;(s, x) <br>
 path is p: < s, y, t, x >
