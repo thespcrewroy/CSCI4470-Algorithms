@@ -30,8 +30,8 @@ Time Complexity: O(V*E)
 | d | d=∞<br/>π=NIL | d=-1<br/>π=c |  | | |
 | e | d=∞<br/>π=NIL |  |  |  |  |
 | f | d=∞<br/>π=NIL | d=4<br/>π=a | | | |
-| g | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-2<br/>π=f |  |  |
-| h | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=24<br/>π=f | d=7<br/>π=g | |
+| g | d=∞<br/>π=NIL | d=-2<br/>π=f  | |  |  |
+| h | d=∞<br/>π=NIL | d=24<br/>π=f | d=7<br/>π=g |  | |
 
 
 **Check `a`**
