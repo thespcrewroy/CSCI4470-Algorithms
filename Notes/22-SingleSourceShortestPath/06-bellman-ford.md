@@ -207,3 +207,17 @@ v<sub>1</sub>.d is equal to v<sub>0</sub>.d + w(v<sub>0</sub>, v<sub>1</sub>) (c
 />
 
 v<sub>3</sub>.d relaxes from &infin; to **1 + 1 = 2**
+
+**Check v<sub>1</sub>**
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst5.png" alt="Worst Relaxation 5" height="100" width="100" 
+/>
+
+v<sub>2</sub>.d is equal to v<sub>1</sub>.d + w(v<sub>1</sub>, v<sub>2</sub>) (converged)
+
+**Check v<sub>0</sub>**
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst6.png" alt="Worst Relaxation 6" height="100" width="100" 
+/>
+
+v<sub>1</sub>.d is equal to v<sub>0</sub>.d + w(v<sub>0</sub>, v<sub>1</sub>) (converged)
