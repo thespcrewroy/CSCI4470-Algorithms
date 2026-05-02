@@ -35,6 +35,10 @@ Time Complexity: O(V*E)
 
 
 **Check `a`**
-<p align="center">
+<p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera1.png" alt="Bellman Ford Example Node A 1" height="100" width="100" 
+/>
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera2.png" alt="Bellman Ford Example Node A 2" height="100" width="100" 
 />
