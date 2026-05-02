@@ -141,8 +141,9 @@ c.d is equal to `a.d + w(a, b, c)` (converged)
 
 ## Worst Case Belmon Ford
 
-- There are 
-- In the worst case, we run through all 3 iterations
+- There are 3 edges and 4 vertices
+- In the worst case, we run through 3 iterations
+- Thus, no matter what order or where you start, you will take `V - 1` iterations in the worst case
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst.png" alt="Worst Relaxation" height="200" width="300" 
@@ -199,3 +200,10 @@ v<sub>2</sub>.d relaxes from &infin; to **-1 + 2 = 1**
 v<sub>1</sub>.d is equal to v<sub>0</sub>.d + w(v<sub>0</sub>, v<sub>1</sub>) (converged)
 
 ### Iteration 3
+
+**Check v<sub>2</sub>**
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst7.png" alt="Worst Relaxation 7" height="100" width="100" 
+/>
+
+v<sub>3</sub>.d relaxes from &infin; to **1 + 1 = 2**
