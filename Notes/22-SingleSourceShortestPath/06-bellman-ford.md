@@ -19,8 +19,9 @@ Time Complexity: O(V*E)
   - However, it is best practice to pick the source vertex `a`
   - We will run in alphabetical order, starting from source `a`
 - 11 Edges and 8 Vertices
-  - Relax all edges 7 times (`V - 1` times)
-  - We may not run it the full `(V - 1)` iterations
+- Run the algorithm for `V - 1` iterations
+  - Relax all edges 7 times
+  - We may not run it the full `V - 1` iterations
 
 ### Iteration 1
 
@@ -137,3 +138,35 @@ c.d is equal to `a.d + w(a, b, c)` (converged)
 - h.d = 7 = &delta;(a, h)
 - shortest distance between `a` and `h` is 7
 - path is p: < a, f, g, h >
+
+## Worst Belmon Ford
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera4.png" alt="Worst Relaxation" height="100" width="100" 
+/>
+
+- v<sub>0</sub> is the source vertex
+- Worst way to relax edges: (v<sub>2</sub>, v<sub>3</sub>), (v<sub>1</sub>, v<sub>2</sub>), (v<sub>0</sub>, v<sub>1</sub>)
+
+### Iteration 1
+
+**Check v<sub>2</sub>**
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst1.png" alt="Worst Relaxation 1" height="100" width="100" 
+/>
+
+ v<sub>3</sub>.d is less than v<sub>2</sub>.d + w(v<sub>2</sub>, v<sub>3</sub>). No relaxing.
+
+**Check v<sub>1</sub>**
+ <p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst2.png" alt="Worst Relaxation 2" height="100" width="100" 
+/>
+
+ v<sub>2</sub>.d is less than v<sub>1</sub>.d + w(v<sub>1</sub>, v<sub>2</sub>). No relaxing.
+
+ **Check v<sub>0</sub>**
+  <p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst3.png" alt="Worst Relaxation 3" height="100" width="100" 
+/>
+
+v<sub>1</sub>.d is relaxes from &infin; to **0 - 1 = -1**
