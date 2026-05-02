@@ -105,3 +105,33 @@ path is p: < s, y, t, x >
 
 ### Theorem 22.6
 Dijkstra's algorithm runs on a weighted directed graph `G(V, E)` with non-negative weight `w` and source vertex `s`, terminated with u.d = &delta;(s, u) for all vertices u &isin; V
+
+### Proof by Induction
+
+#### Step 1:
+- s = {&empty;}
+- source vertex `s`
+- s = {s} (base case)
+- s.d = &delta;(s, s) = 0
+
+#### Step 2:
+- We will assume that v.d = &delta;(s, v) for all the vertices in set `s`.
+- We dequeue the vertex `u` from the minimum priority queue
+- We need to show that u.d in &delta;(s, u)
+
+##### Case 1:
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/down.png" alt="Case 1 of Proof" height="100" width="100" 
+/>
+- When there is a shortest path from source `s` to vertex `u`
+- Where vertex `y` comes before vertex `u`
+- Set s = {s, x}
+- Now `y` and `u` can be the same vertex
+- Similarly, now `s` and `x` can be the same vertex
+
+u.d &le; y.d (u is dequeued) <br>
+&delta;(s, u) &le; u.d (upper bound property) <br>
+&delta;(s, y) &le; &delta;(s, u) (`y` comes before `u`) <br>
+y.d &le; &delta;(s, y) (convergence property) <br>
+y.d = &delta;(s, y) &le; &delta;(s, u) &le; u.d &le; y.d <br>
+u.d = &delta;(s, u)
