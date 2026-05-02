@@ -103,7 +103,7 @@ d.d relaxes from 4 to ** 5 - 2 = 3**.
 
 No outgoing edges. Skip.
 
-### CONVERGED
+**CONVERGED**
 d.d = 3 = &delta;(a, d) <br>
 path is p: < a, e, c, d >
 

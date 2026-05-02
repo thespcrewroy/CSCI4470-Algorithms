@@ -18,14 +18,12 @@ Time Complexity: O(V^2)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/djikstra.png" alt="DAG Example" height="500" width="500" 
 />
 
-### Iteration 1
-
 | Vertex | Initial | After Pass 1 | After Pass 2 | After Pass 3 | After Pass 4 |
 |--------|---------|--------------|--------------|--------------|--------------|
-| s | d=0<br/>π=NIL |  |  |  |  |
-| t | d=∞<br/>π=NIL | d=10<br/>π=s | d=8<br/>π=y  |  |  |
-| x | d=∞<br/>π=NIL | d=14<br/>π=y | d=13<br/>π=z | d=8<br/>π=t |  |
-| y | d=∞<br/>π=NIL | d=5<br/>π=s |  |  |  |
+| s | d=0<br/>(*)π=NIL |  |  |  |  |
+| t | d=∞<br/>π=NIL | d=10<br/>π=s | d=8<br/>(*)π=y  |  |  |
+| x | d=∞<br/>π=NIL | d=14<br/>π=y | d=13<br/>π=z | d=8<br/>(*)π=t |  |
+| y | d=∞<br/>π=NIL | d=5<br/>(*)π=s |  |  |  |
 | z | d=∞<br/>π=NIL | d=7<br/>π=y |  |  |  |
 
 
@@ -96,3 +94,7 @@ y.d is less than `t.d + w(t, y)`. No relaxing.
 />
 
 z.d is less than `x.d + w(x, z)`. No relaxing.
+
+**CONVERGED**
+s.x = 8 = &delta;(s, x) <br>
+path is p: < s, y, t, x >
