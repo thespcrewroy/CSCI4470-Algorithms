@@ -23,7 +23,7 @@ s.d = 0 (source vertex) <br>
 - Thus, we should check if the shortest path that comes from the vertex `u` or not
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/relax2.png" alt="Relax Step 2" width="600" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/relax2.png" alt="Relax Step 2" height="200" width="200" 
 />
 
 1. v.d = 12
