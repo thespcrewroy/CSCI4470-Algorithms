@@ -29,7 +29,7 @@ Time Complexity: O(V*E)
 | c | d=∞<br/>π=NIL | d=12<br/>π=a | d=7<br/>π=b |  |  |
 | d | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-1<br/>π=c | | |
 | e | d=∞<br/>π=NIL |  |  |  |  |
-| f | d=∞<br/>π=NIL | | | | |
+| f | d=∞<br/>π=NIL | d=4<br/>π=a | | | |
 | g | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-2<br/>π=f |  |  |
 | h | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=24<br/>π=f | d=7<br/>π=g | |
 
@@ -39,6 +39,27 @@ Time Complexity: O(V*E)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera1.png" alt="Bellman Ford Example Node A 1" height="100" width="100" 
 />
 
+The b.d relaxes from &infin; to **0 + 2 = 2**
+
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera2.png" alt="Bellman Ford Example Node A 2" height="100" width="100" 
 />
+
+The c.d relaxes from &infin; to **0 + 12 = 12**
+
+**Check `b`**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterab1.png" alt="Bellman Ford Example Node B 1" height="100" width="100" 
+/>
+
+The c.d relaxes from **12** to **2 + 5 = 7**
+
+
+**Check `c`**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterac1.png" alt="Bellman Ford Example Node C 1" height="100" width="100" 
+/>
+
+The d.d relaxes from &infin; to **7 - 8 = -1**
