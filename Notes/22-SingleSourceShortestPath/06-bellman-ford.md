@@ -104,4 +104,8 @@ h.d relaxes from 24 to **-2 + 9 = 7**
 
 **Check `h`**
 
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/iterh1.png" alt="Bellman Ford Example Node H 1" height="100" width="100" 
+/>
+
 a.d is less than `h.d + w(h, a)`. No relaxing.
