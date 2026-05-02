@@ -28,3 +28,24 @@ Go in alphabetical order <br>
 
 Topological Sort Order: < a, b, e, c, d > <br>
 Relax the edges in topological order.
+
+### Iteration 1
+
+| Vertex | Initial | After Pass 1 | After Pass 2 | After Pass 3 | After Pass 4 |
+|--------|---------|--------------|--------------|--------------|--------------|
+| a | d=0<br/>π=NIL |  |  |  |  |
+| b | d=∞<br/>π=NIL | d=2<br/>π=a |  |  |  |
+| c | d=∞<br/>π=NIL |  |  |  |  |
+| d | d=∞<br/>π=NIL |  |  |  |  |
+| e | d=∞<br/>π=NIL |  |  |  |  |
+
+
+**Check &delta;(a,e)**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dag1.png" alt="Directed Acyclic Graph Example 1" height="100" width="100" 
+/>
+
+b.d relaxes from &infin; to **0 + 2 = 2**
+
+**Check `b`**
