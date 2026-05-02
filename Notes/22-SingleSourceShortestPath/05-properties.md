@@ -24,10 +24,10 @@
 
 ## Upper Bound Property
 
-- For every vertex `v`, the current estimate `v.d` is always an upper bound on the true shortest-path distance: `v.d &ge; &delta;(s, v)`.
+- For every vertex `v`, the current estimate `v.d` is always an upper bound on the true shortest-path distance: v.d &ge; &delta;(s, v).
 - In other words, the algorithm may overestimate the distance to `v`, but it should never underestimate it.
 - This is why relaxation only improves estimates: when we relax an edge `(u, v)`, we update `v.d` only if `u.d + w(u, v)` is smaller.
-- If `u.d` is already an upper bound on `&delta;(s, u)`, then `u.d + w(u, v)` is also an upper bound on `&delta;(s, v)`.
+- If `u.d` is already an upper bound on`&delta;(s, u), then `u.d + w(u, v)` is also an upper bound on &delta;(s, v).
 - So relaxation keeps distance estimates valid while moving them closer to the true shortest-path values.
 
 
