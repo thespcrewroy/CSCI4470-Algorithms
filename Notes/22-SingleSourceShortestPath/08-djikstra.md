@@ -101,7 +101,7 @@ z.d is less than `x.d + w(x, z)`. No relaxing.
 s.x = 8 = &delta;(s, x) <br>
 path is p: < s, y, t, x >
 
-## Proof of Dijkstra's
+## Notes: Proof of Dijkstra's
 
 ### Theorem 22.6
 Dijkstra's algorithm runs on a weighted directed graph `G(V, E)` with non-negative weight `w` and source vertex `s`, terminated with u.d = &delta;(s, u) for all vertices u &isin; V
