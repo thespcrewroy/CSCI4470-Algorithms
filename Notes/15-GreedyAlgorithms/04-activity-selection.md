@@ -74,13 +74,13 @@ Because <b>a<sub>m</sub></b> finishes earlier than or at the same time as every 
   f<sub>m</sub> &le; f<sub>j</sub>
 </p>
 
-### Case 1: If a<sub>j</sub> = a<sub>m</sub>
+#### Case 1: If a<sub>j</sub> = a<sub>m</sub>
 
 If the earliest-finishing activity in the optimal solution is already <b>a<sub>m</sub></b>, then we are done.
 
 That means <b>a<sub>m</sub></b> is already part of an optimal solution.
 
-### Case 2: If a<sub>j</sub> &ne; a<sub>m</sub>
+#### Case 2: If a<sub>j</sub> &ne; a<sub>m</sub>
 
 Now suppose the optimal solution <b>A<sub>k</sub></b> does **not** contain <b>a<sub>m</sub></b>.
 
