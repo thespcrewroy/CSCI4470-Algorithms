@@ -59,7 +59,7 @@
 **Relax Edge From v<sub>0</sub> to v<sub>1</sub>**
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathrel2.png" alt="Path Relaxation Property Setp 1" height="200" width="400" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathrel2.png" alt="Path Relaxation Property Setp 1" height="200" width="200" 
 />
 
 - v<sub>0</sub>.d = 0
