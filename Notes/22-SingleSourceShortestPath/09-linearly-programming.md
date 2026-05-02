@@ -19,4 +19,5 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/compact.png" alt="Linearly Programming" width="600" 
 />
+
 > Compact matrix form of the system of constraints.
