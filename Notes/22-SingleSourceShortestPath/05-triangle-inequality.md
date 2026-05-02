@@ -1,5 +1,10 @@
 # Triangle Inequality Property
 
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/triangle.png" alt="Triangle Inequality Property" height="200" width="200" 
+/>
+
+- This property is also in BFS
 - Let source be `s`, with edge `(u, v)` &isin; E.
 - The shortest-path distance is written as &delta;(x, y).
 - Triangle inequality in shortest paths: &delta;(s, v) &le; &delta;(s, u) + w(u, v)
