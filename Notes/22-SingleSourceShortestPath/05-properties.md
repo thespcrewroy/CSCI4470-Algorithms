@@ -47,3 +47,21 @@
 
 
 ## Path Relaxation Property
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathrel1.png" alt="Path Relaxation Property Initial" height="200" width="400" 
+/>
+
+- v<sub>0</sub> is a source vertex
+- Relax the edges from vertex v<sub>0</sub>, v<sub>1</sub>, v<sub>2</sub> in this order
+- Then, v<sub>3</sub>.d will converge to shortest distance &delta;(v<sub>0</sub>, v<sub>3</sub>)
+
+**Relax Edge From v<sub>0</sub> to v<sub>1</sub>**
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/pathrel2.png" alt="Path Relaxation Property Setp 1" height="200" width="400" 
+/>
+
+- v<sub>0</sub>.d = 0
+- v<sub>1</sub>.d = &infin;
+- v<sub>1</sub>.d = -1 = &delta(v<sub>0</sub>, v<sub>1</sub>) (update)
