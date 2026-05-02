@@ -6,6 +6,7 @@
 - More efficient for sparse graphs `< O(V^2)`
 - Greedy Algorithm
 - Implemented using a min-priority queue
+- Processes vertices in the order of the shortest-cost from the source
 
 ```
 Time Complexity: O(V^2)
@@ -23,7 +24,7 @@ Time Complexity: O(V^2)
 |--------|---------|--------------|--------------|--------------|--------------|
 | s | d=0<br/>π=NIL |  |  |  |  |
 | t | d=∞<br/>π=NIL | d=10<br/>π=s | d=8<br/>π=y  |  |  |
-| x | d=∞<br/>π=NIL | d=14<br/>π=y |  |  |  |
+| x | d=∞<br/>π=NIL | d=14<br/>π=y | d=13<br/>π=z | d=8<br/>π=t |  |
 | y | d=∞<br/>π=NIL | d=5<br/>π=s |  |  |  |
 | z | d=∞<br/>π=NIL | d=7<br/>π=y |  |  |  |
 
@@ -65,3 +66,33 @@ x.d relaxes from &infin; to **5 + 9 = 14**.
 />
 
 z.d relaxes from &infin; to **5 + 2 = 7**.
+
+**Check `z`**
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/heap2.png" alt="Djikstra Example" height="100" width="100" 
+/>
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/djikstra6.png" alt="Djikstra Example" height="100" width="100" 
+/>
+
+x.d relaxes from 14 to **7 + 6 = 13**.
+
+**Check `t`**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/djikstra8.png" alt="Djikstra Example" height="100" width="100" 
+/>
+
+x.d relaxes from 13 to **8 + 1 = 9**
+
+y.d is less than `t.d + w(t, y)`. No relaxing.
+
+**Check `x`**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/djikstra7.png" alt="Djikstra Example" height="100" width="100" 
+/>
+
+z.d is less than `x.d + w(x, z)`. No relaxing.
