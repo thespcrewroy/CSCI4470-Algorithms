@@ -25,13 +25,13 @@ Time Complexity: O(V*E)
 | Vertex | Initial | After Pass 1 | After Pass 2 | After Pass 3 | After Pass 4 |
 |--------|---------|--------------|--------------|--------------|--------------|
 | a | d=0<br/>π=NIL |  |  |  |  |
-| b | d=∞<br/>π=NIL | d=2<br/>π=a | d=2<br/>π=a | d=2<br/>π=a | d=2<br/>π=a |
-| c | d=∞<br/>π=NIL | d=12<br/>π=a | d=7<br/>π=b | d=7<br/>π=b | d=7<br/>π=b |
-| d | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-1<br/>π=c | d=-1<br/>π=c | d=-1<br/>π=c |
-| e | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=∞<br/>π=NIL |
-| f | d=∞<br/>π=NIL | d=4<br/>π=a | d=4<br/>π=a | d=4<br/>π=a | d=4<br/>π=a |
-| g | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-2<br/>π=f | d=-2<br/>π=f | d=-2<br/>π=f |
-| h | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=24<br/>π=f | d=7<br/>π=g | d=7<br/>π=g |
+| b | d=∞<br/>π=NIL | d=2<br/>π=a | | | |
+| c | d=∞<br/>π=NIL | d=12<br/>π=a | d=7<br/>π=b |  |  |
+| d | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-1<br/>π=c | | |
+| e | d=∞<br/>π=NIL |  |  |  |  |
+| f | d=∞<br/>π=NIL | | | | |
+| g | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-2<br/>π=f |  |  |
+| h | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=24<br/>π=f | d=7<br/>π=g | |
 
 
 **Check `a`**
