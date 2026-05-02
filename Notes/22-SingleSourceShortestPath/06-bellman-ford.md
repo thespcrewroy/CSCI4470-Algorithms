@@ -145,7 +145,7 @@ c.d is equal to `a.d + w(a, b, c)` (converged)
 - In the worst case, we run through all 3 iterations
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst.png" alt="Worst Relaxation" height="100" width="100" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst.png" alt="Worst Relaxation" height="200" width="300" 
 />
 
 - v<sub>0</sub> is the source vertex
