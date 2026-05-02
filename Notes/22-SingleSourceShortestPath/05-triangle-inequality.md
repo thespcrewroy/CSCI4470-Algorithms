@@ -1,7 +1,7 @@
 # Triangle Inequality Property
 
 - Let source be `s`, with edge `(u, v)` &isin; E.
-- The shortest-path distance is written as `&delta;(x, y)`.
+- The shortest-path distance is written as &delta;(x, y).
 - Triangle inequality in shortest paths:
 	- `&delta;(s, v) &le; &delta;(s, u) + w(u, v)`
 - Why this is true (from the sketch):
