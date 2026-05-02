@@ -34,6 +34,8 @@ Time Complexity: O(V*E)
 | h | d=∞<br/>π=NIL | d=24<br/>π=f | d=7<br/>π=g |  | |
 
 
+### Iteration 1
+
 **Check `a`**
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera1.png" alt="Bellman Ford Example Node A 1" height="100" width="100" 
@@ -109,3 +111,30 @@ h.d relaxes from 24 to **-2 + 9 = 7**
 />
 
 a.d is less than `h.d + w(h, a)`. No relaxing.
+
+
+### Iteration 2
+
+| Vertex | Initial | After Pass 1 | After Pass 2 | After Pass 3 | After Pass 4 |
+|--------|---------|--------------|--------------|--------------|--------------|
+| a | d=0<br/>π=NIL |  |  |  |  |
+| b | d=2<br/>π=a |  | | | |
+| c | d=7<br/>π=b | |  |  |  |
+| d | d=-1<br/>π=c |  |  | | |
+| e | d=∞<br/>π=NIL |  |  |  |  |
+| f | d=4<br/>π=a |  | | | |
+| g | d=-2<br/>π=fL |   | |  |  |
+| h | d=7<br/>π=g | |  |  | |
+
+**Check `a`**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera4.png" alt="Bellman Ford Example Node A 4" height="100" width="100" 
+/>
+
+c.d is equal to `a.d + w(a, b, c)` (converged)
+
+**CONVERGED**
+- h.d = 7 = &delta;(a, h)
+- shortest distance between `a` and `h` is 7
+- path is p: < a, f, g, h >
