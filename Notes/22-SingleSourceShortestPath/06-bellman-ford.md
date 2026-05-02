@@ -139,10 +139,13 @@ c.d is equal to `a.d + w(a, b, c)` (converged)
 - shortest distance between `a` and `h` is 7
 - path is p: < a, f, g, h >
 
-## Worst Belmon Ford
+## Worst Case Belmon Ford
+
+- There are 
+- In the worst case, we run through all 3 iterations
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera4.png" alt="Worst Relaxation" height="100" width="100" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst.png" alt="Worst Relaxation" height="100" width="100" 
 />
 
 - v<sub>0</sub> is the source vertex
@@ -169,4 +172,30 @@ c.d is equal to `a.d + w(a, b, c)` (converged)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst3.png" alt="Worst Relaxation 3" height="100" width="100" 
 />
 
-v<sub>1</sub>.d is relaxes from &infin; to **0 - 1 = -1**
+v<sub>1</sub>.d relaxes from &infin; to **0 - 1 = -1**
+
+### Iteration 2
+
+**Check v<sub>2</sub>**
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst4.png" alt="Worst Relaxation 4" height="100" width="100" 
+/>
+
+ v<sub>3</sub>.d is less than v<sub>2</sub>.d + w(v<sub>2</sub>, v<sub>3</sub>). No relaxing.
+
+
+**Check v<sub>1</sub>**
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst5.png" alt="Worst Relaxation 5" height="100" width="100" 
+/>
+
+v<sub>2</sub>.d relaxes from &infin; to **-1 + 2 = 1**
+
+**Check v<sub>0</sub>**
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/worst6.png" alt="Worst Relaxation 6" height="100" width="100" 
+/>
+
+v<sub>1</sub>.d is equal to v<sub>0</sub>.d + w(v<sub>0</sub>, v<sub>1</sub>) (converged)
+
+### Iteration 3
