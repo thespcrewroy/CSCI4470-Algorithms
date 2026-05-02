@@ -33,9 +33,9 @@
 
 ## Convergence Property
 
-- If `u.d = &delta;(s, u)` and `(u, v)` is an edge on a shortest path from `s` to `v`, then relaxing `(u, v)` makes `v.d = &delta;(s, v)`.
+- If u.d = &delta;(s, u) and (u, v) is an edge on a shortest path from `s` to `v`, then relaxing `(u, v)` makes v.d = &delta;(s, v`.
 - In other words, once the estimate for `u` is exact, relaxing the correct outgoing edge can make `v` exact too.
-- This is the idea shown in the sketch: `u.d` stays at `3`, and relaxing edge `(u, v)` updates `v.d` from `12` down to `8`, which matches `&delta;(s, v)`.
+- This is the idea shown in the sketch: `u.d` stays at `3`, and relaxing edge `(u, v)` updates `v.d` from `12` down to `8`, which matches &delta;(s, v).
 - More generally, repeated relaxations eventually converge to the true shortest-path distances when the algorithm processes the right edges.
 
 
