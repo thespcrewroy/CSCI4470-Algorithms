@@ -63,5 +63,6 @@
 />
 
 - v<sub>0</sub>.d = 0
-- v<sub>1</sub>.d = &infin; > v<sub>0</sub>.d + w(v<sub>0</sub>, v<sub>1</sub>)? Yes
+- v<sub>0</sub>.d + w(v<sub>0</sub>, v<sub>1</sub>) = -1
+- v<sub>1</sub>.d = &infin; > -1? Yes
 - v<sub>1</sub>.d = -1 = &delta;(v<sub>0</sub>, v<sub>1</sub>) (update)
