@@ -21,3 +21,20 @@ Time Complexity: O(V*E)
 - 11 Edges and 8 Vertices
   - Relax all edges 7 times (`V - 1` times)
   - We may not run it the full `(V - 1)` iterations
+
+| Vertex | Initial | After Pass 1 | After Pass 2 | After Pass 3 | After Pass 4 |
+|--------|---------|--------------|--------------|--------------|--------------|
+| a | d=0<br/>π=NIL |  |  |  |  |
+| b | d=∞<br/>π=NIL | d=2<br/>π=a | d=2<br/>π=a | d=2<br/>π=a | d=2<br/>π=a |
+| c | d=∞<br/>π=NIL | d=12<br/>π=a | d=7<br/>π=b | d=7<br/>π=b | d=7<br/>π=b |
+| d | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-1<br/>π=c | d=-1<br/>π=c | d=-1<br/>π=c |
+| e | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=∞<br/>π=NIL |
+| f | d=∞<br/>π=NIL | d=4<br/>π=a | d=4<br/>π=a | d=4<br/>π=a | d=4<br/>π=a |
+| g | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=-2<br/>π=f | d=-2<br/>π=f | d=-2<br/>π=f |
+| h | d=∞<br/>π=NIL | d=∞<br/>π=NIL | d=24<br/>π=f | d=7<br/>π=g | d=7<br/>π=g |
+
+
+**Check `a`**
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/itera1.png" alt="Bellman Ford Example Node A 1" height="200" width="200" 
+/>
