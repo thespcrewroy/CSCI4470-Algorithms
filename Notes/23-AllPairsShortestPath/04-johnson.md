@@ -33,7 +33,7 @@
 
 ## Notes: Proof
 <p align="left">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proof1.png" alt="Johnson Proof" length="400" width="400" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proof1.png" alt="Johnson Proof" length="200" width="200" 
 />
 
 <p align="left">
