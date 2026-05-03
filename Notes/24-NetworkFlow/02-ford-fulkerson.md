@@ -132,3 +132,18 @@
 
 **CONVERGED &rarr; Terminate** <br>
 **|f| = Max_Flow**
+
+### Cut
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/networkcut.png" alt="Ford Fulkerson Example 2" width="200" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cutnow.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+
+- There is a cut at the termination of the Ford-Fulkerson algorithm that splits the network into two sets
+- Set `s` represents all the vertices reachable from the start vertex `s`
+- Set `t` holds the remaining vertices not in set `s`
