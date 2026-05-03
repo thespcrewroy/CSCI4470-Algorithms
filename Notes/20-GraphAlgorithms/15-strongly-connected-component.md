@@ -1,6 +1,15 @@
 # Strongly Connected Component
 
-**If vertex `u` and vertex `v` are in the maximual set of vertices `S`, then there is a path from vertex `u` to vertex `v` and there is a path from vertex `v` to vertex `u`.**
+- Condition: vertex `u` and vertex `v` are in the maximal set of vertices `S`
+- There is a path from vertex `u` to vertex `v`
+- There is a path from vertex `v` to vertex `u`
+
+```
+Time Complexity: O(V + E) ~ O(n)
+- DFS(G): O(V + E)
+- G^T Construction: O(V + E)
+- DFS(G^T): O(V + E)
+```
 
 ## Notes: Example
 <p align="center">
@@ -37,10 +46,3 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/sccimpl2.png" alt="BFS Implementation Theory" height=400" width="700" />
 </p>
-
-```
-Time Complexity: O(V + E) ~ O(n)
-- DFS(G): O(V + E)
-- G^T Construction: O(V + E)
-- DFS(G^T): O(V + E)
-```
