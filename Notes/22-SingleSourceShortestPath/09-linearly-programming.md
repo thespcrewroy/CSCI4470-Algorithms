@@ -71,3 +71,21 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/answer.png" alt="Final Solution" width="600" 
 />
+
+## Notes: Proof by Triangle Inequality
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/ti1.png" alt="Triangle Ineq 1" width="300" 
+/>
+
+&delta;(s, v) &le; &delta;(s, u) + w(u, v)
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/ti2.png" alt="Triangle Ineq 2" width="300" 
+/>
+
+In constraint graph, consider the above edge (v<sub>i</sub>, v<sub>j</sub>). <br> <br>
+
+&delta;(v<sub>0</sub>, v<sub>j</sub>) &le; &delta;(v<sub>0</sub>, v<sub>i</sub>) + w(v<sub>i</sub>, v<sub>j</sub>)
+&delta;(v<sub>0</sub>, v<sub>j</sub>) - &delta;(v<sub>0</sub>, v<sub>i</sub>) &le; w(v<sub>i</sub>, v<sub>j</sub>)
+x<sub>j</sub> - x<sub>i</sub> &le; b
