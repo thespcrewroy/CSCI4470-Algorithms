@@ -86,6 +86,6 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
 
 In constraint graph, consider the above edge (v<sub>i</sub>, v<sub>j</sub>). <br> <br>
 
-&delta;(v<sub>0</sub>, v<sub>j</sub>) &le; &delta;(v<sub>0</sub>, v<sub>i</sub>) + w(v<sub>i</sub>, v<sub>j</sub>)
-&delta;(v<sub>0</sub>, v<sub>j</sub>) - &delta;(v<sub>0</sub>, v<sub>i</sub>) &le; w(v<sub>i</sub>, v<sub>j</sub>)
+&delta;(v<sub>0</sub>, v<sub>j</sub>) &le; &delta;(v<sub>0</sub>, v<sub>i</sub>) + w(v<sub>i</sub>, v<sub>j</sub>) <br>
+&delta;(v<sub>0</sub>, v<sub>j</sub>) - &delta;(v<sub>0</sub>, v<sub>i</sub>) &le; w(v<sub>i</sub>, v<sub>j</sub>) <br>
 x<sub>j</sub> - x<sub>i</sub> &le; b
