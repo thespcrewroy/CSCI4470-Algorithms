@@ -7,3 +7,4 @@
 - l<sub>ij</sub>: shortest path from vertex v<sub>i</sub> to v<sub>j</sub>
 - Vertices: v<sub>1</sub>, v<sub>2</sub>, and v<sub>3</sub>
 - l<sub>ii</sub> = 0
+- For the APSP problem, we are going to calculate the `L` matrix to determine the distances
