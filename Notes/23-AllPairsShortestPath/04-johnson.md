@@ -93,3 +93,7 @@
 *Do the remining edges...*
 
 **Obtain the transformed graph.**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/trans.png" alt="Johnson Example 2" length="300" width="300" 
+/>
