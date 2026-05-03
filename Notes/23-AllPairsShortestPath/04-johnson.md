@@ -78,13 +78,13 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/johnson21.png" alt="Johnson Example 2" length="300" width="300" 
 />
 
-**Do positive edge w&#x302;(1,2)**
+*Do positive edge w&#x302;(1,2)*
 
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/posedge.png" alt="Johnson Example 2" length="300" width="300" 
 />
 
-**Do negative edge w&#x302;(1,5)**
+*Do negative edge w&#x302;(1,5)*
 
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/negedge.png" alt="Johnson Example 2" length="300" width="300" 
