@@ -8,7 +8,7 @@
 
 - Must be a DAG, for there should be no cycles since a right to left direction will violate the *all edges left to right* property
 - Topolgical sorted output arranges the vertices in a way that if you draw an edge, the edge only goes from left to right
-- Utilizes the depth-first search algorithm DFS(G) to produce the output
+- Utilizes a DFS-based algorithm as its implementation to produce the output
 - Greedy algorithm
 
 ```
