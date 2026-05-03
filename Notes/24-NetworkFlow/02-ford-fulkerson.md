@@ -76,10 +76,32 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/ford1.png" alt="Ford Fulkerson Example 2" width="400" 
 />
 
+### Iteration 1
+
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/resid2.png" alt="Ford Fulkerson Example 2" width="400" 
 />
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/aug1.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+### Iteration 2
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/resid3.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/aug2.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+### Iteration 3
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/resid4.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/aug3.png" alt="Ford Fulkerson Example 2" width="400" 
 />
