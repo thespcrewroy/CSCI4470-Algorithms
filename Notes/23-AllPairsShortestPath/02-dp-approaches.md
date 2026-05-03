@@ -35,6 +35,7 @@
 - Find `k` by varying all the values of `k`, taking the one that gave the minimum multiplication
 - l<sub>ij</sub><sup>r</sup> = min{l<sub>ik</sub><sup>r-1</sup> + w<sub>kj</sub>}
 - l<sub>ij</sub><sup>r</sup>: shortest path of length `r` does not exit between v<sub>i</sub> and v<sub>j</sub>
+- Very tedious process (disadvantage)
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/drop.png" alt="Parameterization 4" length="400" width="400" 
