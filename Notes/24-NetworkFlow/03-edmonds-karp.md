@@ -4,6 +4,7 @@
 - Not naive like ford-fulkerson
 - Tells you how to select the augmenting path to do the least possible iterations
 - Utilizes a BFS-based algorithm as its implementation to find the correct augmented path
+- It is not expensive nor cheap, but it is finite (advantage over ford-fulkerson)
 
 ```
 Time Complexity: [E*(V/2 - 1)]*(V + E) = (VE)*(V + E) = (VE)*(E) = O(VE^2)
