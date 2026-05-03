@@ -80,3 +80,7 @@
 
 **Pick Negative Edge w&#x302;(1,5)**
 
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/negedge.png" alt="Johnson Example 2" length="300" width="300" 
+/>
+
