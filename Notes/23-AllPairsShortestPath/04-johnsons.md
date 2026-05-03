@@ -14,7 +14,7 @@
 - h:V&rarr;R is a function that maps a vertex `v` to some real number `r`
 
 ```
-Total Cost: VE + E + VElog(V) = O(VElog(V))
+Time Complexity: VE + E + VElog(V) = O(VElog(V))
 - Bellman-Ford to get h(v) value or detect negative cycles: O(VE)
 - Using h(v) value, perform the transformation to get w-hat(u,v): O(E)
 - Running Djikstra's on all vertices: V*O(Elog(V)) = O(VElog(V))
