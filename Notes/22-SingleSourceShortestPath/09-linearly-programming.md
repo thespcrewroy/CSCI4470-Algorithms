@@ -39,10 +39,10 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
 **Convert to a constraint graph.**
 
 1. x<sub>1</sub> - x<sub>2</sub> &le; 0 &rarr; 0(x<sub>2</sub>, x<sub>1</sub>)
-2. x<sub>1</sub> - x<sub>5</sub> &le; 0 &rarr; 0(x<sub>2</sub>, x<sub>1</sub>)
-3. x<sub>2</sub> - x<sub>5</sub> &le; 0 &rarr; 0(x<sub>2</sub>, x<sub>1</sub>)
-4. x<sub>3</sub> - x<sub>1</sub> &le; 0 &rarr; 0(x<sub>2</sub>, x<sub>1</sub>)
-5. x<sub>4</sub> - x<sub>1</sub> &le; 0 &rarr; 0(x<sub>2</sub>, x<sub>1</sub>)
-6. x<sub>4</sub> - x<sub>3</sub> &le; 0 &rarr; 0(x<sub>2</sub>, x<sub>1</sub>)
-7. x<sub>5</sub> - x<sub>3</sub> &le; 0 &rarr; 0(x<sub>2</sub>, x<sub>1</sub>)
-8. x<sub>5</sub> - x<sub>4</sub> &le; 0 &rarr; 0(x<sub>2</sub>, x<sub>1</sub>)
+2. x<sub>1</sub> - x<sub>5</sub> &le; 0 &rarr; -1(x<sub>5</sub>, x<sub>1</sub>)
+3. x<sub>2</sub> - x<sub>5</sub> &le; 0 &rarr; 1(x<sub>5</sub>, x<sub>2</sub>)
+4. x<sub>3</sub> - x<sub>1</sub> &le; 0 &rarr; 5(x<sub>1</sub>, x<sub>3</sub>)
+5. x<sub>4</sub> - x<sub>1</sub> &le; 0 &rarr; 4(x<sub>1</sub>, x<sub>4</sub>)
+6. x<sub>4</sub> - x<sub>3</sub> &le; 0 &rarr; -1(x<sub>3</sub>, x<sub>4</sub>)
+7. x<sub>5</sub> - x<sub>3</sub> &le; 0 &rarr; -3(x<sub>3</sub>, x<sub>5</sub>)
+8. x<sub>5</sub> - x<sub>4</sub> &le; 0 &rarr; -3(x<sub>4</sub>, x<sub>5</sub>)
