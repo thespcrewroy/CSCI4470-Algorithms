@@ -202,8 +202,20 @@ The capacity of the `cut(S,T)` is represented in the above formula.
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/flowcapcut.png" alt="What is the Flow and Capacity of Cut" width="300" 
 />
 
-F(S<sub>1</sub>, T<sub>1</sub>) = [F(w, x) + F(y, z)] - F(x, y) = 2 + 2 - 1 = 3 <br>
+F(S<sub>1</sub>, T<sub>1</sub>) = [F(w, x) + F(y, z)] - F(x, y) = 2 + 2 - 1 = 3 = |f| <br>
 C(S<sub>1</sub>, T<sub>1</sub>) = C(w, x) + C(y, z) = 2 + 3 = 5
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cut2.png" alt="Cut Network Flow 2" width="200" 
+/>
+
+F(S<sub>2</sub>, T<sub>2</sub>) = [F(x, t) + F(y, z)] - F(x, z) = 2 + 2 - 1 = 3 = |f| <br>
+C(S<sub>2</sub>, T<sub>2</sub>) = C(x, t) + C(y, z) = 3 + 3 = 6
+
+### Cut Theorem
+- F(S, T) = |f|: flow accross `cut(S, T)` is the same as flow `|f|` in the network graph.
+- |f| < C(S, T): this flow `|f|` will never exceed the cut capacity `C`
+
 
 ## Notes: Proof
 
