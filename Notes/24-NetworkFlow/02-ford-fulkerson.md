@@ -6,9 +6,9 @@
 4. return `f`
 
 - Does not put any emphasis on which augmenting path to select
-- Must try all augmenting paths
 - Does not put restrictions on what path to pick
-- Convergence is actually &infin; because you can keep on picking paths
+- Convergence is actually &infin; if you pick the worst augmented path in a worst-case constraint graph
+- Does not have a finite convergence time
 
 ## Notes: Residual Network
 
