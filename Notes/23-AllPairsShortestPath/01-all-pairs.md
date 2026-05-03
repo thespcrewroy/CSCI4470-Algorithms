@@ -8,7 +8,7 @@
 1. Bellman-Ford (Dynamic Programming)
 - Time complexity: `O(VE)`
 - Time complexity on APSP: `O(V^2E)`
-- E&alpha;V^2 when the graph is dense
+- `EαV^2` when the graph is dense
 - True time complexity on APSP: `O(V^4)`
 - Very costly (disadvantage)
 2. First DP Solution (Dynamic Programming)
