@@ -13,10 +13,8 @@
 - Very costly (disadvantage)
 2. First DP Solution (Dynamic Programming)
 - Time complexity: `O(V^4)`
-- Dynamic programming based solution
 3. Floyd-Warshall  (Dynamic Programming)
 - Time Complexity: `O(V^3)`
-- Dynamic programming based solution
 4. Johnson's Algorithm  (Dynamic Programming + Greedy)
 - Time complexity: `O(VElog(V))`
 - Runs Djikstra's (`O(Elog(V)`) on all the vertices `V`
