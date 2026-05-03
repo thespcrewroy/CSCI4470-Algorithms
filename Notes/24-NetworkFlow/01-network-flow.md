@@ -43,4 +43,5 @@
 />
 
 - Flow conservation for all vertices u &isin; v - {s, t}
+- For each vertex, the flow coming in and going out is equal in sizes
 - Property yeilds true for all the vertices except source `s` and sync `t`
