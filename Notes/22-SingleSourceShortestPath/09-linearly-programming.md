@@ -58,3 +58,16 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
 />
 
 > In this image, all 0 transitions to the vertices from v_0 are not drawn because the graph would look very messey according to the instructor. However, YOU HAVE to draw all of the 0 transitions out of v_0 to the 5 vertices to get credit.
+
+**Run single source shortest path problem on v<sub>0</sub>.**
+
+&delta;(v<sub>0</sub>, v<sub>0</sub>) = x<sub>1</sub> = -5
+&delta;(v<sub>0</sub>, v<sub>2</sub>) = x<sub>2</sub> = -3
+&delta;(v<sub>0</sub>, v<sub>3</sub>) = x<sub>3</sub> = 0
+&delta;(v<sub>0</sub>, v<sub>4</sub>) = x<sub>4</sub> = -1
+&delta;(v<sub>0</sub>, v<sub>5</sub>) = x<sub>5</sub> = -4
+
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/answer.png" alt="Final Solution" width="600" 
+/>
