@@ -86,6 +86,8 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/aug1.png" alt="Ford Fulkerson Example 2" width="400" 
 />
 
+**|f| = 1**
+
 ### Iteration 2
 
 <p align="center">
@@ -96,6 +98,8 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/aug2.png" alt="Ford Fulkerson Example 2" width="400" 
 />
 
+**|f| = 2**
+
 ### Iteration 3
 
 <p align="center">
@@ -105,3 +109,29 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/aug3.png" alt="Ford Fulkerson Example 2" width="400" 
 />
+
+**|f| = 3**
+
+### Iteration 4
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/resid5.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/aug4.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+**|f| = 4**
+
+### Iteration 5
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/resid6.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/aug5.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+**|f| = 5**
