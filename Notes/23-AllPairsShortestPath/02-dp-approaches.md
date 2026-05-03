@@ -63,4 +63,6 @@
 - L<sup>1</sup> = W (L<sup>1</sup> is initialized with weight matrix `W`) <br>
 - Recursively iterate `n - 1` times
     - `n`: number of vertices
+    - `n - 1`: number of edges in the path
     - L<sup>1</sup> &rarr; L<sup>2</sup> &rarr; ... &rarr; L<sup>n-1</sup>
+- L<sup>3</sup> is the final solution in this example since there are 4 vertices
