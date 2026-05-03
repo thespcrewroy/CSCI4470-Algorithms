@@ -8,7 +8,7 @@
 
 
 ```
-Time Complexity: E(V - 1) = O(V*E)
+Time Complexity: E(V - 1) = O(VE)
 ```
 
 ## Example 
