@@ -50,3 +50,11 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/graph.png" alt="Finalized Constraint Graph" width="600" 
 />
+
+**Add v<sub>0</sub>**
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/v0.png" alt="Start Vertex Added" width="600" 
+/>
+
+> In this image, all 0 transitions to the vertices from v_0 are not drawn because the graph would look very messey according to the instructor. However, YOU HAVE to draw all of the 0 transitions out of v_0 to the 5 vertices to get credit.
