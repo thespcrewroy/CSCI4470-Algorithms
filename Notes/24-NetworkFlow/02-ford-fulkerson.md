@@ -12,3 +12,21 @@
 />
 
 - Tells you the remaining capacity left to increase the flow
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/back.png" alt="Ford Fulkerson" width="100" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/back2.png" alt="Ford Fulkerson" width="100" 
+/>
+- Example: E(s, w)
+  - Flow: f(s, w) = 1
+  - Capacity: c(s, w) = 3
+  - Thus, we can forward the 2 residual units from `s` to `w`
+  - Send the 1 flow unit back from `w` to `s`
+- Example: E(w, x)
+  - Flow: f(w, x) = 2
+  - Capacity: c(w, x) = 2
+  - No residual transition from `w` to `x`
+  - Send the 2 flow unit back from `x` to `w`
