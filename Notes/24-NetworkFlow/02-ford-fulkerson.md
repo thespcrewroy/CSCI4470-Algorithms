@@ -202,6 +202,9 @@ The capacity of the `cut(S,T)` is represented in the above formula.
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/flowcapcut.png" alt="What is the Flow and Capacity of Cut" width="300" 
 />
 
+F(S<sub>1</sub>, T<sub>1</sub>) = [F(w, x) + F(y, z)] - F(x, y) = 2 + 2 - 1 = 3 <br>
+C(S<sub>1</sub>, T<sub>1</sub>) = C(w, x) + C(y, z) = 2 + 3 = 5
+
 ## Notes: Proof
 
 ### Theorem 24.6 (Max-Flow Min-Cut Theorem)
