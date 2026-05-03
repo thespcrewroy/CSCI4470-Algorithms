@@ -43,5 +43,6 @@
 - We vary `k` for all the values from  1 to `n`
 - `k = j` at one point of time, resulting in **l<sub>i</sub><sup>r-1</sup> + w<sub>jj</sub>**
 - However, w<sub>jj</sub> becomes 0 since it is a diamond element
-- Thus, we end up with just l<sub>i</sub><sup>r-1</sup> when `k = j`, which is same as the first term, meaning that the first term is embedded in the second term, making it redundant
-- Thus, we drop the first term
+- We end up with just l<sub>i</sub><sup>r-1</sup> when `k = j`, which is same as the first term
+- Thus, the first term is embedded in the second term, making it redundant
+- We drop the first redundant term
