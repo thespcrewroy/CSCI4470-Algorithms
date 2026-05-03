@@ -188,6 +188,17 @@ A `cut(S,T)` of a network flow graph `G={V, E}` is partition of `V` in `S` and `
 
 The capacity of the `cut(S,T)` is represented in the above formula.
 
+## Notes: Cut Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cutnetflow.png" alt="Cut Network Flow" width="400" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cutcut.png" alt="Cut Network Flow" width="200" 
+/>
+
+
 ## Notes: Proof
 
 ### Theorem 24.6 (Max-Flow Min-Cut Theorem)
