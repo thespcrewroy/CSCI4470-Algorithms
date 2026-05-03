@@ -7,6 +7,8 @@
 
 - Does not put any emphasis on which augmenting path to select
 - Must try all augmenting paths
+- Does not put restrictions on what path to pick
+- Convergence is actually &infin; because you can keep on picking paths
 
 ## Notes: Residual Network
 
@@ -147,3 +149,21 @@
 - There is a cut at the termination of the Ford-Fulkerson algorithm that splits the network into two sets
 - Set `s` represents all the vertices reachable from the start vertex `s`
 - Set `t` holds the remaining vertices not in set `s`
+
+## Notes: Proof
+
+### Theorem 24.6 (Max-Flow Min-Cut Theorem)
+
+If `f` is flow in flow network graph `G={V, E}` with source `s` and sinc `t`, then the following conditions are equivalent.
+1. `f` is maximum flow in `G={V, E}`
+2. The residual network `Gf` contains no augmenting path
+3. `|f| = C(S, T)` for cut `(S, T)` of `G={V, E}`
+
+All of them are equivalent (1 => 2; 2 => 3; 3 => 1) <br>
+
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proofford1.png" alt="Ford Fulkerson Proof" width="400" 
+/>
+
+1 => 2: Let's say that flow `f` is maximum, but there are augmenting paths in the residual network
