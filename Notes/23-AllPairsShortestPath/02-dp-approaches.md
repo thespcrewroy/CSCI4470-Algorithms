@@ -72,4 +72,17 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dp1.png" alt="DP Part 1" width="400" 
 />
 
-l<sub>12</sub><sup>2</sup> = &infin;
+l<sub>12</sub><sup>2</sup> = &infin;. No change.
+
+**Calculate l<sub>13</sub><sup>2</sup>**
+
+l<sub>13</sub><sup>2</sup> = &infin;. No change.
+
+**Calculate l<sub>14</sub><sup>2</sup>**
+
+l<sub>14</sub><sup>2</sup> = &infin;. No change.
+
+**Calculate l<sub>21</sub><sup>2</sup>**
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dp2.png" alt="DP Part 2" width="400" 
+/>
