@@ -31,6 +31,15 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/p3.png" alt="Updating Weights" length="200" width="200" 
 />
 
+## Notes: Proof
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proof1.png" alt="Johnson Proof" length="400" width="400" 
+/>
 
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proof2.png" alt="Johnson Proof" length="400" width="400" 
+/>
 
-
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proof3.png" alt="Johnson Proof" length="400" width="400" 
+/>
