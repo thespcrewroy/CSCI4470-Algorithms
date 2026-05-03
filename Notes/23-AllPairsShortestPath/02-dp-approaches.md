@@ -18,7 +18,7 @@
 - Shortest path from vertex v<sub>i</sub> to v<sub>j</sub> of length `r`.
 - l<sub>ij</sub><sup>r</sup> = l<sub>ik</sub><sup>r-1</sup> + w<sub>kj</sub>
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/param.png" alt="Parameterization" length="400" width="400" 
 />
 
