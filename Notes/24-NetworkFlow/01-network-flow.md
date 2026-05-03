@@ -45,3 +45,9 @@
 - Flow conservation for all vertices u &isin; v - {s, t}
 - For each vertex, the flow coming in and going out is equal in sizes
 - Property yeilds true for all the vertices except source `s` and sync `t`
+
+## Notes: Entire Graph Flow
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/maxflow.png" alt="Full Flow" length="300" width=300" 
+/>
