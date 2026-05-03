@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/residual.png" alt="Resiudal Network" width="400" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/residualnetwork.png" alt="Resiudal Network" width="400" 
 />
 
 *Tells you the remaining capacity left to increase the flow.*
