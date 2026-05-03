@@ -67,9 +67,9 @@
     - L<sup>1</sup> &rarr; L<sup>2</sup> &rarr; ... &rarr; L<sup>n-1</sup>
 - L<sup>3</sup> is the final solution in this example since there are 4 vertices
 
-**Calculate l<sub>12</sub><sup>1</sup>**
+**Calculate l<sub>12</sub><sup>2</sup>**
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dp1.png" alt="DP Part 1" width="400" 
 />
 
-l<sub>12</sub><sup>1</sup> = &infin;
+l<sub>12</sub><sup>2</sup> = &infin;
