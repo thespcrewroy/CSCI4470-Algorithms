@@ -72,6 +72,8 @@ Time Complexity: (V^3)*(V - 1) = O(V^4)
     - `n - 1`: number of edges in the path
     - L<sup>1</sup> &rarr; L<sup>2</sup> &rarr; ... &rarr; L<sup>n-1</sup>
 - L<sup>3</sup> is the final solution in this example since there are 4 vertices
+- We will only show some squares for L<sup>1</sup> ... L<sup>4</sup> to save time
+
 
 **Calculate l<sub>12</sub><sup>2</sup>**
 <p align="center">
@@ -79,14 +81,6 @@ Time Complexity: (V^3)*(V - 1) = O(V^4)
 />
 
 l<sub>12</sub><sup>2</sup> = &infin;. No change.
-
-**Calculate l<sub>13</sub><sup>2</sup>**
-
-l<sub>13</sub><sup>2</sup> = &infin;. No change.
-
-**Calculate l<sub>14</sub><sup>2</sup>**
-
-l<sub>14</sub><sup>2</sup> = &infin;. No change.
 
 **Calculate l<sub>21</sub><sup>2</sup>**
 <p align="center">
