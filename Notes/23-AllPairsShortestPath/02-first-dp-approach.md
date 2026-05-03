@@ -9,6 +9,12 @@
 - l<sub>ii</sub> = 0
 - For the APSP problem, we are going to calculate the `L` matrix to determine the distances
 
+```
+Time Complexity: (V^3)*(V - 1) = O(V^4)
+- Parameterization: O(V^3)
+- Number of Edges On Path: V - 1
+```
+
 ## Notes: Objective Function
 
 <p align="left">
