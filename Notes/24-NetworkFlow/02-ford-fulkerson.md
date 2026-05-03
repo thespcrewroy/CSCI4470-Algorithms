@@ -59,5 +59,5 @@
 />
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/returnf.png" alt="Return f" width="200" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/returnf.png" alt="Return f" height="200" width="200" 
 />
