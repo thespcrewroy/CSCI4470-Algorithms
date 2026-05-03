@@ -5,6 +5,9 @@
 3. Augement flow `f` along path `p`
 4. return `f`
 
+- Does not put any emphasis on which augmenting path to select
+- Must try all augmenting paths
+
 ## Notes: Residual Network
 
 *Tells you the remaining capacity left to increase the flow.*
@@ -66,3 +69,17 @@
 
 > [!NOTE]\
 > **Stopping Condition:** Eventually the graph will converge, and `s` and `t` will get disconnected from each other. <br>
+
+## Notes: Example 2
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/ford1.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/resid2.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/aug1.png" alt="Ford Fulkerson Example 2" width="400" 
+/>
