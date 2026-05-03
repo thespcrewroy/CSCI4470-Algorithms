@@ -195,11 +195,11 @@ The capacity of the `cut(S,T)` is represented in the above formula.
 />
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cutcut.png" alt="Cut Network Flow" width="200" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cutcut.png" alt="Cut Network Flow" width="100" 
 />
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/flowcapcut.png" alt="What is the Flow and Capacity of Cut" width="200" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/flowcapcut.png" alt="What is the Flow and Capacity of Cut" width="400" 
 />
 
 ## Notes: Proof
