@@ -178,3 +178,7 @@ In the last residual network, there is no path from source `s` to sync `t`.
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proofford3.png" alt="Ford Fulkerson Proof" width="400" 
 />
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proofford4.png" alt="Ford Fulkerson Proof" width="400" 
+/>
