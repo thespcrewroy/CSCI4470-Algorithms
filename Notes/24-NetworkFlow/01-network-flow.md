@@ -49,5 +49,5 @@
 ## Notes: Entire Graph Flow
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/maxflow.png" alt="Full Flow" length="300" width=300" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/maxflow.png" alt="Full Flow" length="500" width=500" 
 />
