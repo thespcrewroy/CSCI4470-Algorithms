@@ -1,4 +1,4 @@
-# Dynamic Programming Approaches to APSP
+# First DP Approach to APSP
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dpbased.png" alt="DP Solution" width="600" 
@@ -9,7 +9,7 @@
 - l<sub>ii</sub> = 0
 - For the APSP problem, we are going to calculate the `L` matrix to determine the distances
 
-## Notes: First DP Solution
+## Notes: Objective Function
 
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/breakdown.png" alt="DP Solution" length="200" width="200" 
