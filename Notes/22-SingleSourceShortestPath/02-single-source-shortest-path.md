@@ -7,9 +7,9 @@
 - You calculate the shortest distance between the source and all the remaining vertices
 
 ## Notes: SSSP Algorithms
-1. Bellman Ford
-2. DAG Based Algorithm
-3. Dijkstra's ALgorithm
+1. Bellman Ford (Dynamic Programming)
+2. DAG Based Algorithm (Dynamic Programming)
+3. Dijkstra's ALgorithm (Greedy)
 
 ## Notes: Veriation Problems
 
