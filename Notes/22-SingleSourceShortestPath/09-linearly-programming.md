@@ -54,10 +54,8 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
 **Add v<sub>0</sub> by connecting it to all vertices with a 0 weight transition.**
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/v0.png" alt="Start Vertex Added" width="600" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/v01.png" alt="Start Vertex Added" width="600" 
 />
-
-> In this image, all 0 transitions to the vertices from v_0 are not drawn because the graph would look very messey according to the instructor. However, YOU HAVE to draw all of the 0 transitions out of v_0 to the 5 vertices to get credit.
 
 **Run Bellman Ford on v<sub>0</sub>.**
 - We cannot use Djikstra because graph can have negative weights
