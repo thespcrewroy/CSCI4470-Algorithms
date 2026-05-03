@@ -154,13 +154,12 @@
 
 ### Theorem 24.6 (Max-Flow Min-Cut Theorem)
 
-If `f` is flow in flow network graph `G={V, E}` with source `s` and sinc `t`, then the following conditions are equivalent.
+If `f` is flow in flow network graph `G={V, E}` with source `s` and sync `t`, then the following conditions are equivalent:
 1. `f` is maximum flow in `G={V, E}`
 2. The residual network `Gf` contains no augmenting path
 3. `|f| = C(S, T)` for cut `(S, T)` of `G={V, E}`
 
-All of them are equivalent (1 => 2; 2 => 3; 3 => 1) <br>
-
+### Condition 1 => Condition 2
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proofford1.png" alt="Ford Fulkerson Proof" width="400" 
