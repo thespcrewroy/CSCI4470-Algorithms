@@ -130,4 +130,4 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/resid6.png" alt="Ford Fulkerson Example 2" width="400" 
 />
 
-**CONVERGED &rarr; Terminate***
+**CONVERGED &rarr; Terminate**
