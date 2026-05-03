@@ -35,3 +35,15 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/param2.png" alt="Parameterization 3" length="100" width="150" 
 />
+
+- We vary `k` for all the values from  1 to `n`
+- `k = j` at one point of time, resulting in **l<sub>i</sub><sup>r-1</sup> + w<sub>jj</sub>**
+- However, w<sub>jj</sub> becomes 0 since it is a diamond element
+- Thus, we end up with just l<sub>i</sub><sup>r-1</sup> when `k = j`, which is same as the first term, meaning that the first term is embedded in the second term, making it redundant
+- Thus, we drop the first term
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/drop.png" alt="Parameterization 4" length="100" width="150" 
+/>
+
+> Objective function with first term dropped.
