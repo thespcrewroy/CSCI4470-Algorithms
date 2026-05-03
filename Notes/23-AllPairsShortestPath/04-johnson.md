@@ -50,7 +50,7 @@
 **Given a constraint graph.**
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/constraint1.png" alt="Johnson Example" length="400" width="400" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/constraint.png" alt="Johnson Example" length="400" width="400" 
 />
 
 **Add s<sub>0</sub> by connecting it to all vertices with a 0 transition.**
@@ -61,7 +61,7 @@
 
 **Run Bellman-Ford on s.**
 
-&delta;(s, v<sub>1</sub>) = h(v<sub>1</sub>) = 
-&delta;(s, v<sub>2</sub>) = h(v<sub>2</sub>) = 
-&delta;(s, v<sub>3</sub>) = h(v<sub>3</sub>) = 
-&delta;(s, v<sub>4</sub>) = h(v<sub>4</sub>) = 
+&delta;(s, v<sub>1</sub>) = h(v<sub>1</sub>) = <br>
+&delta;(s, v<sub>2</sub>) = h(v<sub>2</sub>) = <br>
+&delta;(s, v<sub>3</sub>) = h(v<sub>3</sub>) = <br>
+&delta;(s, v<sub>4</sub>) = h(v<sub>4</sub>) = <br>
