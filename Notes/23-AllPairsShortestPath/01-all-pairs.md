@@ -20,4 +20,5 @@
 4. Johnson's Algorithm
 - Time complexity: `O(VElog(V))`
 - Runs Djikstra's (`O(Elog(V)`) on all the vertices `V`
+- Suggests a reweighing scheme that convertts negative weights to positive
 - Best solution for sparse graphs
