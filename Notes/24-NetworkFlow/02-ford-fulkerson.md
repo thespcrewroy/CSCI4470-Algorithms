@@ -47,6 +47,32 @@
 - For the above example, we would have to increase the flow by 1 unit along the path
 - For the ones where we have to change the direction of the edge, we cancel it out and the edge becomes 0
 
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/augmentation.png" alt="Ford Fulkerson Proof" width="400" 
+/>
+
+If `f` is the flow in network `G` and `f'` is the flow in residual network `Gf`, then the augmentation of flow `f` by `f'` is defined as the above equation.
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/conservation.png" alt="Ford Fulkerson Proof" width="400" 
+/>
+
+This satisfies the capacity and flow conservation properties.
+
+### Capacity Constraint Satisfiability Proof
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/satisfiability.png" alt="Capacity Constraint Proof" width="400" 
+/>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/satisfy2.png" alt="Capacity Constraint Proof" width="400" 
+/>
+
+- Establishes the flow the algorithm is calculating is a valid flow
+- Augmentation flow (F&uarr;F') also satisfies the flow conservation property
+  
 ## Notes: Example
 
 <p align="center">
@@ -149,6 +175,13 @@
 - There is a cut at the termination of the Ford-Fulkerson algorithm that splits the network into two sets
 - Set `s` represents all the vertices reachable from the start vertex `s`
 - Set `t` holds the remaining vertices not in set `s`
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cutequation.png" alt="Ford Fulkerson Proof" width="400" 
+/>
+
+
+- A `cut(S,T)` of a network flow graph `G={V, E}` is partition of `V` in `S` and `T` such that, in source s&isin;S and sync t&isin;T, the flow accross the `cut(S, T)` is defined as the above equation
 
 ## Notes: Proof
 
