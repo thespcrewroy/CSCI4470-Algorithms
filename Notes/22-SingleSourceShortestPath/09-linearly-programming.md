@@ -46,3 +46,7 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
 6. x<sub>4</sub> - x<sub>3</sub> &le; 0 &rarr; -1(x<sub>3</sub>, x<sub>4</sub>)
 7. x<sub>5</sub> - x<sub>3</sub> &le; 0 &rarr; -3(x<sub>3</sub>, x<sub>5</sub>)
 8. x<sub>5</sub> - x<sub>4</sub> &le; 0 &rarr; -3(x<sub>4</sub>, x<sub>5</sub>)
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/graph.png" alt="Finalized Constraint Graph" width="600" 
+/>
