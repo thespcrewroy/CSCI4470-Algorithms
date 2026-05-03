@@ -12,7 +12,7 @@
 ## Notes: First DP Solution
 shortest path from vertex v<sub>i</sub> to v<sub>j</sub> of length `r`.
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/breakdown.png" alt="DP Solution" length="200" width="200" 
 />
 
