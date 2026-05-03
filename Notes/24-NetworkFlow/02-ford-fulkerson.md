@@ -161,7 +161,7 @@ This satisfies the capacity and flow conservation properties.
 **CONVERGED &rarr; Terminate** <br>
 **|f| = Max_Flow**
 
-### Cut
+## Notes: Cut
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/networkcut.png" alt="Ford Fulkerson Example 2" width="200" 
