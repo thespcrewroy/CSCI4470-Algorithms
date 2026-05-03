@@ -65,3 +65,18 @@
 &delta;(s, v<sub>2</sub>) = h(v<sub>2</sub>) = <br>
 &delta;(s, v<sub>3</sub>) = h(v<sub>3</sub>) = <br>
 &delta;(s, v<sub>4</sub>) = h(v<sub>4</sub>) = <br>
+
+## Slides: Example
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/johnson2.png" alt="Johnson Example 2" length="400" width="400" 
+/>
+
+**Running Bellman-Ford on s gives:**
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/johnson21.png" alt="Johnson Example 2" length="300" width="300" 
+/>
+
+**Pick Negative Edge w&#x302;(1,5)**
+
