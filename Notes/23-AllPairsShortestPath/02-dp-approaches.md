@@ -46,3 +46,12 @@
 - We end up with just l<sub>i</sub><sup>r-1</sup> when `k = j`, which is same as the first term
 - Thus, the first term is embedded in the second term, making it redundant
 - We drop the first redundant term
+
+## Notes: First DP Solution Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/exampledp.png" alt="DP Solution" width="400" 
+/>
+
+l<sub>ij</sub><sup>1</sup>: shortest path of length 1 between v<sub>i</sub> and v<sub>j</sub> <br>
+l<sub>ij</sub><sup>1</sup>: w(v<sub>i</sub>, v<sub>j</sub> )
