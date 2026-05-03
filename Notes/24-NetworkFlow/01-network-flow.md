@@ -32,5 +32,5 @@
 ## Notes: Capacity Constraint
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/capconstraint.png" alt="Capacity Constraint" length"200" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/capconstraint.png" alt="Capacity Constraint" length="200" width=200" 
 />
