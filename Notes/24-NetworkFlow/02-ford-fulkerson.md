@@ -40,6 +40,7 @@
 - Any path from source `s` to sync `t`
 - The flow along this path is increased by the minimum weight capacity in that path
 - For the above example, we would have to increase the flow by 1 unit along the path
+- For the ones where we have to change the direction of the edge, we cancel it out and the edge becomes 0
 
 ## Notes: Example
 
