@@ -62,5 +62,7 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/returnf.png" alt="Return f" height="100" width="100" 
 />
 
-***Iterate the 4 steps until there are no more augmenting paths.*** <br>
-***Stopping Condition: Eventually the graph will converge, and `s` and `t` will get disconnected from each other.***
+*Iterate the 4 steps until there are no more augmenting paths.* <br>
+
+> [!IMPORTANT]\
+> ***Stopping Condition:*** *Eventually the graph will converge, and `s` and `t` will get disconnected from each other.* <br>
