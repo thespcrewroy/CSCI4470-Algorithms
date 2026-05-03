@@ -212,7 +212,7 @@ C(S<sub>1</sub>, T<sub>1</sub>) = C(w, x) + C(y, z) = 2 + 3 = 5
 F(S<sub>2</sub>, T<sub>2</sub>) = [F(x, t) + F(y, z)] - F(x, z) = 2 + 2 - 1 = 3 = |f| <br>
 C(S<sub>2</sub>, T<sub>2</sub>) = C(x, t) + C(y, z) = 3 + 3 = 6
 
-### Cut Theorem
+**Cut Theorem**
 - F(S, T) = |f|: flow accross `cut(S, T)` is the same as flow `|f|` in the network graph.
 - |f| < C(S, T): this flow `|f|` will never exceed the cut capacity `C`
 
