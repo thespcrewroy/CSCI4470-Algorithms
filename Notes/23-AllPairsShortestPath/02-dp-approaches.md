@@ -50,7 +50,7 @@
 ## Notes: First DP Solution Example
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/exampledp.png" alt="DP Example" width="400" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/exampledp.png" alt="DP Example" width="300" 
 />
 
 l<sub>ij</sub><sup>1</sup>: shortest path of length 1 between v<sub>i</sub> and v<sub>j</sub> <br>
