@@ -21,8 +21,8 @@ Time Complexity: (V^3)*(V - 1) = O(V^4)
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/breakdown.png" alt="DP Solution" length="200" width="200" 
 />
 
-- Shortest path from vertex v<sub>i</sub> to v<sub>j</sub> of length `r`.
 - l<sub>ij</sub><sup>r</sup> = l<sub>ik</sub><sup>r-1</sup> + w<sub>kj</sub>
+- l<sub>ij</sub><sup>r</sup>: shortest path from vertex v<sub>i</sub> to v<sub>j</sub> of length `r`.
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/param.png" alt="Parameterization" length="400" width="400" 
@@ -54,20 +54,19 @@ Time Complexity: (V^3)*(V - 1) = O(V^4)
 - Thus, the first term is embedded in the second term, making it redundant
 - We drop the first redundant term
 
-## Notes: First DP Solution Example
+## Notes: Example
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/exampledp.png" alt="DP Example" width="300" 
 />
 
-- l<sub>ij</sub><sup>1</sup>: shortest path of length 1 between v<sub>i</sub> and v<sub>j</sub> <br>
-- l<sub>ij</sub><sup>1</sup>: w(v<sub>i</sub>, v<sub>j</sub> ) <br>
-
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weightmatrix.png" alt="Weight Matrix" width="400" 
 />
 
-- L<sup>1</sup> = W (L<sup>1</sup> is initialized with weight matrix `W`) <br>
+- l<sub>ij</sub><sup>1</sup>: shortest path of length 1 between v<sub>i</sub> and v<sub>j</sub> 
+- l<sub>ij</sub><sup>1</sup>: w(v<sub>i</sub>, v<sub>j</sub>)
+- L<sup>1</sup> = W (L<sup>1</sup> is initialized with weight matrix `W`)
 - Recursively iterate `n - 1` times
     - `n`: number of vertices
     - `n - 1`: number of edges in the path
