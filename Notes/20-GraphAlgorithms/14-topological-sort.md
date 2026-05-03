@@ -11,6 +11,7 @@
     - Acyclic: there should be no cycles because a right to left direction will topological all edges left to right property
 - Topolgical sorted output arranges the vertices in a way that if you draw an edge, the edge only goes from left to right
 - Utilizes the depth-first search algorithm DFS(G) to produce the output
+- Greedy algorithm
 
 ```
 Time Complexity: O(V + E) ~ O(n)
