@@ -27,12 +27,20 @@
   - Capacity of edge (s, w) is 3: c(s, w) = 3
 - A flow in `G={V, E}` is a real value function f:vxv&rarr;R that satisfied two properties
   - Capacity constraint
+  - Flow conservation
 
 
-## Notes: Capacity Constraint
+## Notes: Capacity Constraint Property
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/capconstraint.png" alt="Capacity Constraint" length="300" width=300" 
 />
 
-Flow conservation for all vertices 
+## Notes: Flow Conservation Property
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/flowcons.png" alt="Flow Conservation" length="300" width=300" 
+/>
+
+- Flow conservation for all vertices u &isin; v - {s, t}
+- Property yeilds true for all the vertices except source `s` and sync `t`
