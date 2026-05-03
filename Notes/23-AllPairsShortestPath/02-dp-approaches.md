@@ -53,11 +53,14 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/exampledp.png" alt="DP Example" width="300" 
 />
 
-l<sub>ij</sub><sup>1</sup>: shortest path of length 1 between v<sub>i</sub> and v<sub>j</sub> <br>
-l<sub>ij</sub><sup>1</sup>: w(v<sub>i</sub>, v<sub>j</sub> ) <br>
+- l<sub>ij</sub><sup>1</sup>: shortest path of length 1 between v<sub>i</sub> and v<sub>j</sub> <br>
+- l<sub>ij</sub><sup>1</sup>: w(v<sub>i</sub>, v<sub>j</sub> ) <br>
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/weightmatrix.png" alt="Weight Matrix" width="400" 
 />
 
-L<sup>1</sup> = W (L<sup>1</sup> is initialized with weight matrix `W`)
+- L<sup>1</sup> = W (L<sup>1</sup> is initialized with weight matrix `W`) <br>
+- Recursively iterate `n - 1` times
+    - `n`: number of vertices
+    - L<sup>1</sup> &rarr; L<sup>2</sup> &rarr; ... &rarr; L<sup>n-1</sup>
