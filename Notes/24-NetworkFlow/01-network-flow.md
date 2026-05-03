@@ -58,3 +58,7 @@
 />
 
 > |f| = 3 for this graph because the flow values going out of source vertex `s` adds up to 3. This is the value to maximize.
+
+## Network Flow Algorithms
+1. Ford-Fulkerson (Greedy)
+2. Edmonds-Karp (Greedy)
