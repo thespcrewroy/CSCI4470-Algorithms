@@ -64,5 +64,5 @@
 
 *Iterate the 4 steps until there are no more augmenting paths.* <br>
 
-> [!IMPORTANT]\
+> [!NOTE]\
 > **Stopping Condition:** Eventually the graph will converge, and `s` and `t` will get disconnected from each other. <br>
