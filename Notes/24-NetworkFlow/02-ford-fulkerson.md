@@ -20,6 +20,7 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/back2.png" alt="Ford Fulkerson" width="100" 
 />
+
 - Example: E(s, w)
   - Flow: f(s, w) = 1
   - Capacity: c(s, w) = 3
