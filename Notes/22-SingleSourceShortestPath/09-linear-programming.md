@@ -1,4 +1,4 @@
-# Linearly Programming
+# Linear Programming
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/linearly.png" alt="Linearly Programming" width="600" 
