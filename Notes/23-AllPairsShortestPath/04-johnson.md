@@ -1,6 +1,8 @@
 # Johnson's Algorithm For Sparse Graphs
 
 - Better than the DP solutions
+- Good for sparse graphs
+- More practical than other DP solutions
 
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/transform.png" alt="Transformed Johnson" width="400" 
@@ -10,6 +12,13 @@
 - Utilizes Bellman-Ford algorithm to reweigh the graph
 - Runs Djikstra on all the vertices in the reweighed graph
 - h:V&rarr;R is a function that maps a vertex `v` to some real number `r`
+
+```
+Total Cost: VE + E + VElog(V) = O(VElog(V))
+- Bellman-Ford to get h(v) value or detect negative cycles: O(VE)
+- Using h(v) value, perform the transformation to get w-hat(u,v): O(E)
+- Running Djikstra's on all vertices: V*O(Elog(V)) = O(VElog(V))
+```
 
 ## Notes: Objective Function
 
