@@ -53,3 +53,7 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/residualnetwork.png" alt="Resiudal Network" width="400" 
 />
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/augmentingpath.png" alt="Augmenting Path" width="400" 
+/>
