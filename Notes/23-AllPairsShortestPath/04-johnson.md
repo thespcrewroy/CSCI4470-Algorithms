@@ -81,7 +81,7 @@
 **Do Positive Edge w&#x302;(1,2)**
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/[psedge.png" alt="Johnson Example 2" length="300" width="300" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/posedge.png" alt="Johnson Example 2" length="300" width="300" 
 />
 
 **Do Negative Edge w&#x302;(1,5)**
