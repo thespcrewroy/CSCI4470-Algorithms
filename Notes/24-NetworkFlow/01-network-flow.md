@@ -51,3 +51,10 @@
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/maxflow.png" alt="Full Flow" length="500" width=500" 
 />
+
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/network2.png" alt="Network Flow Graph" width="400" 
+/>
+
+> |f| = 3 for this graph because the flow values going out of source vertex `s` adds up to 3. This is the value that we are going to maximize 
