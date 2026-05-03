@@ -43,7 +43,7 @@
 - Thus, we drop the first term
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/drop.png" alt="Parameterization 4" length="100" width="150" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/drop.png" alt="Parameterization 4" length="400" width="400" 
 />
 
 > Objective function with first term dropped.
