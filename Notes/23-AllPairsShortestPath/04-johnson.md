@@ -50,7 +50,7 @@
 **Given a constraint graph.**
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/constraint.png" alt="Johnson Example" length="350" width="350" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/constraint.png" alt="Johnson Example" length="300" width="300" 
 />
 
 **Add s<sub>0</sub> by connecting it to all vertices with a 0 transition.**
