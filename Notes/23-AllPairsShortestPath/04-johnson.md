@@ -14,7 +14,7 @@
 ## Notes: Objective Function
 
 <p align="left">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/objjohn.png" alt="Johnson Algo Objective Function" length="200" width="200" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/objjohn.png" alt="Johnson Algo Objective Function" length="400" width="400" 
 />
 
 
