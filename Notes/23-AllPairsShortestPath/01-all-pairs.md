@@ -11,7 +11,7 @@
 - E&alpha;V^2 when the graph is dense
 - true time complexity on APSP: `O(V^4)`
 - Very costly (disadvantage)
-2. Solution A (unnamed algorithm)
+2. First DP Solution (unnamed algorithm)
 - Time complexity: `O(V^4)`
 - Dynamic programming based solution
 3. Floyd-Warshall
