@@ -13,7 +13,7 @@
 shortest path from vertex v<sub>i</sub> to v<sub>j</sub> of length `r`.
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/breakdown.png" alt="DP Solution" width="400" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/breakdown.png" alt="DP Solution" length="200" width="200" 
 />
 
 l<sub>ij</sub><sup>r</sup> = l<sub>ik</sub><sup>r-1</sup> + w<sub>kj</sub>
