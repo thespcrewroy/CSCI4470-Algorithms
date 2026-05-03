@@ -51,7 +51,7 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/graph.png" alt="Finalized Constraint Graph" width="600" 
 />
 
-**Add v<sub>0</sub>**
+**Add v<sub>0</sub> by connecting it to all vertices with a 0 weight transition.**
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/v0.png" alt="Start Vertex Added" width="600" 
