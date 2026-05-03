@@ -17,5 +17,20 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/objjohn.png" alt="Johnson Algo Objective Function" length="400" width="400" 
 />
 
+### Updating Weights Example
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/p1.png" alt="Updating Weights" length="200" width="200" 
+/>
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/p2.png" alt="Updating Weights" length="200" width="200" 
+/>
+
+<p align="left">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/p3.png" alt="Updating Weights" length="200" width="200" 
+/>
+
+
 
 
