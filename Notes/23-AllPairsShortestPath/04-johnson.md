@@ -72,7 +72,7 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/johnson2.png" alt="Johnson Example 2" length="400" width="400" 
 />
 
-**Running Bellman-Ford on s gives:**
+**Running Bellman-Ford on s gives the transformed graph:**
 
 <p align="left">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/johnson21.png" alt="Johnson Example 2" length="300" width="300" 
