@@ -61,11 +61,11 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
 
 **Run single source shortest path problem on v<sub>0</sub>.**
 
-&delta;(v<sub>0</sub>, v<sub>0</sub>) = x<sub>1</sub> = -5
-&delta;(v<sub>0</sub>, v<sub>2</sub>) = x<sub>2</sub> = -3
-&delta;(v<sub>0</sub>, v<sub>3</sub>) = x<sub>3</sub> = 0
-&delta;(v<sub>0</sub>, v<sub>4</sub>) = x<sub>4</sub> = -1
-&delta;(v<sub>0</sub>, v<sub>5</sub>) = x<sub>5</sub> = -4
+&delta;(v<sub>0</sub>, v<sub>0</sub>) = x<sub>1</sub> = -5 <br>
+&delta;(v<sub>0</sub>, v<sub>2</sub>) = x<sub>2</sub> = -3 <br>
+&delta;(v<sub>0</sub>, v<sub>3</sub>) = x<sub>3</sub> = 0 <br>
+&delta;(v<sub>0</sub>, v<sub>4</sub>) = x<sub>4</sub> = -1 <br>
+&delta;(v<sub>0</sub>, v<sub>5</sub>) = x<sub>5</sub> = -4 <br>
 
 
 <p align="center">
