@@ -7,16 +7,6 @@
 
 ## Notes: Residual Network
 
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/ford.png" alt="Ford Fulkerson" width="400" 
-/>
-
-<br>
-
-<p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/residualnetwork.png" alt="Resiudal Network" width="400" 
-/>
-
 *Tells you the remaining capacity left to increase the flow.*
 
 <p align="center">
@@ -40,3 +30,15 @@
   - Capacity: c(w, x) = 2
   - No residual transition from `w` to `x`
   - Send the 2 flow unit back from `x` to `w`
+
+## Notes: Example
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/ford.png" alt="Ford Fulkerson" width="400" 
+/>
+
+<br>
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/residualnetwork.png" alt="Resiudal Network" width="400" 
+/>
