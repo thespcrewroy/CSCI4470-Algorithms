@@ -46,7 +46,7 @@
 - For each vertex, the flow coming in and going out is equal in sizes
 - Property yeilds true for all the vertices except source `s` and sync `t`
 
-## Notes: Entire Graph Flow
+## Notes: Flow Magnitude `|f|`
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/maxflow.png" alt="Full Flow" length="500" width=500" 
