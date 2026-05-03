@@ -165,4 +165,12 @@ If `f` is flow in flow network graph `G={V, E}` with source `s` and sync `t`, th
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proofford1.png" alt="Ford Fulkerson Proof" width="400" 
 />
 
-1 => 2: Let's say that flow `f` is maximum, but there are augmenting paths in the residual network
+Let's say that flow `f` is maximum, but there are augmenting paths in the residual network.
+
+### Condition 2 => Condition 3
+
+In the last residual network, there is no path from source `s` to sync `t`.
+
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/proofford2.png" alt="Ford Fulkerson Proof" width="400" 
+/>
