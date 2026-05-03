@@ -87,4 +87,6 @@ l<sub>14</sub><sup>2</sup> = &infin;. No change.
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dp2.png" alt="DP Part 2" width="400" 
 />
 
-l<sub>21</sub><sup>2</sup> = -4. Store `k = 4`
+l<sub>21</sub><sup>2</sup> = -4. Store `k = 4` <br>
+
+Shortest path of length 2 from vertex v<sub>2</sub> to v<sub>1</sub> is -4.
