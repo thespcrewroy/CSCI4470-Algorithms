@@ -59,7 +59,9 @@ There is a vertex v<sub>0</sub> that is connected with all other vertices with z
 
 > In this image, all 0 transitions to the vertices from v_0 are not drawn because the graph would look very messey according to the instructor. However, YOU HAVE to draw all of the 0 transitions out of v_0 to the 5 vertices to get credit.
 
-**Run single source shortest path problem on v<sub>0</sub>.**
+**Run Bellman Ford on v<sub>0</sub>.**
+- We cannot use Djikstra because graph can have negative weights
+- We cannot use DAG because graph can form a cycle
 
 &delta;(v<sub>0</sub>, v<sub>0</sub>) = x<sub>1</sub> = -5 <br>
 &delta;(v<sub>0</sub>, v<sub>2</sub>) = x<sub>2</sub> = -3 <br>
