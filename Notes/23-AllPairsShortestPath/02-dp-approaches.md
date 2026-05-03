@@ -87,5 +87,4 @@ l<sub>14</sub><sup>2</sup> = &infin;. No change.
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/dp2.png" alt="DP Part 2" width="400" 
 />
 
-l<sub>21</sub><sup>2</sup> = -4.
-Change! store `k = 4`
+l<sub>21</sub><sup>2</sup> = -4. Store `k = 4`
