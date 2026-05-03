@@ -52,7 +52,7 @@
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/augmentation.png" alt="Ford Fulkerson Proof" width="400" 
 />
 
-If `f` is the flow in network `G` and `f'` is the flow in residual network `Gf`, then the augmentation of flow `f` by `f'` is defined as the above equation.
+If `f` is the flow in network `G` and `f'` is the flow in residual network `Gf`, then the augmentation of flow `f` by `f'` is defined as the above formula.
 
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/conservation.png" alt="Ford Fulkerson Proof" width="400" 
@@ -177,11 +177,16 @@ This satisfies the capacity and flow conservation properties.
 - Set `t` holds the remaining vertices not in set `s`
 
 <p align="center">
-  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cutequation.png" alt="Ford Fulkerson Proof" width="400" 
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cutequation.png" alt="Ford Fulkerson Cut Formula" width="400" 
 />
 
+A `cut(S,T)` of a network flow graph `G={V, E}` is partition of `V` in `S` and `T` such that, in source s&isin;S and sync t&isin;T, the flow accross the `cut(S, T)` is defined as the above formula.
 
-- A `cut(S,T)` of a network flow graph `G={V, E}` is partition of `V` in `S` and `T` such that, in source s&isin;S and sync t&isin;T, the flow accross the `cut(S, T)` is defined as the above equation
+<p align="center">
+  <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/cutcapacity.png" alt="Ford Fulkerson Cut Capacity" width="400" 
+/>
+
+The capacity of the `cut(S,T)` is represented in the above formula.
 
 ## Notes: Proof
 
