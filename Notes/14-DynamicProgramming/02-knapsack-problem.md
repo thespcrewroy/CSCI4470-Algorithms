@@ -40,6 +40,15 @@ Decision variable:
 - x<sub>i</sub> = 1 if the i-th item is selected
 - x<sub>i</sub> = 0 otherwise
 
+```
+Time Complexity: O(nW)
+    * The size of the table is nW
+    * Each entry is computed in O(1) time
+    * Thus, runtime is exponential
+Space Complexity: O(nW)
+    * The size of the table is nnW
+```
+
 ## Slides: Bruteforce Appraoch
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/knapsackbruteforce.png" alt="Knapsack BurteforceExample" width="800" />
@@ -220,15 +229,6 @@ You cannot assume:
 <p align="center">
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/bottomup.png" alt="Bottom Up Example" width="800" />
 </p>
-
-```
-Time Complexity: O(nW)
-    * The size of the table is nW
-    * Each entry is computed in O(1) time
-    * Thus, runtime is exponential
-Space Complexity: O(nW)
-    * The size of the table is nnW
-```
 
 **Find solutions to small subproblems and progressively build up solutions to larger subproblems because maller subproblems have fewer items to choose from or smaller knapsack weight capacity.**
 
