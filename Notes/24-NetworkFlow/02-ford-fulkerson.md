@@ -157,8 +157,9 @@ This satisfies the capacity and flow conservation properties.
   <img src="https://github.com/thespcrewroy/CSCI4470-Algorithms/blob/main/Notes/assets/resid6.png" alt="Ford Fulkerson Example 2" width="400" 
 />
 
+**You cannot get from source `s` to sync `t` through the residual graph anymore!**
 **CONVERGED &rarr; Terminate** <br>
-**|f| = Max_Flow**
+**|f| = Max_Flow = 4**
 
 ## Notes: Cut
 
