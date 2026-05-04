@@ -28,17 +28,17 @@ Greedy Selection Rule: Select the activity that has the **earliest finish time.*
 
 |    Activity   | s<sub>i</sub> | f<sub>i</sub> |
 |---------------|---------------|---------------|
-| a<sub>1</sub> | 0             | 4             |
-| a<sub>2</sub> | 2             | 5             |
+| a<sub>2</sub> | 0             | 4             |
+| a<sub>4</sub> | 2             | 5             |
 | a<sub>3</sub> | 4             | 7             |
-| a<sub>4</sub> | 6             | 8             |
+| a<sub>1</sub> | 6             | 8             |
 
 ### Step 2: Greedy Selection Process
 
-- Greedy Select: Pick first activity: a<sub>2</sub> (finishes at 4)
-- a<sub>4</sub>: starts at 2 ❌ (overlaps with 4)
-- a<sub>3</sub>: starts at 4 ✅ (compatible)
-- a<sub>1</sub>: starts at 6 ✅ (but we already pick earlier compatible one first)
+- Greedy Select: Pick a<sub>2</sub> (0 - 4)
+- Pick a<sub>4</sub>: starts at 2 ❌ (overlaps)
+- Pick a<sub>3</sub>: starts at 4 ✅ (4 - 7)
+- Pick a<sub>1</sub>: starts at 6 ❌ (overlaps)
 
 ### Step 3: Build Solution
 
