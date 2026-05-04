@@ -30,7 +30,6 @@ This is the same idea as shortest processing time first.
 
 ## Notes: Objective Function
 <p>
-  <strong>1.</strong>
   Totaltime(i) =
   min
   &Sigma;<sub>j=1</sub><sup>n</sup>
@@ -39,10 +38,11 @@ This is the same idea as shortest processing time first.
 </p>
 
 <p>
-  <strong>2.</strong>
+  <b>
   min
   &Sigma;<sub>i=1</sub><sup>n</sup>
   (n - i + 1)t<sub>i</sub>
+  </b>
 </p>
 
 ## Homework: Greedy Scheduling with Waiting Penalties
