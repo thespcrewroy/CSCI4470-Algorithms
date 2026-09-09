@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center">Data Structures and Algorithms (CSCI 4470)</h1>
+<h1 align="center">Data Structures and Algorithms (CSCI 2720/4470)</h1>
 <p align="center">
 <a href="https://github.com/thespcrewroy/CSCI4470-Algorithms/graphs/framework"><img alt="Framework" src="https://img.shields.io/badge/Markdown-grey.svg" height="20"/></a>
 <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-red.svg" height="20"/></a>
